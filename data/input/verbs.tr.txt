@@ -1,0 +1,2058 @@
+    abanmak
+    abartılmak
+    abartmak
+    abideleşmek
+    abideleştirmek
+    abone olmak
+    abramak
+    absorbe etmek
+    absorbe olmak
+    acıkılmak
+    acıkmak
+    acıktırmak
+    acıktırtmak
+    acımak
+    acınmak
+    acıtmak
+    açıkça söylemek
+    açıklamak
+    açılmak
+    açmak
+    adamak
+    addetmek
+    afacanlaşmak
+    afallamak
+    afallaşmak
+    affetmek
+    agulamak
+    ağaçlamak
+    ağaçlandırmak
+    ağarmak
+    ağda yapmak
+    ağılamak
+    ağılanmak
+    ağırlamak
+    ağlamak
+    ağlaşmak
+    ağlatmak
+    ağlattırmak
+    ağmak
+    ağnamak
+    ağrımak
+    ağrıtmak
+    aharlamak
+    ahlamak
+    ajite etmek
+    ajite olmak
+    -akalmak
+    akdetmek
+    akışmak
+    akıtmak
+    aklından geçmek
+    akmak
+    aksamak
+    aksırmak
+    aktarmak
+    alaca düşmek
+    alay etmek
+    alazlamak
+    alçalmak
+    alçaltmak
+    aldatılmak
+    aldatmak
+    aldırmak
+    aldırtmak
+    alıkoymak
+    alındırmak
+    alındırtmak
+    alınmak
+    alışmak
+    alıştırmak
+    alkışlamak
+    alkmak
+    almak
+    altını çizmek
+    ameliyat etmek
+    anaforlamak
+    angaje etmek
+    angaje olmak
+    anılmak
+    anlamak
+    anlamına gelmek
+    anlaşıldı
+    anlaşılmak
+    anlaşmak
+    anlatmak
+    anmak
+    ant içmek
+    antlaşmak
+    aparmak
+    apışmak
+    aramak
+    aranmak
+    araşmak
+    araştırma yapmak
+    araştırmak
+    aratmamak
+    arınmak
+    arıtmak
+    artırmak
+    artmak
+    arzu etmek
+    arzulamak
+    asılmak
+    asmak
+    aşağılamak
+    aşermek
+    aşık atmak
+    aşık attırmak
+    aşık attırtmak
+    aşık olmak
+    âşık olmak
+    aşılamak
+    aşılmak
+    aşmak
+    atanmak
+    ateşe vermek
+    atfetmek
+    atılmak
+    atışmak
+    atıştırmak
+    atlamak
+    atmak
+    attırmak
+    attırtmak
+    avcarlamak
+    avlamak
+    avlanmak
+    ayak basmak
+    ayarlamak
+    ayarlanmak
+    ayarlatmak
+    ayarlattırmak
+    aydamak
+    ayıklamak
+    ayılanmak
+    ayılmak
+    ayırmak
+    ayıtmak
+    aylaklık etmek
+    aylanmak
+    aymak
+    ayrılmak
+    azalmak
+    azaltmak
+    azat etmek
+    azmak
+    azmetmek
+    bağırışmak
+    bağırmak
+    bağışlamak
+    bağlamak
+    bağlanmak
+    bahse girmek
+    bahsetmek
+    bahşetmek
+    bakakalmak
+    bakınmak
+    bakışmak
+    bakmak
+    banmak
+    banyo yapmak
+    barış yapmak
+    barışmak
+    basılı tutmak
+    basılmak
+    basmak
+    bastırmak
+    baş göz olmak
+    başa düşmek
+    başarmak
+    başından aşmak
+    başından savmak
+    başını ağrıtmak
+    başlamak
+    başlatmak
+    baştan almak
+    baştan başlamak
+    baştan çıkarmak
+    baştan savma yapmak
+    baştan sona okumak
+    başvurmak
+    batırmak
+    batmak
+    bayılmak
+    bayramlaşmak
+    becermek
+    beğendirmek
+    beğenmek
+    beklemek
+    beklenmek
+    bekleşmek
+    bekletmek
+    belgilemek
+    belirlemek
+    belirlenmek
+    belirmek
+    belirtilmek
+    belirtmek
+    bellemek
+    benimsemek
+	    benzemek
+    beslemek
+    beslenmek
+    bestelemek
+    beyin yıkamak
+    bezdirmek
+    bezemek
+    bezmek
+    bıçaklamak
+    bıçaklanmak
+    bıkmak
+    bıngıldamak
+    bırakmak
+    biçilmek
+    biçmek
+    bildirilmek
+    bildirmek
+    bilemek
+    bilgilendirmek
+    bilinmek
+    bilinmez
+    bilmek
+    binmek
+    biplemek
+    bir avuç toprak olmak
+    birikmek
+    biriktirmek
+    birleşmek
+    birleştirmek
+    birleştirtmek
+    bitirmek
+    bitirtmek
+    bitirttirmek
+    bitmek
+    bloke etmek
+    bocalamak
+    boğmak
+    boğulmak
+    boğuşmak
+    boklamak
+    bombalamak
+    bombalanmak
+    boşa almak
+    boşalmak
+    boşaltılmak
+    boşaltmak
+    boşamak
+    boşanmak
+    boşatılmak
+    boşlamak
+    boy ölçüşmek
+    boyamak
+    bozguna uğramak
+    bozmak
+    bozulmak
+    bozuşmak
+    bölmek
+    bölünmek
+    bölüşmek
+    budaklanmak
+    budamak
+    buharlaşmak
+    bulamak
+    bulandırmak
+    bulanmak
+    bulmak
+    bulunmak
+    buluşmak
+    bunamak
+    burkmak
+    burmak
+    buruşmak
+    buyurmak
+    buzamak
+    bükmek
+    büktürmek
+    büktürtmek
+    büktürtülmek
+    büktürülmek
+    bükülmek
+    bürümek
+    bütünleşmek
+    büyülemek
+    büyülenmek
+    büyümek
+    büyütmek
+    büzmek
+	
+    can vermek
+    canı çıkmak
+    canlandırılmak
+    canlandırmak
+    canlandırtılmak
+    canlandırtmak
+    canlanılmak
+    canlanmak
+    cansızlaşmak
+    cansızlaştırmak
+    cartayı çekmek
+    cavlağı çekmek
+    caymak
+    cerahatlenmek
+    cevap vermek
+    cevaplamak
+    cezalandırmak
+    cezbetmek
+    cızlamı çekmek
+    ciddiye almak
+    ciklemek
+    contayı sıyırmak
+    coşmak
+    cüret etmek
+    çağırmak
+    çağlamak
+    çağrılmak
+    çakışmak
+    çakmak
+    çalınmak
+    çalışmak
+    çalmak
+    çapalamak
+    çapmak
+    çarmıha germek
+    çarpışmak
+    çarpmak
+    çatışmak
+    çatmak
+    çekilmek
+    çekimlemek
+    çekinmek
+    çekişmek
+    çekmek
+    çektirmek
+    çene çalmak
+    çevirmek
+    çevrilmek
+    çıkarılmak
+    çıkarmak
+    çıkartmak
+    çıkış yapmak
+    çıkmak
+    çıldırmak
+    çıldırtmak
+    çıngırağı çekmek
+    çınlamak
+    çıplaklaşmak
+    çıplaklaştırmak
+    çırpınmak
+    çırpmak
+    çiftleşmek
+    çiğnemek
+    çiğnenmek
+    çimdiklemek
+    çimmek
+    çitlemek
+    çizilmek
+    çizmek
+    çocuk aldırmak
+    çoğalmak
+    çoğaltmak
+    çökermek
+    çökertmek
+    çökmek
+    çölleşmek
+    çözmek
+    çözülmek
+    çuvallamak
+    çürümek
+
+    dadanmak
+    dağılmak
+    dağıtmak
+    dağlamak
+    daldırmak
+    daldırtmak
+    dalgalandırmak
+    dalgalanmak
+    dallanıp budaklanmak
+    dallanmak
+    dalmak
+    damarına basmak
+    damlamak
+    danışmak
+    dans etmek
+    darılmak
+    davet etmek
+    davranmak
+    dayak yemek
+    dayamak
+    dayanışmak
+    dayanmak
+    dedikodu yapmak
+    defnetmek
+    defolmak
+    değerlendirmek
+    değişmek
+    değiştirmek
+    değmek
+    deklare etmek
+    dekore etmek
+    delirmek
+    delmek
+	demek
+    demlemek
+    demoralize etmek
+    denemek
+    deneyimlemek
+    denilmek
+    denmek
+    deprenmek
+    derlemek
+    dermek
+    dertleşmek
+    desteklemek
+    deşifre etmek
+    deşilmek
+    deşmek
+    devam etmek
+    develope etmek
+    devinmek
+    devirmek
+    devralmak
+    devre dışı bırakmak
+    devretmek
+    devrilmek
+    devşirmek
+    dezenfekte etmek
+    dışlamak
+    dışlanmak
+    dızlamak
+    didinmek
+    dikilmek
+    dikkat etmek
+    dikmek
+    dikte etmek
+    dile gelmek
+    dilemek
+    dilenmek
+    dilmek
+    dindirmek
+    dinlemek
+    dinlenmek
+    dinmek
+    dio
+    diremek
+    direnmek
+    dirilmek
+    diskalifiye etmek
+    diz çökmek
+    dize gelinmek
+    dize gelmek
+    dizilmek
+    dizmek
+    doğmak
+    doğramak
+    doğrulamak
+    doğrulanmak
+    doğrulmak
+    doğurmak
+    dokumak
+    dokunmak
+    dol
+    dolamak
+    dolandırmak
+    dolanmak
+    dolap çevirmek
+    dolar
+    dolaşmak
+    doldurmak
+    doldurulmak
+    dolmak
+    doluşmak
+    domalmak
+    donakalmak
+    dondurmak
+    donmak
+    doymak
+    dökmek
+    dökülmek
+    dölenmek
+    döndürmek
+    döndürülmek
+    dönenmek
+    dönmek
+    dönüşmek
+    dönüştürmek
+    dört gözle beklemek
+    dörtköşe olmak
+    döşenmek
+    dövmek
+    dövülmek
+    dövüşmek
+    dumanlamak
+    dumanlanmak
+    durdurmak
+    durdurulmak
+    durmak
+    durulmak
+    duş almak
+    duşaklamak
+    duşamak
+    duygulanmak
+    duymak
+    duyulmak
+    duyurmak
+    dürmek
+    dürtmek
+    düşmek
+    düşünmek
+    düşünülmek
+    düşürmek
+    düzelmek
+    düzeltmek
+    düzenlemek
+    düzenlenmek
+    düzmek
+
+    ecel şerbeti içmek
+    edilmek
+    edinmek
+    eğilmek
+    eğitmek
+    eğlemek
+    eğlendirmek
+    eğlenmek
+    eğmek
+    eğrilmek
+    ehemmiyet vermek
+    -ekalmak
+    eklemek
+    eklenmek
+    ekmek
+    ekşimek
+    ekşitmek
+    el sıkışmak
+    elde etmek
+    ele geçirmek
+    ele vermek
+    elemek
+    eleştirmek
+    ellemek
+    elvermek
+    emeklemek
+    emmek
+    emniyet kemerini bağlamak
+    empoze etmek
+    emretmek
+    emzirmek
+    endekslemek
+    endişelenmek
+    erimek
+    erişmek
+    eritmek
+    ermek
+    Ermeni gelini gibi kırıtmak
+    ertelemek
+    ertelenmek
+    esenleşmek
+    esinlemek
+    esinlenmek
+    eskimek
+    esmek
+    esnemek
+    eşleşmek
+    eşleştirmek
+    eşmek
+    etkilemek
+    etkinleştirmek
+    etkisizleştirmek
+    etmek
+    ettirmek
+    ettirtmek
+    evirmek
+    evlenmek
+    evrilmek
+    eyerlemek
+    eyerlenmek
+    eyerletmek
+    eylemek
+    ezberlemek
+    ezmek
+
+
+    fakirleştirmek
+    fark etmek
+    farketmek
+    farkına varmak
+    farzetmek
+    faydalanmak
+    feshetmek
+    fethetmek
+    fevt olmak
+    feyk atmak
+    fındık kırmak
+    fırçalamak
+    fırlamak
+    fırlatmak
+    finanse etmek
+    flört etmek
+    formüle etmek
+    fortlamak
+    fosilleşmek
+    fotoğraf çekmek
+    fullemek
+
+    garipleşmek
+	    gebermek
+    gecikmek
+    geciktirmek
+    geciktirtmek
+    geç kalmak
+    geçilmek
+    geçinmek
+    geçirmek
+    geçmek
+    gedmek
+    geğirmek
+    gelinmek
+    gelişmek
+    geliştirmek
+    gelivermek
+    gelmek
+    genişletmek
+    genleşmek
+    gerçekleşmek
+    gerekmek
+    geri almak
+    gerilmek
+    gerinmek
+    germek
+    getirilmek
+    getirmek
+    gevmek
+    gevremek
+    gevşemek
+    gezdirmek
+    gezinmek
+    gezmek
+    gıcırdamak
+    gıcırdatmak
+    gıpta etmek
+    giderilmek
+    gidermek
+    gidilmek
+    girmek
+    gitmek
+    giyilmek
+    giyinmek
+    giymek
+    gizlemek
+    gizlenmek
+    gocunmak
+    googlelamak
+    göçmek
+    göğmek
+    gömmek
+    gömülmek
+    gönderilmek
+    göndermek
+    görmek
+    görülmek
+    görüm görmek
+    görünmek
+    görüntülenmek
+    görüşmek
+    gösterilmek
+    göstermek
+    götü gitmek
+    götürmek
+    göymek
+    göz atmak
+    göz boyamak
+    göz dikmek
+    göz kulak olmak
+    gözden kaybolmak
+    gözetmek
+    gözlemek
+    gözlenebilmek
+    gözlenmek
+    gözü doymak
+    gücenmek
+    güçlendirmek
+    güldürmek
+    gülmek
+    gülmekten çatlamak
+    gülmekten katılmak
+    gülmekten kırılmak
+    gülmekten ölmek
+    gülmekten yarılmak
+    gülümsemek
+    gülünçleşmek
+    gülüşmek
+    güncellemek
+    güneşlenmek
+    günlük tutmak
+    güreşmek
+    gürüldemek
+    gütmek
+    güvenmek
+    güzelleşmek
+    güzelleştirilmek
+    güzelleştirmek
+
+
+    haber almak
+    haber vermek
+    haberleşmek
+    haçlamak
+    hafiflemek
+    hafifletmek
+    hakaret etmek
+    Hakk'ın rahmetine kavuşmak
+    halleşmek
+    halletmek
+    hamlamak
+    hapsetmek
+    hapsolmak
+    hapşırmak
+    harap etmek
+    harcamak
+    harcanmak
+    hareket etmek
+    hastalanmak
+    haşlamak
+    hata ayıklama
+    hata yapmak
+    hatırına değmek
+    hatırlamak
+    hatırlatmak
+    hava atmak
+    havalandırmak
+    havalanmak
+    havlamak
+    havlu atmak
+    haydamak
+    hazırlamak
+    hazırlanmak
+    hazmetmek
+    hecelemek
+    helak etmek
+    helak olmak
+    helalleşmek
+    hesaplaşmak
+    heveslenmek
+    heyecanlandırmak
+    heyecanlandırtmak
+    heyecanlanmak
+    hırlamak
+    hışıldamak
+    hışlamak
+    hızlandırmak
+    hızlanmak
+    hindi sesi çıkarmak
+    hissetmek
+    hitap etmek
+    hizalamak
+    hizalanmak
+    homurdanmak
+    hoplamak
+    horlamak
+    hoşlanmak
+    hücum etmek
+    hükmetmek
+    hükümdarlık etmek
+
+    ılımak
+    ısınmak
+    ısırmak
+    ısıtmak
+    ıslamak
+    ıslanmak
+    ıslık çalmak
+    ısmarlamak
+    ışıldamak
+    ışımak
+    ışıtmak
+    ışıttırmak
+    iç çekmek
+    içermek
+    içilmek
+    içine doğmak
+    içmek
+    idam etmek
+    idare etmek
+    iddia etmek
+    ifade etmek
+    iflas etmek
+    iğnelemek
+    iğrenmek
+    ihanet etmek
+    ihlal etmek
+    ikaz etmek
+    iki lafın belini kırmak
+    ikna etmek
+    ikna olmak
+    ikram etmek
+    ilan etmek
+    ilave etmek
+    ilerlemek
+    ilerletmek
+    iletişim kurmak
+    iletmek
+    ilgilendirmek
+    ilgilenmek
+    iliklemek
+    ilişki kurmak
+    ilklendirmek
+    ilmek
+    iltica etmek
+    imek
+    imha etmek
+    imiş
+    imrenmek
+    imtihan etmek
+    imzalamak
+    imzalanmak
+    inandırmak
+    inanmak
+    inceldiği yerden kopmak
+    incelemek
+    incelmek
+    incimek
+    indirmek
+    infaz etmek
+    İngilizceleştirmek
+    inkar etmek
+    inkâr etmek
+    inlemek
+    inmek
+    inşa etmek
+    internet etmek
+    intihar etmek
+    iple çekmek
+    iptal etmek
+    irdelemek
+    islemek
+    ispat etmek
+    ispatlamak
+    isteklenmek
+    istemek
+    istenmek
+    isyan etmek
+    işaretlemek
+    işemek
+    işitilmek
+    işitmek
+    işlemek
+    işlenmek
+    işletmek
+    itham etmek
+    itilmek
+    itiraf etmek
+    itişmek
+    itmek
+    ittirilmek
+    ittirmek
+    ittirtilmek
+    ittirtmek
+    ivmek
+    iyi gitmek
+    iyi yolda olmak
+    iyileşmek
+    iyileştirmek
+    izah etmek
+    izlemek
+    izole etmek
+    izole olmak
+
+
+
+    kabarmak
+    kabul etmek
+    kaçınmak
+    kaçırmak
+    kaçışmak
+    kaçmak
+    kafayı yemek
+    kakmak
+    kalakalmak
+    kalaylamak
+    kalaylanmak
+    kaldırılmak
+    kaldırmak
+    kalıbı değiştirmek
+    kalıbı dinlendirmek
+    kalıplamak
+    kalkışmak
+    kalkmak
+    kalmak
+    kamaşmak
+    kamaştırmak
+    kamçılamak
+    kanamak
+    kandırmak
+    kanı kaynamak
+    kanırmak
+    kanıtlamak
+    kanmak
+    kapamak
+    kapanmak
+    kapatılmak
+    kapatmak
+    kapı yapmak
+    kapı yapmamak
+    kapışmak
+    kapmak
+    kapsamak
+    kara listeye almak
+    karalamak
+    karamak
+    karar vermek
+    kararlaştırmak
+    kararmak
+    karımak
+    karışmak
+    karıştırmak
+    karıştırtmak
+    karlamak
+    karmak
+    karşılamak
+    karşılaşmak
+    karşılaştırmak
+    kartlaşmak
+    kaskatı kesilmek
+    kasmak
+    kastetmek
+    kaşımak
+    kaşınmak
+    katakulli yapmak
+    katakulliye getirmek
+    katılaşmak
+    katılaştırmak
+    katılmak
+    katlanmak
+    katletmek
+    katmak
+    kavramak
+    kavrulmak
+    kavurmak
+    kavuşmak
+    kaybetmek
+    kaybolmak
+    kaydetmek
+    kaydırmak
+    kaydolmak
+    kaygılanmak
+    kayırmak
+    kaymak
+    kaynamak
+    kaynaşılmak
+    kaynaşmak
+    kaynaştırılmak
+    kaynaştırmak
+    kaynaştırtılmak
+    kaynaştırtmak
+    kaynatmak
+    kazandırmak
+    kazanılmak
+    kazanmak
+    kazık atmak
+    kazık yemek
+    kazımak
+    kazmak
+    kekelemek
+    kemirmek
+    kepmek
+    kesilmek
+    kesmek
+    keşfedilmek
+    keşfetmek
+    kevmek
+    kılmak
+    kımıldamak
+    kınamak
+    kırbaçlamak
+    kırdırmak
+    kırdırtmak
+    kırılışmak
+    kırılmak
+    kırışmak
+    kırıtmak
+    kırmak
+    kırpmak
+    kısalmak
+    kıskanmak
+    kısmak
+    kış uykusuna yatmak
+    kışkırtmak
+    kıvırmak
+    kıvrılmak
+    kıymak
+    kızarmak
+    kızartmak
+    kızdırmak
+    kızmak
+    kilitlemek
+    kirletmek
+    kişnemek
+    kitlemek
+    klark çekmek
+    klorlamak
+    klorlanmak
+    koklamak
+    koklaşmak
+    koklatmak
+    kokmak
+    kokuşmak
+    kol çekmek
+    kol kanat olmak
+    kolaylamak
+    kolaylaştırmak
+    kollamak
+	    imek
+    imha etmek
+    imiş
+    imrenmek
+    imtihan etmek
+    imzalamak
+    imzalanmak
+    inandırmak
+    inanmak
+    inceldiği yerden kopmak
+    incelemek
+    incelmek
+    incimek
+    indirmek
+    infaz etmek
+    İngilizceleştirmek
+    inkar etmek
+    inkâr etmek
+    inlemek
+    inmek
+    inşa etmek
+    internet etmek
+    intihar etmek
+    iple çekmek
+    iptal etmek
+    irdelemek
+    islemek
+    ispat etmek
+    ispatlamak
+    isteklenmek
+    istemek
+    istenmek
+    isyan etmek
+    işaretlemek
+    işemek
+    işitilmek
+    işitmek
+    işlemek
+    işlenmek
+    işletmek
+    itham etmek
+    itilmek
+    itiraf etmek
+    itişmek
+    itmek
+    ittirilmek
+    ittirmek
+    ittirtilmek
+    ittirtmek
+    ivmek
+    iyi gitmek
+    iyi yolda olmak
+    iyileşmek
+    iyileştirmek
+    izah etmek
+    izlemek
+    izole etmek
+    izole olmak
+
+
+    kabarmak
+    kabul etmek
+    kaçınmak
+    kaçırmak
+    kaçışmak
+    kaçmak
+    kafayı yemek
+    kakmak
+    kalakalmak
+    kalaylamak
+    kalaylanmak
+    kaldırılmak
+    kaldırmak
+    kalıbı değiştirmek
+    kalıbı dinlendirmek
+    kalıplamak
+    kalkışmak
+    kalkmak
+    kalmak
+    kamaşmak
+    kamaştırmak
+    kamçılamak
+    kanamak
+    kandırmak
+    kanı kaynamak
+    kanırmak
+    kanıtlamak
+    kanmak
+    kapamak
+    kapanmak
+    kapatılmak
+    kapatmak
+    kapı yapmak
+    kapı yapmamak
+    kapışmak
+    kapmak
+    kapsamak
+    kara listeye almak
+    karalamak
+    karamak
+    karar vermek
+    kararlaştırmak
+    kararmak
+    karımak
+    karışmak
+    karıştırmak
+    karıştırtmak
+    karlamak
+    karmak
+    karşılamak
+    karşılaşmak
+    karşılaştırmak
+    kartlaşmak
+    kaskatı kesilmek
+    kasmak
+    kastetmek
+    kaşımak
+    kaşınmak
+    katakulli yapmak
+    katakulliye getirmek
+    katılaşmak
+    katılaştırmak
+    katılmak
+    katlanmak
+    katletmek
+    katmak
+    kavramak
+    kavrulmak
+    kavurmak
+    kavuşmak
+    kaybetmek
+    kaybolmak
+    kaydetmek
+    kaydırmak
+    kaydolmak
+    kaygılanmak
+    kayırmak
+    kaymak
+    kaynamak
+    kaynaşılmak
+    kaynaşmak
+    kaynaştırılmak
+    kaynaştırmak
+    kaynaştırtılmak
+    kaynaştırtmak
+    kaynatmak
+    kazandırmak
+    kazanılmak
+    kazanmak
+    kazık atmak
+    kazık yemek
+    kazımak
+    kazmak
+    kekelemek
+    kemirmek
+    kepmek
+    kesilmek
+    kesmek
+    keşfedilmek
+    keşfetmek
+    kevmek
+    kılmak
+    kımıldamak
+    kınamak
+    kırbaçlamak
+    kırdırmak
+    kırdırtmak
+    kırılışmak
+    kırılmak
+    kırışmak
+    kırıtmak
+    kırmak
+    kırpmak
+    kısalmak
+    kıskanmak
+    kısmak
+    kış uykusuna yatmak
+    kışkırtmak
+    kıvırmak
+    kıvrılmak
+    kıymak
+    kızarmak
+    kızartmak
+    kızdırmak
+    kızmak
+    kilitlemek
+    kirletmek
+    kişnemek
+    kitlemek
+    klark çekmek
+    klorlamak
+    klorlanmak
+    koklamak
+    koklaşmak
+    koklatmak
+    kokmak
+    kokuşmak
+    kol çekmek
+    kol kanat olmak
+    kolaylamak
+    kolaylaştırmak
+    kollamak
+	    komak
+    komikleşmek
+    konfigüre etmek
+    konfirme etmek
+    konmak
+    konsantre olmak
+    kontrol etmek
+    konulmak
+    konuşmak
+    konuşulmak
+    koparmak
+    kopmak
+    kopya etmek
+    kopyalamak
+    kopyalamak ve yapıştırmak
+    korkmak
+    korkutmak
+    korumak
+    korunmak
+    koşmak
+    koşturmak
+    koşturtmak
+    koşulmak
+    koşuşmak
+    koşuşturmak
+    kovalamak
+    kovdurmak
+    kovdurtmak
+    kovmak
+    kovulmak
+    koydurmak
+    koymak
+    koynuna almak
+    koyulaşmak
+    koyulmak
+    köfteyi çakmak
+    köpürmek
+    köpürtmek
+    körelmek
+    kötüleşmek
+    kötüleştirmek
+    kucaklamak
+    kucaklaşmak
+    kuçmak
+    kulağına küpe olmak
+    kulağını bükmek
+    kulak asmak
+    kulak misafiri olmak
+    kullanılmak
+    kullanmak
+    kulunlamak
+    kurban etmek
+    kurmak
+    kurtarılmak
+    kurtarmak
+    kurtulmak
+    kurulmak
+    kurumak
+    kurutmak
+    kusmak
+    kusursuzlaşmak
+    kusursuzlaştırmak
+    kuşatmak
+    kuşkulanmak
+    kutlamak
+    kutsamak
+    kuyruğu titretmek
+    kuyruğunu kısmak
+    kuzulamak
+    küçülmek
+    küplere binmek
+    küremek
+    küreselleşmek
+    küsmek
+
+
+    lanetlenmek
+    lütfetmek
+
+
+
+    maaş bağlamak
+    mahkemeleşmek
+    mahkemeye vermek
+    mahvetmek
+    mahvolmak
+    makyaj yapmak
+    malik *imek
+    manasına gelmek
+    manipüle etmek
+    manyamak
+    marine etmek
+    maruz bırakmak
+    maruz kaldırmak
+    maruz kalmak
+    mastürbasyon yapmak
+    mayalamak
+    mayalanmak
+    mayınlamak
+    mazur görmek
+    mektuplaşmak
+    melemek
+    menetmek
+    merak etmek
+    meşgul olmak
+    methetmek
+    meydan okumak
+    mırıldanmak
+    mırlamak
+    mızmızlanmak
+    mimlemek
+    miyavlamak
+    modifiye etmek
+    morarmak
+    mortoyu çekmek
+    muhafaza etmek
+    mukavemet etmek
+    muvaffakiyetsizleşmek
+    muvaffakiyetsizleştirmek
+    mücadele etmek
+    müdahale etmek
+    müracaat etmek
+    mürekkep yalamak
+    müsaade etmek
+
+
+    nakletmek
+    nalları dikmek
+    nefes aldırmak
+    nefes aldırtmak
+    nefes almak
+    nefes salmak
+    nefret etmek
+    nişan almak
+    nişanlanmak
+    normalleşmek
+    normalleştirmek
+    not etmek
+    numara yapmak
+    numaralamak
+
+
+    odaklanmak
+    okşamak
+    okşanmak
+    okumak
+    okunmak
+    olmak
+    oluşmak
+    oluşturmak
+    onamak
+    onarılmak
+    onarmak
+    onaylamak
+    organize etmek
+    ortalamak
+    osurmak
+    otostop çekmek
+    oturakalmak
+    oturmak
+    otuz bir çekmek
+    ovmak
+    oyalamak
+    oylamak
+    oymak
+    oynamak
+    oynanmak
+    oynaşmak
+    oyun etmek
+    oyun oynamak
+    oyuna getirmek
+    ödemek
+    ödenmek
+    ödeşmek
+    ödüllendirilmek
+    öfkelendirmek
+    öfkelenmek
+    öğrenmek
+    öğretmek
+    öğürmek
+    öğütlemek
+    öğütmek
+    ökenmek
+    öksürmek
+    ölçmek
+    ölçtürmek
+    ölçtürtmek
+    ölçülmek
+    ölçüşmek
+    öldürmek
+    öldürtmek
+    öldürtülmek
+    öldürülmek
+    ölmek
+    ölümsüzleştirmek
+    ölünmek
+    öne sürmek
+    önem vermek
+    önermek
+    öngörmek
+    önlemek
+    öpmek
+    öptürmek
+    öpüşmek
+    örmek
+    örtmek
+    örülmek
+    ösmek
+    ötmek
+	    ötüşmek
+    övmek
+    öykünmek
+    özelleştirmek
+    özenmek
+    özetlemek
+    özgemek
+    özlemek
+    özümlemek
+
+
+
+    papaz olmak
+    parçalamak
+    parçalanmak
+    parçalatmak
+    parçalattırmak
+    parıldamak
+    park etmek
+    parlamak
+    parlatmak
+    parmaklamak
+    paslamak
+    paslanmak
+    patlamak
+    paylaşmak
+    pes etmek
+    pislenmek
+    pisletmek
+    pişirmek
+    pişman olmak
+    pişmek
+    postu deldirmek
+    pot kırmak
+    prezante etmek
+    programla
+    programlama
+    programlamak
+    programlanmak
+    programlatmak
+    programlattırmak
+    prova etmek
+    puflamak
+    pusmak
+    püskürmek
+    püskürtmek
+
+
+    rahatlamak
+    rahatsızlanmak
+    rahmetli olmak
+    randevulaşmak
+    raporlamak
+    rastlamak
+    rastlaşmak
+    razı olmak
+    redakte etmek
+    reddedilmek
+    reddetmek
+    redije etmek
+    regüle etmek
+    rekzetmek
+    rendelemek
+    resimlemek
+    resmetmek
+    rica etmek
+
+    sabahlamak
+    sabote etmek
+    sabretmek
+    sabunlamak
+    saçmak
+    sadınmak
+    sağaltmak
+    sağlamak
+    sağlanmak
+    sağmak
+    sahip *imek
+    sahip çıkmak
+    sahip olmak
+    sahnelemek
+    sahnelenmek
+    sahneletmek
+    sahnelettirmek
+    sakınmak
+    sakinleştirmek
+    saklamak
+    saklanmak
+    saldırmak
+    sallamak
+    sallandırmak
+    sallanmak
+    salmak
+    sançmak
+    sanılmak
+    sanmak
+    saplamak
+    saplanmak
+    sapmak
+    sararmak
+    sarfetmek
+    sarılmak
+    sarınmak
+    sarkmak
+    sarmak
+    sarsılmak
+    sarsmak
+    sasımak
+    satılmak
+    satın almak
+    satışa çıkarmak
+    satmak
+    sattırmak
+    sattırtmak
+    savaşmak
+    savmak
+    savsaklamak
+    savunmak
+    savurmak
+    saydırmak
+    saydırtmak
+    saygı duymak
+    sayıklamak
+    sayılmak
+    saylamak
+    saymak
+    seçilmek
+    seçmek
+    seferberlik ilan etmek
+    sekmek
+    seks yapmak
+    selamlamak
+    selamlaşmak
+    sendelemek
+    sergilenmek
+    serinlemek
+    sermek
+    serpilmek
+    serpmek
+    seslenmek
+    sevilmek
+    sevinmek
+    sevişmek
+    sevk etmek
+    sevketmek
+    sevmek
+    seyitmek
+    seyremek
+    seyretmek
+    sezmek
+    sıçmak
+    sıçramak
+    sığınmak
+    sığmak
+    sıkılmak
+    sıkışmak
+    sıkıştırmak
+    sıkmak
+    sınamak
+    sınıfta bırakmak
+    sınıfta kaldırmak
+    sınıfta kalmak
+    sıralamak
+    sıralanmak
+    sıralatmak
+    sırıtmak
+    sıvamak
+    sıvılaşmak
+    sıvılaştırmak
+    sıvışmak
+    sıyırmak
+    sıyrılmak
+    sızlamak
+    sızmak
+    sigara içmek
+    sikilmek
+    sikişmek
+    siklemek
+    sikmek
+    siktirmek
+    silah bırakmak
+    silahlandırmak
+    silahlanmak
+    silinmek
+    silkmek
+    silmek
+    sindirmek
+    sinirlendirmek
+    sinirlenmek
+    sinmek
+    siymek
+    soğumak
+    soğurmak
+    soğutmak
+    sokmak
+    sokulmak
+    solmak
+    soluk almak
+    soluklanmak
+    solumak
+    somurmak
+    somurtmak
+    sormak
+    sorulmak
+    sorumsuzlaştırmak
+    soymak
+	    soyulmak
+    soyunmak
+    sökmek
+    söktürmek
+    sökülmek
+    sömürmek
+    sönmek
+    sörf yapmak
+    sövmek
+    sövülmek
+    söylemek
+    söylenmek
+    söyleşmek
+    söyündürmek
+    söyünmek
+    söz almak
+    söz etmek
+    söz vermek
+    sözleşmek
+    sterilize etmek
+    suçlamak
+    suçlanmak
+    sugeçirmez yapmak
+    sulamak
+    sulanmak
+    sunmak
+    sunulmak
+    susamak
+    susanmak
+    susmak
+    susturmak
+    sübvanse etmek
+    sümkürmek
+    sünmek
+    süpürmek
+    sürçmek
+    sürdürmek
+    sürmek
+    sürtmek
+    sürüklemek
+    sürülmek
+    sürümek
+    süründürmek
+    süründürtmek
+    sürünmek
+    süslemek
+    süslenmek
+    süsletmek
+    süslettirmek
+    süsmek
+    süt sağmak
+    süzmek
+    süzülmek
+    şaka yapmak
+    şakalaşmak
+    şamarlamak
+    şarj etmek
+    şaşakalmak
+    şaşılmak
+    şaşırmak
+    şaşırtmak
+    şaşırttırmak
+    şaşmak
+    şehadet şerbetini içmek
+    şekerlemek
+    şerbetlemek
+    şifrelemek
+    şikâr etmek
+    şikâyet etmek
+    şişirmek
+    şişmek
+    şüphe etmek
+    şüphelenmek
+
+
+    tahakkuk etmek
+    tahliye etmek
+    tahmin etmek
+    tahriş etmek
+    takılmak
+    takip etmek
+    taklit etmek
+    takmak
+    talep etmek
+    tamamlamak
+    tamamlanmak
+    tanımak
+    tanımlamak
+    tanışmak
+    tanıtmak
+    tanklamak
+    tapınmak
+    tapmak
+    taramak
+    tartışmak
+    tartmak
+    tasarlamak
+    tasarruf etmek
+    tasavvur etmek
+    tasvip etmek
+    taşak geçmek
+    taşımak
+    taşınmak
+    taşlamak
+    taşmak
+    tatmak
+    tavan yapmak
+    tavsiye etmek
+    tazelemek
+    tebrik etmek
+    tecrit etmek
+    tedavi etmek
+    teklif etmek
+    tekme atmak
+    tekrarlamak
+    telaffuz etmek
+    telaşlanmak
+    telefon etmek
+    telefonlamak
+    telefonlaşmak
+    telesmek
+    tembellik etmek
+    temizlemek
+    temizlenmek
+    tepelemek
+    tepesine çıkarmak
+    tepmek
+    tercih etmek
+    terfi etmek
+    terk etmek
+    terketmek
+    terlemek
+    teslim etmek
+    tespit etmek
+    teşebbüs etmek
+    teşhir etmek
+    teşhis etmek
+    teşvik etmek
+    tetiklemek
+    tetiklenmek
+    tetkik etmek
+    tevzi etmek
+    tıkamak
+    tıklamak
+    tıkmak
+    tıraş etmek
+    tıraş olmak
+    tırmalamak
+    tırmalanmak
+    tırmanmak
+    tırsmak
+    tiksinmek
+    titremek
+    titretmek
+    titrettirmek
+    tokalaşmak
+    tokanmak
+    tokatlamak
+    tokuşmak
+    topallamak
+    toplamak
+    toplanmak
+    toprak olmak
+    toslaşmak
+    tozmak
+    transa geçmek
+    transa girmek
+    tummak
+    tutkallamak
+    tutmak
+    tutturmak
+    tutuklamak
+    tutuklanmak
+    tutulmak
+    tutuşturmak
+    tuvaletini yapmak
+    tuzlamak
+    tükenmek
+    tüketmek
+    tükürmek
+    tümlemek
+    türemek
+    türetilmek
+    türetmek
+    Türkçeleştirmek
+    tütmek
+    tüttürmek
+    tüttürtmek
+
+
+    uçmak
+    uçurmak
+    uçuşmak
+    ufalamak
+    uğramak
+    uğraşmak
+    uğratılmak
+    uğratmak
+    ulamak
+    ulaşmak
+    ulumak
+    ummak
+    unutmak
+    unutulmak
+	    ustalaşmak
+    utandırmak
+    utanmak
+    utmak
+    uyandırmak
+    uyanmak
+    uyarmak
+    uydurmak
+    uygulamak
+    uygulanmak
+    uymak
+    uyumak
+    uyuşmak
+    uyuşukluk etmek
+    uyuşukluk yapmak
+    uyuyakalmak
+    uzaklaşmak
+    uzamak
+    uzanmak
+    uzatılmak
+    uzatmak
+    üflemek
+    üleşmek
+    ümid etmek
+    ümit etmek
+    ünlemek
+    üremek
+    üretilmek
+    üretmek
+    ürkmek
+    ürpermek
+    ürpertmek
+    ürümek
+    üstesinden gelmek
+    üşenmek
+    üşümek
+    üşüşmek
+    ütilize etmek
+    ütmek
+    ütülemek
+    üzerinden geçmek
+    üzmek
+    üzülmek
+
+    vadetmek
+    vaklamak
+    vandalize etmek
+    var olmak
+    varmak
+    vazgeçmek
+    vedalaşmak
+    vefat etmek
+    verdirmek
+    verdirtmek
+    verilmek
+    verimsizleştirmek
+    vermek
+    verniklemek
+    vurgulamak
+    vurmak
+    vurulmak
+    vuruşmak
+
+
+    yâd etmek
+    yadırgamak
+    yadırganmak
+    yağdırmak
+    yağlamak
+    yağmak
+    yağmurdan kaçarken doluya tutulmak
+    yakalamak
+    yakalanmak
+    yakınlaşmak
+    yakınlaştırmak
+    yakışmak
+    yakıştırmak
+    yaklaşmak
+    yakmak
+    yalamak
+    yalana şerbetli olmak
+    yalanlamak
+    yalpalamak
+    yalvarmak
+    yamamak
+    yammak
+    yanaşmak
+    yanılmak
+    yanıt vermek
+    yanıtlamak
+    yanlış ayıklama
+    yanmak
+    yansımak
+    yansıtmak
+    yanşamak
+    yapılmak
+    yapışmak
+    yapıştırmak
+    yapmak
+    yaptırmak
+    yaptırtmak
+    yaralanmak
+    yaramak
+    yararlanmak
+    yaratmak
+    yardım etmek
+    yardımcı olmak
+    yardımlaşmak
+    yargılamak
+    yarışmak
+    yarmak
+    yasaklamak
+    yasamak
+    yaşamak
+    yaşamını yitirmek
+    yaşanmak
+    yaşlanmak
+    yatmak
+    yayılmak
+    yayımlanmak
+    yaymak
+    yazıktırmak
+    yazılmak
+    yazışmak
+    yazmak
+    yedeklemek
+    yedirmek
+    yedirtmek
+    yedmek
+    yekinmek
+    yellemek
+    yellenmek
+    yelmek
+    yelpazelenmek
+    yemek
+    yemin et
+    yemin etmek
+    yendirmek
+    yendirtmek
+    yenilmek
+    yenmek
+    yer açmak
+    yer vermek
+    yerleşmek
+    yerleştirmek
+    yermek
+    yeşermek
+    yeşil ışık yakmak
+    yetişmek
+    yetiştirmek
+    yetmek
+    yığılmak
+    yığmak
+    yıkamak
+    yıkanmak
+    yıkılmak
+    yıkmak
+    yıldırmak
+    yılmak
+    yıpranmak
+    yıpratmak
+    yırtmak
+    yinelemek
+    yitirmek
+    yitmek
+    yiyip içmek
+    yoğalmak
+    yoğaltmak
+    yoğunlaşmak
+    yoğunlaştırmak
+    yoğurmak
+    yok edilmek
+    yoksullaşmak
+    yoksullaştırmak
+    yolculuk etmek
+    yoldurmak
+    yoldurtmak
+    yollamak
+    yolmak
+    yolundurmak
+    yolundurtmak
+    yolunmak
+    yolvermek
+    yontmak
+    yontturmak
+    yontturtmak
+    yontulmak
+    yormak
+    yorulmak
+    yönelmek
+    yöneltmek
+    yönetmek
+    yönlendirmek
+    yudumlamak
+    yuhlamak
+    yumak
+    yumaklaşmak
+    yummak
+    yumruklaşmak
+    yutmak
+    yutuzmak
+    yuvarlamak
+    yuvarlanmak
+	
+
+    yücelmek
+    yüceltmek
+    yüklemek
+    yükselmek
+    yükseltmek
+    yürümek
+    yürütülmek
+    yüzleşmek
+    yüzmek
+    yüzüne vurmak
+
+    zannetmek
+    zartayı çekmek
+    zehirlemek
+    zehirlenmek
+    zıplamak
+    zikretmek
+    ziyan etmek
+    zorbalık etmek
+    zorlamak

@@ -1,0 +1,25 @@
+Please give me the list, based on the  100 most frequent  verbs from Turkish language. (Let's call it 'source language')
+It should contain following fields:
+- word from source language.
+- It's translations to English (let's call it 'target' language). 
+It should be list, as if  the word has different not similar meaning, it should contain all of them (but not more than 3). 
+But if the meanings of he word are similar, like "make" and "do" for "etmek", please take only one of them. 
+- Example of usage for each of the meanings, with different grammar forms of the word, as a  sentence in source language,  
+containing 4-10 words for each of the examples. The root part of initial word should be separated in "<bold> tag. 
+The words in examples should be from top 1000 of most frequent words in source language. 
+- Translations to target language for each of the above examples. The translated word should be included in bold tag.
+--
+So, basically for one source word we can have from one to three target words, translations with different meanings,
+and for each of them we should provide one example of usage, so that size of lists "target_words",      "source_examples",
+      "target_examples" should be the same.
+      
+The output format should be json, without any additional explanations.
+Example of the item in json,  for pair of languages Turkish->English :
+  {
+      "source_word": "istemek",
+      "target_words": ["to want"],
+      "source_examples": ["O zamana kadar, başka bir şey hakkında düşünmek <bold>iste</bold>miyorum. "]
+      "target_examples": ["Until then, I don't , ,<bold>want</bold> to think about other stuff."]
+
+    },
+
