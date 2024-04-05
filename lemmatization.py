@@ -7,7 +7,7 @@ CSV_ENCODING = 'utf-8'
 freq_lst_file_path = r"data\input\frequency_list.tr.csv"
 freq_lst_lm_file_path = r"data\input\frequency_list_lemmatized.tr.txt"
 
-_ma = zeyrek.MorphAnalyzer()
+_ma = zeyrek.MorphAnalyzer() # todo : it should not be here
 
 
 def _csv_helper(file_path: str, delimeter=','):
@@ -70,11 +70,15 @@ def attach_frequencies(words_list_file: str, delimeter=','):
     csvh = _csv_helper(words_list_file, delimeter)
     for row in csvh:
         word = row[0]
+        
         x = _ma.lemmatize(word)
         lemma = x[0][1][0]     
         lemma = get_lemma(word) or word
         freq = lemmas_freq.get(lemma, 1)
-        words_list.append((word, freq))
+        itm = [word, freq]
+        if len(row) > 1:
+            itm.extend(row[1:])
+        words_list.append(itm)
     words_list = sorted(words_list, key=lambda x: x[1], reverse=True)
     return words_list
 

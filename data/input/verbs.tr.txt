@@ -1421,7 +1421,7 @@
     örülmek
     ösmek
     ötmek
-	    ötüşmek
+	ötüşmek
     övmek
     öykünmek
     özelleştirmek
@@ -1430,7 +1430,6 @@
     özgemek
     özlemek
     özümlemek
-
 
 
     papaz olmak
@@ -1627,7 +1626,7 @@
     sorulmak
     sorumsuzlaştırmak
     soymak
-	    soyulmak
+	soyulmak
     soyunmak
     sökmek
     söktürmek
