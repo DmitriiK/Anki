@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
-from langchain.output_parsers import ResponseSchema, StructuredOutputParser
+from langchain.output_parsers import PydanticOutputParser
 
+from output_parser_formats import WordItems
 # import lemmatization as lmm
 
 load_dotenv()
@@ -22,54 +23,46 @@ csv_file = r"data\input\top200TurkishVerbs.csv"
 # %%
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model=MODEL_NAME, temperature=0)
 
+example = """Example of output for turkish -> english
+            and source_words = 'olmak, etmek' : 
+    [
+        {
+            "source_word": "olmak",
+            "target_words": ["to be", "to become", "to happen"],
+            "source_examples": [
+                "O, çok iyi bir insan <bold>ol</bold>du.",
+                "Hava çok sıcak <bold>ol</bold>du.",
+                "Ne <bold>ol</bold>du?"
+            ],
+            "target_examples": [
+                "He <bold>was</bold> a very good person.",
+                "The weather <bold>became</bold> very hot.",
+                "What <bold>happened</bold>?"
+            ]
+        },
+        {
+            "source_word": "etmek",
+            "target_words": ["to do"],
+            "source_examples": ["Bugün ne <bold>et</bold>meyi planlıyorsun?" ],
+            "target_examples": [  "What do you plan to <bold>do</bold> today?"] 
+        }
+      ]
+      """
 
-response_schemas = [
-    ResponseSchema(name="input_word", 
-                   description="initial word from source language"),
-    ResponseSchema(name="target_words", 
-                   description="""It's translations to {trg_lang} language. 
-                    It should be list, as if  the word has rather different  meanings, 
-                    it should contain all of them (but not more than 3). 
-                    But if the meanings of he word are similar, like "make" and "do" for turkish "etmek", please take only one of them. """),
-    ResponseSchema(name="source_examples",
-                   description="""Example of usage for each of the meanings, 
-                        with different grammar forms of the word from source language,
-                        as a  sentence in source language,  
-                        containing 4-10 words for each of the examples. 
-                        The root part of initial word should be separated in "<bold>" tag. 
-                        The words in examples should be from top 1000 of most frequent words in source language. """),
-    ResponseSchema(name="target_examples",
-                   description="""Translations to target language for each of the above examples. 
-                   The translated word should be included in bold tag."""),
-    ]
-output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
-
-# The format instructions that LangChain makes. Let's look at them
+output_parser = PydanticOutputParser(pydantic_object=WordItems)
 format_instructions = output_parser.get_format_instructions()
 # print(format_instructions)
-example = """Example of output for turkish -> english: 
-            {
-                "input_word": "olmak",
-                "target_words": ["to be",  "to happen"],
-                "source_examples": [
-                    "O, çok iyi bir insan oldu.",
-                    "Ne oldu?"
-                ],
-                "target_examples": [
-                    "He was a very good person.",
-                    "What happened?"
-                ]
-            }"""
-
-pr_mess = """Given a word in  {src_lang} language  produce result using format below.
-            {format_instructions}. 
-            {example}.        
-            Input: word: '{source_word}'.
+pr_mess = """
+We will be referring to {src_lang} as source language and {trg_lang} as target language.
+Given as an input a comma concatenated list of words in  {src_lang},  produce a JSON list,  using format below.
+            {format_instructions}.
+            {example}.
+            Input: word: '{source_words}'.
             """
 
 prompt = PromptTemplate(
     template=pr_mess,
-    input_variables=['source_word'],
+    input_variables=['source_words'],
     partial_variables={"format_instructions": format_instructions,
                        "example": example,
                        "src_lang": 'Turkish',
@@ -77,8 +70,8 @@ prompt = PromptTemplate(
 )
 
 chain = prompt | llm | output_parser
-prompt_params = {'source_word': 'konuşmak'}
-# print(prompt.format(source_word='konuşmak'))
+prompt_params = {'source_words': 'konuşmak, bilmek'}
+# print(prompt.format(source_word='konuşmak, bilmek'))
 r = chain.invoke(prompt_params)
 
 print(r)
