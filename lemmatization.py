@@ -10,7 +10,7 @@ freq_lst_lm_file_path = r"data\input\frequency_list_lemmatized.tr.txt"
 _ma = zeyrek.MorphAnalyzer() # todo : it should not be here
 
 
-def _csv_helper(file_path: str, delimeter=','):
+def csv_helper(file_path: str, delimeter=','):
     with open(file_path, mode='r', encoding=CSV_ENCODING) as file:
         csv_reader = csv.reader(file, delimiter=delimeter, )
         # next(csv_reader)  # to skip columns names
@@ -24,7 +24,7 @@ def get_lemma(word: str) -> str:
 
 
 def lemmatize_frequency_list():
-    csv_h = _csv_helper(freq_lst_file_path)
+    csv_h = csv_helper(freq_lst_file_path)
     new_rows = []
     for row in csv_h:
         if not new_rows:
@@ -49,7 +49,7 @@ def group_by_lemma(part_of_speach: str = None) -> Dict:
     Returns:
         Dictionary, lemma as key, frequency (number of occurrences in corps) as value
     """
-    csv_h = _csv_helper(freq_lst_lm_file_path)
+    csv_h = csv_helper(freq_lst_lm_file_path)
     grouped = defaultdict(int)
     is_header = True
     for row in csv_h:
@@ -67,7 +67,7 @@ def group_by_lemma(part_of_speach: str = None) -> Dict:
 def attach_frequencies(words_list_file: str, delimeter=','):
     words_list = []
     lemmas_freq = group_by_lemma()
-    csvh = _csv_helper(words_list_file, delimeter)
+    csvh = csv_helper(words_list_file, delimeter)
     for row in csvh:
         word = row[0]
         
