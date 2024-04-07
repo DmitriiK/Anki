@@ -1,0 +1,37 @@
+{
+    "output_list": [
+        {
+            "source_word": "konuşmak",
+            "target_words": [
+                "to talk",
+                "to speak"
+            ],
+            "source_examples": [
+                "Benimle konuşmak istiyor musun?",
+                "Çok hızlı konuşuyor.",
+                "Konuşmak için zamanım yok."
+            ],
+            "target_examples": [
+                "Do you want to talk to me?",
+                "He talks very fast.",
+                "I don't have time to speak."
+            ]
+        },
+        {
+            "source_word": "bilmek",
+            "target_words": [
+                "to know"
+            ],
+            "source_examples": [
+                "Bu konuda hiçbir şey bilmiyorum.",
+                "Onunla tanıştığımı biliyor musun?",
+                "Bunu nasıl bildin?"
+            ],
+            "target_examples": [
+                "I don't know anything about this.",
+                "Do you know that I met him?",
+                "How did you know that?"
+            ]
+        }
+    ]
+}
