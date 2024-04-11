@@ -7,17 +7,23 @@ from models import WordModel
 
 class Lemmanatizer:
     def __init__(self):
-        self._ma = zeyrek.MorphAnalyzer()  
+        self._ma = None
+
+    @property
+    def ma(self):
+        if not self._ma:
+            self._ma = zeyrek.MorphAnalyzer()
+        return self._ma
 
     def get_lemma(self, word: str) -> str:
-        x = self._ma.lemmatize(word)
+        x = self.ma.lemmatize(word)
         return x[0][1][0]
 
     def lemmatize_frequency_list(self, freq_lst_rows: Iterable[List[str]]) -> List[WordModel]:
         new_rows = []
         for row in freq_lst_rows:
             word, freq = row[0], int(row[1])
-            aa = self._ma.analyze(word)[0]  # analyzer.lemmatize('bilmiyorum')
+            aa = self.ma.analyze(word)[0]  # analyzer.lemmatize('bilmiyorum')
             lemma,  pos = ('', '') if not aa else (aa[0].lemma,  aa[0].pos)
             new_row = WordModel(word=word, lemma=lemma, pos=pos, freq=freq)
             new_rows.append(new_row)
