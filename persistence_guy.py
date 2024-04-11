@@ -12,7 +12,7 @@ import config_data as cfg
 # todo - make common decorator for read write to csv
 
 
-def csv_helper(file_path: str, delimeter=',', skip_row0: bool = True):
+def csv_read_helper(file_path: str, delimeter=',', skip_row0: bool = True):
     with open(file_path, mode='r', encoding=cfg.CSV_ENCODING) as file:
         csv_reader = csv.reader(file, delimiter=delimeter, )
         # next(csv_reader)  # to skip columns names
@@ -57,14 +57,15 @@ def file_input_output(input_file_path: str, dest_file_path: str,
     def decorator_file_input_output(func: Callable):
         @functools.wraps(func)
         def wrapper_input_output(*args, **kwargs):
-            rows = csv_helper(input_file_path)
+            rows = csv_read_helper(input_file_path)
+            logging.info(f'Have read {len(rows)} rows from {input_file_path}')
             # main call
-            rows = list(rows)[0:10]
             ret_items = func(rows)
             write_iterable_to_csv(items=ret_items,
                                   dest_file_path=dest_file_path,
                                   col_names=col_names,
                                   flatten_func=flatten_func)
+            logging.info(f'{len(ret_items)} rows have been written to {dest_file_path}')
         return wrapper_input_output
     return decorator_file_input_output
 
@@ -79,17 +80,10 @@ lemmatize_frequency_list_io = (file_input_output(cfg.FREQ_LST_FILE_PATH,
                                (lmm.lemmatize_frequency_list))
 
 
-def lemmatize_frequency_list(input_file_path: str, dest_file_path: str):
-    csv_h = csv_helper(input_file_path)
-    rows = [row for row in csv_h]
-
-    lst = lmm.lemmatize_frequency_list(rows[1:])  # skipping header
-    # write_word_model_to_csv(lst, dest_file_path)
-    logging.info(f'{len(lst)} rows have been written to {dest_file_path}')
 
 
 def attach_frequencies(input_file_path: str, dest_file_path: str):
-    csv_h = csv_helper(input_file_path)
+    csv_h = csv_read_helper(input_file_path)
     words = [row[0] for row in csv_h]
     lmm = Lemmanatizer()
     rows = lmm.attach_frequencies(words[1:])
