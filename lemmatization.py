@@ -40,16 +40,15 @@ class Lemmanatizer:
             Dictionary, lemma as key, frequency (number of occurrences in corps) as value
         """
         grouped = defaultdict(int)
-        for row in words_lst:
-            if row:
-                lemma, pos, freq = row[1], row[2], int(row[3])
-                if part_of_speach and part_of_speach != pos:
-                    continue
-                grouped[lemma] += freq
+        for word in words_lst:
+            if part_of_speach and part_of_speach != word.pos:
+                continue
+            grouped[word.lemma] += int(word.freq)
         return dict(grouped)
 
-    def attach_frequencies(self, words_lst: Iterable[str]) -> List[List[str]]:
-        lemmas_freq = Lemmanatizer.group_by_lemma()
+    def attach_frequencies(self, words_lst: Iterable[str],
+                           freq_list: Iterable[WordModel]) -> List[List[str]]:
+        lemmas_freq = Lemmanatizer.group_by_lemma(freq_list)
         ret_lst = []
         for w in words_lst:
             lemma = self.get_lemma(w) or w
