@@ -4,8 +4,8 @@ import csv
 import functools
 
 from models import WordModel
-from  lemmatization import Lemmanatizer
-from  llm_communicator import LLMCommunicator
+from lemmatization import Lemmanatizer
+from llm_communicator import LLMCommunicator
 
 import config_data as cfg
 
@@ -104,18 +104,17 @@ def file_output(dest_file_path: str,
                 col_names: List[str] = cfg.CSV_HEADER,
                 flatten_func: Callable = None):
     """_summary_
-    Wraps functions that takes iterable and returns another iterable 
-     ,so that it  writes result to file
+    Wraps functions that returns iterable,so that it  writes result to file
     Args:
         output_file_path (str): Path to resulting csv file
         col_names (str): csv header
-        convert_func: function to convert csv row to type, than supposed to be passed as a list to main funct
+        convert_func: function to convert itm to csv row (list of str)
     """
     def decorator_file_output(func: Callable):
         @functools.wraps(func)
         def wrapper_output(*args, **kwargs):
             # main call
-            ret_items = func(args[0])
+            ret_items = func(*args)
             write_iterable_to_csv(items=ret_items,
                                   dest_file_path=dest_file_path,
                                   col_names=col_names,
@@ -143,24 +142,17 @@ group_by_lemma_io = (file_input(cfg.FREQ_LST_LM_FILE_PATH,
                                 row2itm_func=csv_row2WordModel)
                      (Lemmanatizer.group_by_lemma))
 
-fun_joint_to_frl = (file_input(input_file_path=cfg.INPUT_WORDS_LIST_FILE,
-                               row2itm_func=lambda row: row[0],
-                               input2_file_path=cfg.FREQ_LST_LM_FILE_PATH,
-                               row2itm_func2=csv_row2WordModel
-                                )
-                     (lmm.attach_frequencies))
-
-
-def attach_frequencies(input_file_path: str, dest_file_path: str):
-    csv_h = csv_read_helper(input_file_path)
-    words = [row[0] for row in csv_h]
-    lmm = Lemmanatizer()
-    rows = lmm.attach_frequencies(words[1:])
-    csv_write_helper(rows, dest_file_path)
+attach_frequencies_io = (file_input(input_file_path=cfg.INPUT_WORDS_LIST_FILE,
+                                    row2itm_func=lambda row: row[0],
+                                    input2_file_path=cfg.FREQ_LST_LM_FILE_PATH,
+                                    row2itm_func2=csv_row2WordModel
+                                    )
+                         (file_output(cfg.WORDS_AND_FREQ_LIST_FILE, col_names=['word', 'freq'])
+                            (lmm.attach_frequencies)))
 
 
 if __name__ == "__main__":
     # lemmatize_frequency_list_io()
     # attach_frequencies(cfg.INPUT_WORDS_LIST_FILE, cfg.WORDS_AND_FREQ_LIST_FILE)
     # group_by_lemma_io()
-    fun_joint_to_frl()
+    attach_frequencies_io()
