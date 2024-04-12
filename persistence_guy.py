@@ -51,8 +51,29 @@ def write_iterable_to_csv(items: Iterable, dest_file_path: str,
     csv_write_helper(rows, dest_file_path)
 
 
+def extract_and_transform(fp: str, fun: Callable) -> List:
+    """Еxtract data from file fp and convert to list of smth..
+    Args:
+        fp (str): file path
+        fun (Callable): Function to convert row from file to something else
+
+    Returns:
+        _type_: List of something
+    """
+    rows = csv_read_helper(fp)
+    rows = list(rows)  # [0:10] debug
+    logging.info(f'Have read {len(rows)} rows from {fp}')
+    if fun:
+        itms = [fun(row) for row in rows]
+    else:
+        itms = rows
+    return itms
+
+
 def file_input(input_file_path: str,
-               row2itm_func: Callable = None):
+               row2itm_func: Callable = None,
+               input2_file_path: str = None,
+               row2itm_func2: Callable = None):
     """_summary_
     Wraps functions that takes iterable and returns another iterable 
      ,so that it reads that iterable from file 
@@ -63,15 +84,18 @@ def file_input(input_file_path: str,
     def decorator_file_input(func: Callable):
         @functools.wraps(func)
         def wrapper_input(*args, **kwargs):
-            rows = csv_read_helper(input_file_path)
-            rows = list(rows)  # [0:10] debug
-            logging.info(f'Have read {len(rows)} rows from {input_file_path}')
-            if row2itm_func:
-                itms = [row2itm_func(row) for row in rows]
-            else:
-                itms = rows
+            fpfun = [(input_file_path, row2itm_func)]
+            if input2_file_path:
+                fpfun.append((input2_file_path, row2itm_func2))
+            itms_itms = []
+            for fp, fun in fpfun:
+                itms = extract_and_transform(fp, fun)
+                itms_itms.append(itms)
             # main call
-            return func(itms)
+            if len(itms_itms) == 1:
+                return func(itms_itms[0])
+            else:
+                return func(itms_itms[0], itms_itms[1])
         return wrapper_input
     return decorator_file_input
 
@@ -119,6 +143,13 @@ group_by_lemma_io = (file_input(cfg.FREQ_LST_LM_FILE_PATH,
                                 row2itm_func=csv_row2WordModel)
                      (Lemmanatizer.group_by_lemma))
 
+fun_joint_to_frl = (file_input(input_file_path=cfg.INPUT_WORDS_LIST_FILE,
+                               row2itm_func=lambda row: row[0],
+                               input2_file_path=cfg.FREQ_LST_LM_FILE_PATH,
+                               row2itm_func2=csv_row2WordModel
+                                )
+                     (lmm.attach_frequencies))
+
 
 def attach_frequencies(input_file_path: str, dest_file_path: str):
     csv_h = csv_read_helper(input_file_path)
@@ -131,4 +162,5 @@ def attach_frequencies(input_file_path: str, dest_file_path: str):
 if __name__ == "__main__":
     # lemmatize_frequency_list_io()
     # attach_frequencies(cfg.INPUT_WORDS_LIST_FILE, cfg.WORDS_AND_FREQ_LIST_FILE)
-    group_by_lemma_io()
+    # group_by_lemma_io()
+    fun_joint_to_frl()

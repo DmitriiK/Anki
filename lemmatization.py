@@ -54,6 +54,6 @@ class Lemmanatizer:
             lemma = self.get_lemma(w) or w
             freq = lemmas_freq.get(lemma, 1)
             ret_lst.append([w, freq])
-        ret_lst = sorted(ret_lst, key=lambda x: x.freq, reverse=True)
+        ret_lst = sorted(ret_lst, key=lambda x: x[1], reverse=True)
         return ret_lst
 
