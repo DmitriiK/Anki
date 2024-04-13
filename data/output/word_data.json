@@ -1,21 +1,139 @@
 {
     "output_list": [
         {
-            "source_word": "konuşmak",
+            "source_word": "etmek",
             "target_words": [
-                "to talk",
-                "to speak"
+                "to do"
             ],
             "source_examples": [
-                "Benimle konuşmak istiyor musun?",
-                "Çok hızlı konuşuyor.",
-                "Konuşmak için zamanım yok."
+                "Bugün ne <bold>et</bold>meyi planlıyorsun?"
             ],
             "target_examples": [
-                "Do you want to talk to me?",
-                "He talks very fast.",
-                "I don't have time to speak."
-            ]
+                "What do you plan to <bold>do</bold> today?"
+            ],
+            "freq": "893020"
+        },
+        {
+            "source_word": "istemek",
+            "target_words": [
+                "to want"
+            ],
+            "source_examples": [
+                "Ben bir kahve <bold>istem</bold>iyorum."
+            ],
+            "target_examples": [
+                "I want a coffee."
+            ],
+            "freq": "838332"
+        },
+        {
+            "source_word": "yapmak",
+            "target_words": [
+                "to make",
+                "to do"
+            ],
+            "source_examples": [
+                "Bu yemeği nasıl <bold>yap</bold>abilirim?"
+            ],
+            "target_examples": [
+                "How can I <bold>make</bold> this dish?"
+            ],
+            "freq": "673777"
+        },
+        {
+            "source_word": "gitmek",
+            "target_words": [
+                "to go"
+            ],
+            "source_examples": [
+                "Akşam yemeğinden sonra sinemaya <bold>git</bold>meyi planlıyorum."
+            ],
+            "target_examples": [
+                "I plan to go to the cinema after dinner."
+            ],
+            "freq": "645593"
+        },
+        {
+            "source_word": "sanmak",
+            "target_words": [
+                "to think",
+                "to assume"
+            ],
+            "source_examples": [
+                "Onun doğruyu söylediğine <bold>san</bold>mıyorsun?"
+            ],
+            "target_examples": [
+                "Don't you think he is telling the truth?"
+            ],
+            "freq": "624418"
+        },
+        {
+            "source_word": "demek",
+            "target_words": [
+                "to say",
+                "to mean"
+            ],
+            "source_examples": [
+                "Bu ne <bold>demek</bold>?"
+            ],
+            "target_examples": [
+                "What does this <bold>mean</bold>?"
+            ],
+            "freq": "526857"
+        },
+        {
+            "source_word": "söylemek",
+            "target_words": [
+                "to tell",
+                "to say"
+            ],
+            "source_examples": [
+                "Bana gerçeği <bold>söyle</bold>."
+            ],
+            "target_examples": [
+                "Tell me the truth."
+            ],
+            "freq": "520011"
+        },
+        {
+            "source_word": "gelmek",
+            "target_words": [
+                "to come"
+            ],
+            "source_examples": [
+                "Akşam yemeğe <bold>gel</bold>ir misin?"
+            ],
+            "target_examples": [
+                "Will you come for dinner tonight?"
+            ],
+            "freq": "514614"
+        },
+        {
+            "source_word": "bakmak",
+            "target_words": [
+                "to look",
+                "to watch"
+            ],
+            "source_examples": [
+                "Lütfen pencereden <bold>bak</bold>."
+            ],
+            "target_examples": [
+                "Please look out of the window."
+            ],
+            "freq": "394770"
+        },
+        {
+            "source_word": "vermek",
+            "target_words": [
+                "to give"
+            ],
+            "source_examples": [
+                "Bu hediye senin için, lütfen al ve <bold>ver</bold>."
+            ],
+            "target_examples": [
+                "This gift is for you, please take and <bold>give</bold>."
+            ],
+            "freq": "376156"
         },
         {
             "source_word": "bilmek",
@@ -23,15 +141,3009 @@
                 "to know"
             ],
             "source_examples": [
-                "Bu konuda hiçbir şey bilmiyorum.",
-                "Onunla tanıştığımı biliyor musun?",
-                "Bunu nasıl bildin?"
+                "Ben bu konuyu <bold>bil</bold>miyorum.",
+                "O, gerçeği <bold>bil</bold>miyor.",
+                "Neden bu kadar az şey <bold>bil</bold>iyoruz?"
             ],
             "target_examples": [
-                "I don't know anything about this.",
-                "Do you know that I met him?",
-                "How did you know that?"
-            ]
+                "I don't <bold>know</bold> this subject.",
+                "He doesn't <bold>know</bold> the truth.",
+                "Why do we <bold>know</bold> so little?"
+            ],
+            "freq": "348082"
+        },
+        {
+            "source_word": "görmek",
+            "target_words": [
+                "to see"
+            ],
+            "source_examples": [
+                "Ben seni <bold>gör</bold>düm.",
+                "O, güzel bir manzara <bold>gör</bold>dü.",
+                "Geçen hafta onu <bold>gör</bold>düm."
+            ],
+            "target_examples": [
+                "I <bold>saw</bold> you.",
+                "He <bold>saw</bold> a beautiful view.",
+                "I <bold>saw</bold> him last week."
+            ],
+            "freq": "303593"
+        },
+        {
+            "source_word": "almak",
+            "target_words": [
+                "to take",
+                "to buy"
+            ],
+            "source_examples": [
+                "Marketten süt <bold>al</bold>dım.",
+                "Yeni bir telefon <bold>al</bold>dı.",
+                "Bu kitabı nereden <bold>al</bold>dın?"
+            ],
+            "target_examples": [
+                "I <bold>took</bold> milk from the market.",
+                "He <bold>bought</bold> a new phone.",
+                "Where did you <bold>buy</bold> this book?"
+            ],
+            "freq": "246060"
+        },
+        {
+            "source_word": "yemek",
+            "target_words": [
+                "to eat"
+            ],
+            "source_examples": [
+                "Ben her gün sağlıklı <bold>ye</bold>rim.",
+                "O, çok hızlı <bold>ye</bold>r.",
+                "Akşam yemeğini nerede <bold>ye</bold>yeceğiz?"
+            ],
+            "target_examples": [
+                "I eat healthy every day.",
+                "He eats very fast.",
+                "Where will we <bold>eat</bold> dinner?"
+            ],
+            "freq": "235343"
+        },
+        {
+            "source_word": "düşünmek",
+            "target_words": [
+                "to think"
+            ],
+            "source_examples": [
+                "Bu konuyu biraz daha <bold>düşün</bold>memiz lazım.",
+                "O, geleceği hakkında <bold>düşün</bold>üyor.",
+                "Neden böyle bir şey <bold>düşün</bold>üyorsun?"
+            ],
+            "target_examples": [
+                "We need to think about this topic a little more.",
+                "He is thinking about the future.",
+                "Why are you thinking such a thing?"
+            ],
+            "freq": "216933"
+        },
+        {
+            "source_word": "kalmak",
+            "target_words": [
+                "to stay",
+                "to remain"
+            ],
+            "source_examples": [
+                "Ben burada <bold>kal</bold>dım.",
+                "O, bir hafta daha burada <bold>kal</bold>acak.",
+                "Neden bu kadar uzun süre <bold>kal</bold>dın?"
+            ],
+            "target_examples": [
+                "I <bold>stayed</bold> here.",
+                "He will <bold>stay</bold> here for another week.",
+                "Why did you stay for so long?"
+            ],
+            "freq": "214473"
+        },
+        {
+            "source_word": "anlamak",
+            "target_words": [
+                "to understand"
+            ],
+            "source_examples": [
+                "Ben bu konuyu <bold>anla</bold>mıyorum.",
+                "O, ne demek istediğimi <bold>anla</bold>dı.",
+                "Anlamadığını neden söylemedin?"
+            ],
+            "target_examples": [
+                "I don't understand this topic.",
+                "He understood what I meant.",
+                "Why didn't you say you didn't understand?"
+            ],
+            "freq": "214364"
+        },
+        {
+            "source_word": "anlatmak",
+            "target_words": [
+                "to tell",
+                "to explain"
+            ],
+            "source_examples": [
+                "Bu hikayeyi bana tekrar <bold>anlat</bold>ır mısın?",
+                "O, planını bize <bold>anlat</bold>tı.",
+                "Bu konuyu daha iyi <bold>anlat</bold>malısın."
+            ],
+            "target_examples": [
+                "Can you tell me this story again?",
+                "He told us his plan.",
+                "You should explain this topic better."
+            ],
+            "freq": "214364"
+        },
+        {
+            "source_word": "ölmek",
+            "target_words": [
+                "to die"
+            ],
+            "source_examples": [
+                "O, geçen yıl <bold>öl</bold>dü.",
+                "Bu hastalıktan <bold>öl</bold>mek korkutucu.",
+                "Ölüm hakkında hiç düşündün mü?"
+            ],
+            "target_examples": [
+                "He <bold>died</bold> last year.",
+                "Dying from this disease is scary.",
+                "Have you ever thought about death?"
+            ],
+            "freq": "190118"
+        },
+        {
+            "source_word": "çalışmak",
+            "target_words": [
+                "to work"
+            ],
+            "source_examples": [
+                "Ben her gün sabahları <bold>çalış</bold>ırım.",
+                "O, çok yoğun bir şekilde <bold>çalış</bold>ıyor.",
+                "Bu projede birlikte <bold>çalış</bold>abiliriz."
+            ],
+            "target_examples": [
+                "I work every morning.",
+                "He works very intensively.",
+                "We can work together on this project."
+            ],
+            "freq": "188429"
+        },
+        {
+            "source_word": "durmak",
+            "target_words": [
+                "to stop",
+                "to stand",
+                "to pause"
+            ],
+            "source_examples": [
+                "Araba <bold>dur</bold>du.",
+                "Dur, lütfen!",
+                "Neden <bold>dur</bold>uyorsun?"
+            ],
+            "target_examples": [
+                "The car <bold>stopped</bold>.",
+                "Stop, please!",
+                "Why are you <bold>pausing</bold>?"
+            ],
+            "freq": "171622"
+        },
+        {
+            "source_word": "sevmek",
+            "target_words": [
+                "to love",
+                "to like"
+            ],
+            "source_examples": [
+                "Seni çok <bold>sev</bold>iyorum.",
+                "Çikolatayı <bold>sev</bold>iyor musun?",
+                "O, müziği <bold>sev</bold>iyor."
+            ],
+            "target_examples": [
+                "I love you very much.",
+                "Do you like chocolate?",
+                "He likes music."
+            ],
+            "freq": "166888"
+        },
+        {
+            "source_word": "aramak",
+            "target_words": [
+                "to search",
+                "to look for"
+            ],
+            "source_examples": [
+                "Anahtarları nerede <bold>ara</bold>yorsun?",
+                "Bir kitapçı <bold>ara</bold>yorum.",
+                "Yardım için <bold>ara</bold>yın."
+            ],
+            "target_examples": [
+                "Where are you looking for the keys?",
+                "I'm looking for a bookstore.",
+                "Call for help."
+            ],
+            "freq": "165044"
+        },
+        {
+            "source_word": "beklemek",
+            "target_words": [
+                "to wait",
+                "to expect"
+            ],
+            "source_examples": [
+                "Beni <bold>bekle</bold>.",
+                "Ne zaman <bold>bekle</bold>yebilirim?",
+                "Biraz <bold>bekle</bold>."
+            ],
+            "target_examples": [
+                "Wait for me.",
+                "When can I expect?",
+                "Wait a little."
+            ],
+            "freq": "164505"
+        },
+        {
+            "source_word": "varmak",
+            "target_words": [
+                "to arrive",
+                "to reach"
+            ],
+            "source_examples": [
+                "Tren ne zaman <bold>var</bold>acak?",
+                "Sonunda hedefime <bold>var</bold>dım.",
+                "Eve ne zaman <bold>var</bold>acaksın?"
+            ],
+            "target_examples": [
+                "When will the train arrive?",
+                "I finally reached my goal.",
+                "When will you arrive home?"
+            ],
+            "freq": "163094"
+        },
+        {
+            "source_word": "bulmak",
+            "target_words": [
+                "to find",
+                "to discover"
+            ],
+            "source_examples": [
+                "Anahtarı nerede <bold>bul</bold>dun?",
+                "Yeni bir yol <bold>bul</bold>dum.",
+                "Çözümü <bold>bul</bold>dum."
+            ],
+            "target_examples": [
+                "Where did you find the key?",
+                "I found a new way.",
+                "I discovered the solution."
+            ],
+            "freq": "162653"
+        },
+        {
+            "source_word": "bırakmak",
+            "target_words": [
+                "to leave",
+                "to let go"
+            ],
+            "source_examples": [
+                "Lütfen beni <bold>bırak</bold>.",
+                "Onu <bold>bırak</bold>.",
+                "Neden <bold>bırak</bold>tın?"
+            ],
+            "target_examples": [
+                "Please leave me.",
+                "Let it go.",
+                "Why did you leave?"
+            ],
+            "freq": "161522"
+        },
+        {
+            "source_word": "sormak",
+            "target_words": [
+                "to ask",
+                "to inquire"
+            ],
+            "source_examples": [
+                "Bana bir soru <bold>sor</bold>.",
+                "Neden bu soruyu <bold>sor</bold>uyorsun?",
+                "Sorularını <bold>sor</bold>."
+            ],
+            "target_examples": [
+                "Ask me a question.",
+                "Why are you asking this question?",
+                "Ask your questions."
+            ],
+            "freq": "154803"
+        },
+        {
+            "source_word": "çıkmak",
+            "target_words": [
+                "to go out",
+                "to exit"
+            ],
+            "source_examples": [
+                "Akşam <bold>çık</bold>ıyoruz.",
+                "Kapıdan <bold>çık</bold>.",
+                "Dışarı <bold>çık</bold>."
+            ],
+            "target_examples": [
+                "We are going out in the evening.",
+                "Exit through the door.",
+                "Go outside."
+            ],
+            "freq": "152702"
+        },
+        {
+            "source_word": "konuşmak",
+            "target_words": [
+                "to talk",
+                "to speak"
+            ],
+            "source_examples": [
+                "Benimle <bold>konuş</bold>.",
+                "Neden <bold>konuş</bold>muyorsun?",
+                "Konuşmaya devam <bold>et</bold>."
+            ],
+            "target_examples": [
+                "Talk to me.",
+                "Why aren't you talking?",
+                "Continue speaking."
+            ],
+            "freq": "151009"
+        },
+        {
+            "source_word": "başlamak",
+            "target_words": [
+                "to start"
+            ],
+            "source_examples": [
+                "Yarın yeni bir projeye <bold>başla</bold>yacağım.",
+                "Ders saatine yetişmek için erken <bold>başla</bold>yın."
+            ],
+            "target_examples": [
+                "I will start a new project tomorrow.",
+                "Start early to make it to the class on time."
+            ],
+            "freq": "126985"
+        },
+        {
+            "source_word": "duymak",
+            "target_words": [
+                "to hear",
+                "to feel"
+            ],
+            "source_examples": [
+                "Sesini <bold>duy</bold>abiliyorum ama seni göremiyorum.",
+                "Korku <bold>duy</bold>uyorum."
+            ],
+            "target_examples": [
+                "I can hear your voice but I can't see you.",
+                "I feel fear."
+            ],
+            "freq": "126042"
+        },
+        {
+            "source_word": "dinlemek",
+            "target_words": [
+                "to listen"
+            ],
+            "source_examples": [
+                "Lütfen beni <bold>dinle</bold>.",
+                "Müzik <bold>dinle</bold>meyi seviyorum."
+            ],
+            "target_examples": [
+                "Please listen to me.",
+                "I enjoy listening to music."
+            ],
+            "freq": "104625"
+        },
+        {
+            "source_word": "hoşlanmak",
+            "target_words": [
+                "to like"
+            ],
+            "source_examples": [
+                "Çikolatayı çok <bold>hoşlan</bold>ırım.",
+                "Yeni filmi <bold>hoşlan</bold>dın mı?"
+            ],
+            "target_examples": [
+                "I really like chocolate.",
+                "Did you like the new movie?"
+            ],
+            "freq": "89091"
+        },
+        {
+            "source_word": "getirmek",
+            "target_words": [
+                "to bring"
+            ],
+            "source_examples": [
+                "Marketten ekmek <bold>getir</bold>ir misin?",
+                "Lütfen bana bir bardak su <bold>getir</bold>."
+            ],
+            "target_examples": [
+                "Can you bring bread from the market?",
+                "Please bring me a glass of water."
+            ],
+            "freq": "85017"
+        },
+        {
+            "source_word": "dönmek",
+            "target_words": [
+                "to turn",
+                "to return"
+            ],
+            "source_examples": [
+                "Lütfen sağa <bold>dön</bold>.",
+                "Akşamleyin eve <bold>dön</bold>eceğim."
+            ],
+            "target_examples": [
+                "Please turn right.",
+                "I will return home in the evening."
+            ],
+            "freq": "83010"
+        },
+        {
+            "source_word": "geçmek",
+            "target_words": [
+                "to pass",
+                "to spend"
+            ],
+            "source_examples": [
+                "Otobüs durağından <bold>geç</bold>tim.",
+                "Tatilimi deniz kenarında <bold>geç</bold>irmeyi planlıyorum."
+            ],
+            "target_examples": [
+                "I passed by the bus stop.",
+                "I plan to spend my vacation by the seaside."
+            ],
+            "freq": "82543"
+        },
+        {
+            "source_word": "inanmak",
+            "target_words": [
+                "to believe"
+            ],
+            "source_examples": [
+                "Sana <bold>inan</bold>mıyorum.",
+                "Masallara <bold>inan</bold>ır mısın?"
+            ],
+            "target_examples": [
+                "I don't believe you.",
+                "Do you believe in fairy tales?"
+            ],
+            "freq": "82364"
+        },
+        {
+            "source_word": "yaşamak",
+            "target_words": [
+                "to live"
+            ],
+            "source_examples": [
+                "Sağlıklı bir yaşam <bold>yaşa</bold>yın.",
+                "O, uzun yıllar mutlu bir hayat <bold>yaşa</bold>dı."
+            ],
+            "target_examples": [
+                "Live a healthy life.",
+                "He lived a long and happy life."
+            ],
+            "freq": "82258"
+        },
+        {
+            "source_word": "görünmek",
+            "target_words": [
+                "to appear",
+                "to seem"
+            ],
+            "source_examples": [
+                "Gökyüzünde yıldızlar <bold>görün</bold>üyor.",
+                "O, çok yorgun <bold>görün</bold>üyor."
+            ],
+            "target_examples": [
+                "Stars are visible in the sky.",
+                "He seems very tired."
+            ],
+            "freq": "82008"
+        },
+        {
+            "source_word": "yaşlanmak",
+            "target_words": [
+                "to age"
+            ],
+            "source_examples": [
+                "Yaşlanmak doğal bir süreçtir.",
+                "Annem her yıl biraz daha yaşlanıyor."
+            ],
+            "target_examples": [
+                "<bold>To age</bold> is a natural process.",
+                "My mother is getting older every year."
+            ],
+            "freq": "79301"
+        },
+        {
+            "source_word": "girmek",
+            "target_words": [
+                "to enter",
+                "to join"
+            ],
+            "source_examples": [
+                "Lütfen kapıdan <bold>gir</bold>in.",
+                "Yarın yeni bir kursa <bold>gir</bold>eceğim."
+            ],
+            "target_examples": [
+                "Please <bold>enter</bold> through the door.",
+                "I will <bold>join</bold> a new course tomorrow."
+            ],
+            "freq": "76092"
+        },
+        {
+            "source_word": "hatırlamak",
+            "target_words": [
+                "to remember"
+            ],
+            "source_examples": [
+                "Geçmişi <bold>hatırla</bold>mak önemlidir.",
+                "Adını neden <bold>hatırla</bold>yamıyorum?"
+            ],
+            "target_examples": [
+                "It is important to <bold>remember</bold> the past.",
+                "Why can't I <bold>remember</bold> your name?"
+            ],
+            "freq": "74489"
+        },
+        {
+            "source_word": "bitmek",
+            "target_words": [
+                "to finish",
+                "to end"
+            ],
+            "source_examples": [
+                "Film sonunda her şey güzel bir şekilde <bold>biter</bold>.",
+                "Bu iş ne zaman <bold>biter</bold>?"
+            ],
+            "target_examples": [
+                "Everything ends nicely at the end of the movie.",
+                "When will this work <bold>finish</bold>?"
+            ],
+            "freq": "71634"
+        },
+        {
+            "source_word": "tanımak",
+            "target_words": [
+                "to know",
+                "to recognize"
+            ],
+            "source_examples": [
+                "Seni çok iyi <bold>tani</bold>yorum.",
+                "Bu yüzü <bold>tani</bold>yamıyorum."
+            ],
+            "target_examples": [
+                "I know you very well.",
+                "I don't recognize this face."
+            ],
+            "freq": "70045"
+        },
+        {
+            "source_word": "unutmak",
+            "target_words": [
+                "to forget"
+            ],
+            "source_examples": [
+                "Lütfen bu bilgiyi <bold>unut</bold>ma.",
+                "Dün gece anahtarları evde <bold>unut</bold>tum."
+            ],
+            "target_examples": [
+                "Please don't <bold>forget</bold> this information.",
+                "I <bold>forgot</bold> the keys at home last night."
+            ],
+            "freq": "62401"
+        },
+        {
+            "source_word": "görüşmek",
+            "target_words": [
+                "to meet",
+                "to see"
+            ],
+            "source_examples": [
+                "Yarın seninle <bold>görüş</bold>eceğim.",
+                "Seni uzun zamandır <bold>görüş</bold>memiştim."
+            ],
+            "target_examples": [
+                "I will <bold>meet</bold> you tomorrow.",
+                "I haven't <bold>seen</bold> you for a long time."
+            ],
+            "freq": "61803"
+        },
+        {
+            "source_word": "tutmak",
+            "target_words": [
+                "to hold",
+                "to keep"
+            ],
+            "source_examples": [
+                "Lütfen bu bardağı <bold>tut</bold>.",
+                "Bu bilgiyi gizli <bold>tut</bold>malısın."
+            ],
+            "target_examples": [
+                "Please <bold>hold</bold> this glass.",
+                "You should <bold>keep</bold> this information secret."
+            ],
+            "freq": "58272"
+        },
+        {
+            "source_word": "korkmak",
+            "target_words": [
+                "to fear",
+                "to be afraid"
+            ],
+            "source_examples": [
+                "Karanlıktan <bold>kork</bold>uyorum.",
+                "Yükseklikten <bold>kork</bold>an biri değilim."
+            ],
+            "target_examples": [
+                "I fear the dark.",
+                "I'm not someone who is afraid of heights."
+            ],
+            "freq": "57789"
+        },
+        {
+            "source_word": "anmak",
+            "target_words": [
+                "to commemorate",
+                "to remember"
+            ],
+            "source_examples": [
+                "Bu günü onu <bold>an</bold>arak geçireceğim.",
+                "Babamı her zaman <bold>an</bold>arım."
+            ],
+            "target_examples": [
+                "I will spend this day <bold>commemorating</bold> him.",
+                "I always <bold>remember</bold> my father."
+            ],
+            "freq": "57322"
+        },
+        {
+            "source_word": "sürmek",
+            "target_words": [
+                "to continue",
+                "to last",
+                "to drive"
+            ],
+            "source_examples": [
+                "Yağmur ne kadar <bold>sür</bold>er?",
+                "Bisikletle okula gitmek 20 dakika <bold>sür</bold>üyor.",
+                "Konser ne zaman <bold>sür</bold>ecek?"
+            ],
+            "target_examples": [
+                "How long will the rain <bold>continue</bold>?",
+                "It takes 20 minutes to <bold>drive</bold> to school by bike.",
+                "When will the concert <bold>last</bold>?"
+            ],
+            "freq": "55682"
+        },
+        {
+            "source_word": "ummak",
+            "target_words": [
+                "to hope",
+                "to expect"
+            ],
+            "source_examples": [
+                "Yarın hava güzel olur umarım.",
+                "Sonuçlar iyi olacak diye <bold>um</bold>uyorum.",
+                "Umarım her şey yolunda gider."
+            ],
+            "target_examples": [
+                "I hope the weather will be nice tomorrow.",
+                "I hope the results will be good.",
+                "I hope everything goes well."
+            ],
+            "freq": "55447"
+        },
+        {
+            "source_word": "oturmak",
+            "target_words": [
+                "to sit",
+                "to live"
+            ],
+            "source_examples": [
+                "Lütfen sandalyeye <bold>otur</bold>.",
+                "Bu mahallede çok insan <bold>otur</bold>uyor.",
+                "Akşam yemeğini birlikte <bold>otur</bold>alım."
+            ],
+            "target_examples": [
+                "Please <bold>sit</bold> on the chair.",
+                "Many people <bold>live</bold> in this neighborhood.",
+                "Let's have dinner together."
+            ],
+            "freq": "55408"
+        },
+        {
+            "source_word": "çekmek",
+            "target_words": [
+                "to pull",
+                "to suffer",
+                "to take"
+            ],
+            "source_examples": [
+                "Lütfen kapıyı <bold>çek</bold>.",
+                "Bu hastalığı <bold>çek</bold>mek zorunda kaldı.",
+                "Bir fotoğraf <bold>çek</bold>elim."
+            ],
+            "target_examples": [
+                "Please <bold>pull</bold> the door.",
+                "He had to <bold>suffer</bold> from this disease.",
+                "Let's take a photo."
+            ],
+            "freq": "55390"
+        },
+        {
+            "source_word": "düşmek",
+            "target_words": [
+                "to fall",
+                "to decrease",
+                "to think"
+            ],
+            "source_examples": [
+                "Yere <bold>düş</bold>tü.",
+                "Sıcaklık biraz <bold>düş</bold>tü.",
+                "Bu konuda ne <bold>düş</bold>ünüyorsun?"
+            ],
+            "target_examples": [
+                "It <bold>fell</bold> on the ground.",
+                "The temperature <bold>decreased</bold> a bit.",
+                "What do you <bold>think</bold> about this?"
+            ],
+            "freq": "55298"
+        },
+        {
+            "source_word": "çıkarmak",
+            "target_words": [
+                "to take off",
+                "to remove",
+                "to release"
+            ],
+            "source_examples": [
+                "Ayakkabılarını <bold>çıkar</bold>.",
+                "Makyajını <bold>çıkar</bold>.",
+                "Yeni albümünü <bold>çıkar</bold>dı."
+            ],
+            "target_examples": [
+                "Take off your shoes.",
+                "Remove your makeup.",
+                "He released a new album."
+            ],
+            "freq": "54856"
+        },
+        {
+            "source_word": "atmak",
+            "target_words": [
+                "to throw",
+                "to kick",
+                "to launch"
+            ],
+            "source_examples": [
+                "Topu uzaklara <bold>at</bold>.",
+                "Gol için penaltıyı <bold>at</bold>tı.",
+                "Yeni ürününü piyasaya <bold>at</bold>tı."
+            ],
+            "target_examples": [
+                "Throw the ball far away.",
+                "He kicked the penalty for a goal.",
+                "He launched a new product to the market."
+            ],
+            "freq": "53910"
+        },
+        {
+            "source_word": "kesmek",
+            "target_words": [
+                "to cut",
+                "to stop",
+                "to kill"
+            ],
+            "source_examples": [
+                "Peyniri <bold>kes</bold>.",
+                "Trafik ışığında <bold>kes</bold>ildik.",
+                "Ağacı <bold>kes</bold>tiler."
+            ],
+            "target_examples": [
+                "Cut the cheese.",
+                "We stopped at the traffic light.",
+                "They killed the tree."
+            ],
+            "freq": "53757"
+        },
+        {
+            "source_word": "göstermek",
+            "target_words": [
+                "to show",
+                "to indicate",
+                "to display"
+            ],
+            "source_examples": [
+                "Bana ne olduğunu <bold>göster</bold>.",
+                "Bu işaret tehlikeyi <bold>göster</bold>iyor.",
+                "Yeni koleksiyonu <bold>göster</bold>diler."
+            ],
+            "target_examples": [
+                "Show me what happened.",
+                "This sign indicates danger.",
+                "They displayed the new collection."
+            ],
+            "freq": "51805"
+        },
+        {
+            "source_word": "öğrenmek",
+            "target_words": [
+                "to learn",
+                "to find out"
+            ],
+            "source_examples": [
+                "Yeni bir dil <bold>öğren</bold>mek zor olabilir.",
+                "Gerçeği <bold>öğren</bold>dikten sonra şaşıracaksın.",
+                "Bu konuda daha fazla bilgi <bold>öğren</bold>mek istiyorum."
+            ],
+            "target_examples": [
+                "Learning a new language can be difficult.",
+                "You will be surprised after finding out the truth.",
+                "I want to learn more information about this."
+            ],
+            "freq": "50421"
+        },
+        {
+            "source_word": "kullanmak",
+            "target_words": [
+                "to use"
+            ],
+            "source_examples": [
+                "Bu programı nasıl <bold>kullan</bold>abilirim?",
+                "Telefonumu nasıl <bold>kullan</bold>malıyım?"
+            ],
+            "target_examples": [
+                "How can I <bold>use</bold> this program?",
+                "How should I <bold>use</bold> my phone?"
+            ],
+            "freq": "48977"
+        },
+        {
+            "source_word": "yazmak",
+            "target_words": [
+                "to write"
+            ],
+            "source_examples": [
+                "Bu kitabı kim <bold>yaz</bold>dı?",
+                "Yarın sınavda bir kompozisyon <bold>yaz</bold>acağım."
+            ],
+            "target_examples": [
+                "Who <bold>wrote</bold> this book?",
+                "I will <bold>write</bold> an essay in the exam tomorrow."
+            ],
+            "freq": "45300"
+        },
+        {
+            "source_word": "oynamak",
+            "target_words": [
+                "to play"
+            ],
+            "source_examples": [
+                "Çocuklar parkta <bold>oyna</bold>yorlar.",
+                "Geçen hafta futbol <bold>oyna</bold>dık."
+            ],
+            "target_examples": [
+                "The children are <bold>playing</bold> in the park.",
+                "We <bold>played</bold> football last week."
+            ],
+            "freq": "43045"
+        },
+        {
+            "source_word": "inmek",
+            "target_words": [
+                "to descend",
+                "to get off",
+                "to land"
+            ],
+            "source_examples": [
+                "Uçak havaalanına <bold>in</bold>di.",
+                "Otobüsten nerede <bold>in</bold>mem gerekiyor?"
+            ],
+            "target_examples": [
+                "The plane <bold>landed</bold> at the airport.",
+                "Where do I need to <bold>get off</bold> the bus?"
+            ],
+            "freq": "42497"
+        },
+        {
+            "source_word": "götürmek",
+            "target_words": [
+                "to take",
+                "to bring"
+            ],
+            "source_examples": [
+                "Lütfen çöpleri dışarıya <bold>götür</bold>.",
+                "Yarın işe gitmek için şemsiyeni <bold>götür</bold>."
+            ],
+            "target_examples": [
+                "Please <bold>take</bold> the trash outside.",
+                "Take your umbrella to work tomorrow."
+            ],
+            "freq": "40846"
+        },
+        {
+            "source_word": "vurmak",
+            "target_words": [
+                "to hit",
+                "to strike",
+                "to shoot"
+            ],
+            "source_examples": [
+                "Topa güçlü bir şekilde <bold>vur</bold>du.",
+                "Polis silahını kullanarak hırsızı <bold>vur</bold>du."
+            ],
+            "target_examples": [
+                "He hit the ball strongly.",
+                "The police shot the thief using a gun."
+            ],
+            "freq": "39725"
+        },
+        {
+            "source_word": "koymak",
+            "target_words": [
+                "to put",
+                "to place"
+            ],
+            "source_examples": [
+                "Anahtarları nereye <bold>koy</bold>duğunu hatırlıyor musun?",
+                "Lütfen çantayı masanın üstüne <bold>koy</bold>."
+            ],
+            "target_examples": [
+                "Do you remember where you <bold>put</bold> the keys?",
+                "Please <bold>put</bold> the bag on the table."
+            ],
+            "freq": "38724"
+        },
+        {
+            "source_word": "denemek",
+            "target_words": [
+                "to try",
+                "to attempt",
+                "to test"
+            ],
+            "source_examples": [
+                "Bu yemeği ilk defa <bold>den</bold>iyorum.",
+                "Bu soruyu çözmek için biraz daha <bold>den</bold>eyin."
+            ],
+            "target_examples": [
+                "I'm trying this dish for the first time.",
+                "Try a little more to solve this question."
+            ],
+            "freq": "38666"
+        },
+        {
+            "source_word": "kurtarmak",
+            "target_words": [
+                "to save",
+                "to rescue"
+            ],
+            "source_examples": [
+                "İtfaiye ekipleri yangında mahsur kalanları <bold>kurtar</bold>dı.",
+                "Doktorlar hastayı ameliyatla <bold>kurtar</bold>dı."
+            ],
+            "target_examples": [
+                "The fire brigade rescued those trapped in the fire.",
+                "The doctors saved the patient with surgery."
+            ],
+            "freq": "36423"
+        },
+        {
+            "source_word": "benzemek",
+            "target_words": [
+                "to resemble",
+                "to look like"
+            ],
+            "source_examples": [
+                "Bu resimdeki kişiye biraz <bold>ben</bold>ziyorum.",
+                "Kardeşim bana çok <bold>ben</bold>ziyor."
+            ],
+            "target_examples": [
+                "I resemble the person in this picture a bit.",
+                "My brother looks a lot like me."
+            ],
+            "freq": "36352"
+        },
+        {
+            "source_word": "izlemek",
+            "target_words": [
+                "to watch"
+            ],
+            "source_examples": [
+                "Bu filmi <bold>izle</bold>meliyiz."
+            ],
+            "target_examples": [
+                "We should <bold>watch</bold> this movie."
+            ],
+            "freq": "35621"
+        },
+        {
+            "source_word": "kızmak",
+            "target_words": [
+                "to get angry"
+            ],
+            "source_examples": [
+                "Neden bana <bold>kız</bold>ıyorsun?"
+            ],
+            "target_examples": [
+                "Why are you getting angry at me?"
+            ],
+            "freq": "35612"
+        },
+        {
+            "source_word": "yürümek",
+            "target_words": [
+                "to walk"
+            ],
+            "source_examples": [
+                "Her sabah parkta <bold>yürü</bold>yorum."
+            ],
+            "target_examples": [
+                "I <bold>walk</bold> in the park every morning."
+            ],
+            "freq": "35265"
+        },
+        {
+            "source_word": "açmak",
+            "target_words": [
+                "to open"
+            ],
+            "source_examples": [
+                "Lütfen pencereyi <bold>aç</bold>."
+            ],
+            "target_examples": [
+                "Please <bold>open</bold> the window."
+            ],
+            "freq": "34470"
+        },
+        {
+            "source_word": "okumak",
+            "target_words": [
+                "to read"
+            ],
+            "source_examples": [
+                "Bu kitabı <bold>oku</bold>yorum."
+            ],
+            "target_examples": [
+                "I am <bold>reading</bold> this book."
+            ],
+            "freq": "34343"
+        },
+        {
+            "source_word": "kazanmak",
+            "target_words": [
+                "to win"
+            ],
+            "source_examples": [
+                "Takımımız maçı <bold>kazan</bold>dı."
+            ],
+            "target_examples": [
+                "Our team <bold>won</bold> the match."
+            ],
+            "freq": "33848"
+        },
+        {
+            "source_word": "yakalamak",
+            "target_words": [
+                "to catch"
+            ],
+            "source_examples": [
+                "Polis hırsızı <bold>yakala</bold>dı."
+            ],
+            "target_examples": [
+                "The police <bold>caught</bold> the thief."
+            ],
+            "freq": "33788"
+        },
+        {
+            "source_word": "kalkmak",
+            "target_words": [
+                "to get up"
+            ],
+            "source_examples": [
+                "Sabahları erken <bold>kalk</bold>ıyorum."
+            ],
+            "target_examples": [
+                "I <bold>get up</bold> early in the mornings."
+            ],
+            "freq": "33247"
+        },
+        {
+            "source_word": "korumak",
+            "target_words": [
+                "to protect"
+            ],
+            "source_examples": [
+                "Doğayı <bold>koru</bold>malıyız."
+            ],
+            "target_examples": [
+                "We should <bold>protect</bold> the nature."
+            ],
+            "freq": "32563"
+        },
+        {
+            "source_word": "gülmek",
+            "target_words": [
+                "to laugh"
+            ],
+            "source_examples": [
+                "O çok komik, hep <bold>gül</bold>er."
+            ],
+            "target_examples": [
+                "He is very funny, he always <bold>laughs</bold>."
+            ],
+            "freq": "31283"
+        },
+        {
+            "source_word": "göndermek",
+            "target_words": [
+                "to send"
+            ],
+            "source_examples": [
+                "Paketi postaya <bold>gönder</bold>dik.",
+                "E-posta <bold>gönder</bold>mek istiyorum.",
+                "Bana bir mesaj <bold>gönder</bold>."
+            ],
+            "target_examples": [
+                "We <bold>sent</bold> the package to the post office.",
+                "I want to <bold>send</bold> an email.",
+                "Send me a message."
+            ],
+            "freq": "30785"
+        },
+        {
+            "source_word": "yatmak",
+            "target_words": [
+                "to lie down",
+                "to sleep"
+            ],
+            "source_examples": [
+                "Gece yatmadan önce kitap okurum.",
+                "Yatağa <bold>yat</bold>madan önce dua ederim.",
+                "Çok yorgunum, biraz <bold>yat</bold>mak istiyorum."
+            ],
+            "target_examples": [
+                "I read a book before <bold>lying down</bold> at night.",
+                "I pray before <bold>going to sleep</bold>.",
+                "I'm very tired, I want to <bold>lie down</bold> for a while."
+            ],
+            "freq": "29590"
+        },
+        {
+            "source_word": "kaçmak",
+            "target_words": [
+                "to escape",
+                "to run away"
+            ],
+            "source_examples": [
+                "Hırsız polisten <bold>kaç</bold>tı.",
+                "Köpekler bize saldırdı, hemen <bold>kaç</bold>tık.",
+                "Tehlikeden <bold>kaç</bold>mak için hızlı davranmalısın."
+            ],
+            "target_examples": [
+                "The thief <bold>escaped</bold> from the police.",
+                "The dogs attacked us, we <bold>ran away</bold> immediately.",
+                "You must act fast to <bold>escape</bold> from danger."
+            ],
+            "freq": "29420"
+        },
+        {
+            "source_word": "çalmak",
+            "target_words": [
+                "to steal",
+                "to play (an instrument)"
+            ],
+            "source_examples": [
+                "Hırsız evden birkaç eşya <bold>çal</bold>dı.",
+                "Piyano <bold>çal</bold>mayı öğrenmek istiyorum.",
+                "Gece yarısı gitar <bold>çal</bold>mak çok keyifli."
+            ],
+            "target_examples": [
+                "The thief <bold>stole</bold> some items from the house.",
+                "I want to learn to <bold>play</bold> the piano.",
+                "Playing the guitar at midnight is very enjoyable."
+            ],
+            "freq": "28090"
+        },
+        {
+            "source_word": "uyumak",
+            "target_words": [
+                "to sleep"
+            ],
+            "source_examples": [
+                "Gece geç <bold>uyu</bold>duğum için sabah geç kalktım.",
+                "Çok yorgunum, hemen <bold>uyu</bold>yacağım.",
+                "Uyku ilacı alarak daha iyi <bold>uyu</bold>yorum."
+            ],
+            "target_examples": [
+                "I woke up late in the morning because I <bold>slept</bold> late at night.",
+                "I'm very tired, I will <bold>sleep</bold> right away.",
+                "I sleep better by taking sleeping pills."
+            ],
+            "freq": "25729"
+        },
+        {
+            "source_word": "sevinmek",
+            "target_words": [
+                "to be happy",
+                "to rejoice"
+            ],
+            "source_examples": [
+                "Başarılı olunca çok <bold>sevin</bold>irim.",
+                "Güzel bir haber aldığımda içim <bold>sevin</bold>ir.",
+                "Doğum günümde herkes benimle birlikte <bold>sevin</bold>ir."
+            ],
+            "target_examples": [
+                "I am very happy when I succeed.",
+                "I feel happy inside when I receive good news.",
+                "Everyone rejoices with me on my birthday."
+            ],
+            "freq": "25615"
+        },
+        {
+            "source_word": "dolaşmak",
+            "target_words": [
+                "to wander",
+                "to stroll"
+            ],
+            "source_examples": [
+                "Tatil günlerinde şehirde <bold>dolaş</bold>mayı severim.",
+                "Parkta biraz <bold>dolaş</bold>alım mı?",
+                "Akşamüstü sahilde <bold>dolaş</bold>mak çok keyifli."
+            ],
+            "target_examples": [
+                "I like to <bold>wander</bold> around the city on holidays.",
+                "Do you want to <bold>stroll</bold> in the park for a while?",
+                "It's very enjoyable to <bold>wander</bold> on the beach in the evening."
+            ],
+            "freq": "25028"
+        },
+        {
+            "source_word": "ödemek",
+            "target_words": [
+                "to pay"
+            ],
+            "source_examples": [
+                "Faturayı hemen <bold>öde</bold>dik.",
+                "Alışveriş yaparken nakit para ile <bold>öde</bold>yebilirsiniz.",
+                "Kredi kartı ile kolayca <bold>öde</bold>me yapabilirsiniz."
+            ],
+            "target_examples": [
+                "We paid the bill immediately.",
+                "You can pay with cash when shopping.",
+                "You can easily make a payment with a credit card."
+            ],
+            "freq": "24527"
+        },
+        {
+            "source_word": "içmek",
+            "target_words": [
+                "to drink"
+            ],
+            "source_examples": [
+                "Her gün yeterli su <bold>iç</bold>melisin.",
+                "Çayı şekersiz <bold>iç</bold>erim.",
+                "Akşam yemeğinden sonra bir fincan kahve <bold>iç</bold>erim."
+            ],
+            "target_examples": [
+                "You should drink enough water every day.",
+                "I drink tea without sugar.",
+                "I have a cup of coffee after dinner."
+            ],
+            "freq": "23356"
+        },
+        {
+            "source_word": "satmak",
+            "target_words": [
+                "to sell"
+            ],
+            "source_examples": [
+                "Eski eşyalarımı internet üzerinden <bold>sat</bold>tım.",
+                "Pazarda meyve ve sebze <bold>sat</bold>an bir tezgah gördüm.",
+                "Bu mağaza her türlü giyim eşyasını <bold>sat</bold>ıyor."
+            ],
+            "target_examples": [
+                "I sold my old items online.",
+                "I saw a stall selling fruits and vegetables at the market.",
+                "This store sells all kinds of clothing items."
+            ],
+            "freq": "23052"
+        },
+        {
+            "source_word": "saymak",
+            "target_words": [
+                "to count",
+                "to consider"
+            ],
+            "source_examples": [
+                "Bu kitapta kaç sayfa var, say <bold>say</bold>!",
+                "Onu çok önemli biri olarak <bold>say</bold>ıyorlar."
+            ],
+            "target_examples": [
+                "How many pages are there in this book, <bold>count</bold>!",
+                "They <bold>consider</bold> him as a very important person."
+            ],
+            "freq": "22169"
+        },
+        {
+            "source_word": "bitirmek",
+            "target_words": [
+                "to finish",
+                "to complete"
+            ],
+            "source_examples": [
+                "Bu işi ne zaman <bold>bitir</bold>eceksin?",
+                "Sınavı başarıyla <bold>bitir</bold>dik."
+            ],
+            "target_examples": [
+                "When will you <bold>finish</bold> this job?",
+                "We successfully <bold>completed</bold> the exam."
+            ],
+            "freq": "20623"
+        },
+        {
+            "source_word": "çağırmak",
+            "target_words": [
+                "to call",
+                "to invite"
+            ],
+            "source_examples": [
+                "Arkadaşlarını partiye <bold>çağır</bold>.",
+                "Doktoru muayene etmek için <bold>çağır</bold>dık."
+            ],
+            "target_examples": [
+                "<bold>Call</bold> your friends to the party.",
+                "We <bold>invited</bold> the doctor for examination."
+            ],
+            "freq": "19489"
+        },
+        {
+            "source_word": "takmak",
+            "target_words": [
+                "to attach",
+                "to wear"
+            ],
+            "source_examples": [
+                "Resmi belgeyi dosyaya <bold>tak</bold>.",
+                "Bugün yeşil gömleğini <bold>tak</bold>."
+            ],
+            "target_examples": [
+                "<bold>Attach</bold> the official document to the file.",
+                "Wear your green shirt today."
+            ],
+            "freq": "19456"
+        },
+        {
+            "source_word": "büyümek",
+            "target_words": [
+                "to grow up",
+                "to enlarge"
+            ],
+            "source_examples": [
+                "Çocuklar hızla <bold>büyü</bold>r.",
+                "Bu resmi daha büyük boyutta <bold>büyü</bold>t."
+            ],
+            "target_examples": [
+                "Children grow up quickly.",
+                "Enlarge this picture to a bigger size."
+            ],
+            "freq": "19099"
+        },
+        {
+            "source_word": "karışmak",
+            "target_words": [
+                "to mix",
+                "to interfere"
+            ],
+            "source_examples": [
+                "Malzemeleri iyice <bold>karış</bold>tır.",
+                "Bu konuya karışma, seninle alakası yok."
+            ],
+            "target_examples": [
+                "<bold>Mix</bold> the ingredients well.",
+                "Don't interfere in this matter, it's not related to you."
+            ],
+            "freq": "18870"
+        },
+        {
+            "source_word": "katmak",
+            "target_words": [
+                "to add",
+                "to contribute"
+            ],
+            "source_examples": [
+                "Yemeğe biraz tuz <bold>kat</bold>.",
+                "Bu projeye nasıl bir değer <bold>kat</bold>abilirsin?"
+            ],
+            "target_examples": [
+                "<bold>Add</bold> some salt to the food.",
+                "How can you <bold>contribute</bold> value to this project?"
+            ],
+            "freq": "18772"
+        },
+        {
+            "source_word": "ayırmak",
+            "target_words": [
+                "to separate",
+                "to allocate"
+            ],
+            "source_examples": [
+                "Çöpleri geri dönüşüm için ayrı <bold>ayır</bold>.",
+                "Bütçeden bu projeye özel bir miktar <bold>ayır</bold>dık."
+            ],
+            "target_examples": [
+                "<bold>Separate</bold> the garbage for recycling.",
+                "We allocated a specific amount from the budget for this project."
+            ],
+            "freq": "18517"
+        },
+        {
+            "source_word": "seçmek",
+            "target_words": [
+                "to choose",
+                "to select"
+            ],
+            "source_examples": [
+                "Menüden bir yemek <bold>seç</bold>.",
+                "En iyi adayı <bold>seç</bold>mek zor olabilir."
+            ],
+            "target_examples": [
+                "<bold>Choose</bold> a meal from the menu.",
+                "Selecting the best candidate can be difficult."
+            ],
+            "freq": "18490"
+        },
+        {
+            "source_word": "özlemek",
+            "target_words": [
+                "to miss",
+                "to long for"
+            ],
+            "source_examples": [
+                "Seni çok <bold>özle</bold>dik.",
+                "Memleketini <bold>özle</bold>mek normaldir."
+            ],
+            "target_examples": [
+                "We <bold>miss</bold> you a lot.",
+                "Longing for your homeland is normal."
+            ],
+            "freq": "17632"
+        },
+        {
+            "source_word": "koşmak",
+            "target_words": [
+                "to run"
+            ],
+            "source_examples": [
+                "Her sabah parkta <bold>koş</bold>arım.",
+                "Koşarak formumu koruyorum."
+            ],
+            "target_examples": [
+                "I <bold>run</bold> in the park every morning.",
+                "I keep my shape by <bold>running</bold>."
+            ],
+            "freq": "17477"
+        },
+        {
+            "source_word": "doğmak",
+            "target_words": [
+                "to be born"
+            ],
+            "source_examples": [
+                "O, İstanbul'da <bold>doğ</bold>du.",
+                "Yeni bir gün <bold>doğ</bold>uyor."
+            ],
+            "target_examples": [
+                "He was <bold>born</bold> in Istanbul.",
+                "A new day is <bold>born</bold>."
+            ],
+            "freq": "16799"
+        },
+        {
+            "source_word": "yaklaşmak",
+            "target_words": [
+                "to approach"
+            ],
+            "source_examples": [
+                "Yavaşça ona <bold>yaklaş</bold>tı.",
+                "Sonuna <bold>yaklaş</bold>tık."
+            ],
+            "target_examples": [
+                "He <bold>approached</bold> her slowly.",
+                "We <bold>approached</bold> the end."
+            ],
+            "freq": "16574"
+        },
+        {
+            "source_word": "saklamak",
+            "target_words": [
+                "to hide"
+            ],
+            "source_examples": [
+                "Sürprizi ondan <bold>sakla</bold>dım.",
+                "Gerçeği benden <bold>sakla</bold>ma."
+            ],
+            "target_examples": [
+                "I <bold>hid</bold> the surprise from her.",
+                "Don't <bold>hide</bold> the truth from me."
+            ],
+            "freq": "16511"
+        },
+        {
+            "source_word": "başarmak",
+            "target_words": [
+                "to succeed"
+            ],
+            "source_examples": [
+                "Sonunda amacına <bold>başar</bold>dı.",
+                "Başarıya ulaşmak için çok <bold>başar</bold>malısın."
+            ],
+            "target_examples": [
+                "He finally <bold>succeeded</bold> in his goal.",
+                "You must work very hard to <bold>succeed</bold>."
+            ],
+            "freq": "16019"
+        },
+        {
+            "source_word": "basmak",
+            "target_words": [
+                "to press"
+            ],
+            "source_examples": [
+                "Düğmeye <bold>bas</bold>arak açabilirsin.",
+                "Kağıdı sıkıca <bold>bas</bold>."
+            ],
+            "target_examples": [
+                "You can open it by <bold>pressing</bold> the button.",
+                "Press the paper firmly."
+            ],
+            "freq": "15710"
+        },
+        {
+            "source_word": "kurmak",
+            "target_words": [
+                "to establish"
+            ],
+            "source_examples": [
+                "Şirketi 1990 yılında <bold>kur</bold>du.",
+                "İyi bir ilişki <bold>kur</bold>mak önemlidir."
+            ],
+            "target_examples": [
+                "He <bold>established</bold> the company in 1990.",
+                "Establishing a good relationship is important."
+            ],
+            "freq": "15614"
+        },
+        {
+            "source_word": "giymek",
+            "target_words": [
+                "to wear"
+            ],
+            "source_examples": [
+                "Bugün ne <bold>giy</bold>eceksin?",
+                "Kışın sıcak giysiler <bold>giy</bold>melisin."
+            ],
+            "target_examples": [
+                "What will you <bold>wear</bold> today?",
+                "You should wear warm clothes in winter."
+            ],
+            "freq": "15585"
+        },
+        {
+            "source_word": "taşınmak",
+            "target_words": [
+                "to move"
+            ],
+            "source_examples": [
+                "Yeni bir eve <bold>taşın</bold>dık.",
+                "Taşınma işlemi zor olabilir."
+            ],
+            "target_examples": [
+                "We <bold>moved</bold> to a new house.",
+                "Moving process can be difficult."
+            ],
+            "freq": "15527"
+        },
+        {
+            "source_word": "uymak",
+            "target_words": [
+                "to fit"
+            ],
+            "source_examples": [
+                "Bu elbise sana çok iyi <bold>uy</bold>du.",
+                "Ayakkabılarım tam olarak <bold>uy</bold>uyor."
+            ],
+            "target_examples": [
+                "This dress fits you very well.",
+                "My shoes fit perfectly."
+            ],
+            "freq": "15350"
+        },
+        {
+            "source_word": "yollamak",
+            "target_words": [
+                "to send"
+            ],
+            "source_examples": [
+                "Paketi postaya <bold>yolla</bold>yım.",
+                "Anneme bir mektup <bold>yolla</bold>yım.",
+                "Yarın kargoyla paketi <bold>yolla</bold>yacağım."
+            ],
+            "target_examples": [
+                "Let me <bold>send</bold> the package to the post office.",
+                "I will <bold>send</bold> a letter to my mother.",
+                "Tomorrow I will <bold>send</bold> the package by courier."
+            ],
+            "freq": "14947"
+        },
+        {
+            "source_word": "beğenmek",
+            "target_words": [
+                "to like"
+            ],
+            "source_examples": [
+                "Bu filmi <bold>beğen</bold>dim.",
+                "Yemeği çok <bold>beğen</bold>di.",
+                "Bu kitabı <bold>beğen</bold>mezsin."
+            ],
+            "target_examples": [
+                "I <bold>liked</bold> this movie.",
+                "He really <bold>liked</bold> the food.",
+                "You won't <bold>like</bold> this book."
+            ],
+            "freq": "14866"
+        },
+        {
+            "source_word": "atlamak",
+            "target_words": [
+                "to jump"
+            ],
+            "source_examples": [
+                "Çocuklar havuza <bold>atla</bold>dılar.",
+                "Köpek çitin üstünden <bold>atla</bold>dı.",
+                "Yüksek bir yerden <bold>atla</bold>mamalısın."
+            ],
+            "target_examples": [
+                "The children <bold>jumped</bold> into the pool.",
+                "The dog <bold>jumped</bold> over the fence.",
+                "You shouldn't <bold>jump</bold> from a high place."
+            ],
+            "freq": "14081"
+        },
+        {
+            "source_word": "uyanmak",
+            "target_words": [
+                "to wake up"
+            ],
+            "source_examples": [
+                "Sabahları erken <bold>uyan</bold>ırım.",
+                "Gece geç <bold>uyan</bold>mak istemiyorum.",
+                "Kuşlar şafakta <bold>uyan</bold>ır."
+            ],
+            "target_examples": [
+                "I <bold>wake up</bold> early in the mornings.",
+                "I don't want to <bold>wake up</bold> late at night.",
+                "Birds <bold>wake up</bold> at dawn."
+            ],
+            "freq": "14011"
+        },
+        {
+            "source_word": "kapamak",
+            "target_words": [
+                "to close"
+            ],
+            "source_examples": [
+                "Lütfen kapıyı <bold>kapa</bold>.",
+                "Pencereyi <bold>kapa</bold>.",
+                "Kitabı <bold>kapa</bold>."
+            ],
+            "target_examples": [
+                "Please <bold>close</bold> the door.",
+                "<bold>Close</bold> the window.",
+                "<bold>Close</bold> the book."
+            ],
+            "freq": "13700"
+        },
+        {
+            "source_word": "çevirmek",
+            "target_words": [
+                "to turn",
+                "to translate"
+            ],
+            "source_examples": [
+                "Anahtarı sağa <bold>çevir</bold>.",
+                "Bu kitabı İngilizce'ye <bold>çevir</bold>.",
+                "Kafanı sola <bold>çevir</bold>."
+            ],
+            "target_examples": [
+                "Turn the key to the right.",
+                "Translate this book into English.",
+                "Turn your head to the left."
+            ],
+            "freq": "13387"
+        },
+        {
+            "source_word": "toplamak",
+            "target_words": [
+                "to collect",
+                "to add up"
+            ],
+            "source_examples": [
+                "Çöpleri <bold>topla</bold>yın.",
+                "Bu sayıları <bold>topla</bold>yın.",
+                "Para <bold>topla</bold>yın."
+            ],
+            "target_examples": [
+                "<bold>Collect</bold> the garbage.",
+                "<bold>Add up</bold> these numbers.",
+                "<bold>Collect</bold> the money."
+            ],
+            "freq": "13040"
+        },
+        {
+            "source_word": "susmak",
+            "target_words": [
+                "to be silent",
+                "to stop talking"
+            ],
+            "source_examples": [
+                "Lütfen <bold>sus</bold>.",
+                "Çocuklar oyun oynarken <bold>sus</bold>arlar.",
+                "Konuşmayı <bold>sus</bold>tur."
+            ],
+            "target_examples": [
+                "Please <bold>be silent</bold>.",
+                "Children <bold>are silent</bold> when playing games.",
+                "<bold>Stop talking</bold>."
+            ],
+            "freq": "12765"
+        },
+        {
+            "source_word": "savaşmak",
+            "target_words": [
+                "to fight",
+                "to battle"
+            ],
+            "source_examples": [
+                "Askerler düşmanla <bold>savaş</bold>tılar.",
+                "Köpekler birbirleriyle <bold>savaş</bold>tılar.",
+                "Savaşmayı sevmem."
+            ],
+            "target_examples": [
+                "The soldiers <bold>fought</bold> with the enemy.",
+                "The dogs <bold>fought</bold> with each other.",
+                "I don't like <bold>fighting</bold>."
+            ],
+            "freq": "12674"
+        },
+        {
+            "source_word": "sokmak",
+            "target_words": [
+                "to insert",
+                "to put in"
+            ],
+            "source_examples": [
+                "Anahtarı kilitli kapıya <bold>sok</bold>.",
+                "Çantana anahtarları <bold>sok</bold>.",
+                "Kalem kutusuna kalemleri <bold>sok</bold>."
+            ],
+            "target_examples": [
+                "<bold>Insert</bold> the key into the locked door.",
+                "<bold>Put in</bold> the keys in your bag.",
+                "<bold>Put in</bold> the pens into the pencil case."
+            ],
+            "freq": "12500"
+        },
+        {
+            "source_word": "sarmak",
+            "target_words": [
+                "to wrap",
+                "to wind",
+                "to embrace"
+            ],
+            "source_examples": [
+                "Hediyeyi güzel bir kağıda <bold>sar</bold>.",
+                "Sarma işlemi oldukça zahmetli bir iştir.",
+                "Kollarını etrafıma <bold>sar</bold>."
+            ],
+            "target_examples": [
+                "Wrap the gift in a nice paper.",
+                "The wrapping process is quite laborious.",
+                "Wrap your arms around me."
+            ],
+            "freq": "11747"
+        },
+        {
+            "source_word": "harcamak",
+            "target_words": [
+                "to spend",
+                "to expend",
+                "to waste"
+            ],
+            "source_examples": [
+                "Para <bold>harc</bold>amak zorunda kaldım.",
+                "Enerjiyi gereksiz yere <bold>harc</bold>amak yanlıştır.",
+                "Zamanını boşa <bold>harc</bold>ama."
+            ],
+            "target_examples": [
+                "I had to spend money.",
+                "It is wrong to expend energy unnecessarily.",
+                "Don't waste your time."
+            ],
+            "freq": "11534"
+        },
+        {
+            "source_word": "bağlamak",
+            "target_words": [
+                "to tie",
+                "to bind",
+                "to connect"
+            ],
+            "source_examples": [
+                "Ayakkabı bağcıklarını sıkıca <bold>bağla</bold>.",
+                "Bu iki konu arasında bir bağlantı <bold>kur</bold>mak gerekiyor.",
+                "Telefonunu bilgisayara <bold>bağla</bold>."
+            ],
+            "target_examples": [
+                "Tie your shoelaces tightly.",
+                "A connection needs to be established between these two topics.",
+                "Connect your phone to the computer."
+            ],
+            "freq": "11485"
+        },
+        {
+            "source_word": "yanmak",
+            "target_words": [
+                "to burn",
+                "to be on fire",
+                "to ignite"
+            ],
+            "source_examples": [
+                "Odunlar yavaş yavaş <bold>yan</bold>dı.",
+                "Evde bir yangın çıktı ve her şey <bold>yan</bold>dı.",
+                "Ateş hemen <bold>yan</bold>ar."
+            ],
+            "target_examples": [
+                "The logs were burning slowly.",
+                "A fire broke out in the house and everything was on fire.",
+                "Fire burns quickly."
+            ],
+            "freq": "11468"
+        },
+        {
+            "source_word": "kırmak",
+            "target_words": [
+                "to break",
+                "to shatter",
+                "to fracture"
+            ],
+            "source_examples": [
+                "Camı dikkatsizce <bold>kır</bold>dım.",
+                "Kalbim <bold>kır</bold>ık.",
+                "Kolu <bold>kır</bold>dı."
+            ],
+            "target_examples": [
+                "I carelessly broke the glass.",
+                "My heart is broken.",
+                "He broke his arm."
+            ],
+            "freq": "11199"
+        },
+        {
+            "source_word": "ağlamak",
+            "target_words": [
+                "to cry",
+                "to weep",
+                "to sob"
+            ],
+            "source_examples": [
+                "Çocuklar bazen <bold>ağla</bold>r.",
+                "Üzüntüden <bold>ağla</bold>yarak uyandı.",
+                "Ağlamak bazen rahatlatıcı olabilir."
+            ],
+            "target_examples": [
+                "Children sometimes cry.",
+                "He woke up crying from sorrow.",
+                "Crying can be relieving sometimes."
+            ],
+            "freq": "10817"
+        },
+        {
+            "source_word": "kokmak",
+            "target_words": [
+                "to smell",
+                "to stink",
+                "to reek"
+            ],
+            "source_examples": [
+                "Bu yemek çok güzel <bold>kok</bold>uyor.",
+                "Çöp kutusu kötü bir şekilde <bold>kok</bold>uyor.",
+                "Bu çiçekler harika <bold>kok</bold>uyor."
+            ],
+            "target_examples": [
+                "This food smells very nice.",
+                "The trash can stinks badly.",
+                "These flowers smell wonderful."
+            ],
+            "freq": "10802"
+        },
+        {
+            "source_word": "uğramak",
+            "target_words": [
+                "to visit",
+                "to drop by",
+                "to stop by"
+            ],
+            "source_examples": [
+                "Geçen hafta annemi <bold>uğra</bold>dım.",
+                "Yolda bir arkadaşımın evine <bold>uğra</bold>dım.",
+                "Bir kafeye <bold>uğra</bold>."
+            ],
+            "target_examples": [
+                "I visited my mom last week.",
+                "I dropped by a friend's house on the way.",
+                "Stop by a cafe."
+            ],
+            "freq": "10600"
+        },
+        {
+            "source_word": "kaymak",
+            "target_words": [
+                "to slide",
+                "to slip",
+                "to glide"
+            ],
+            "source_examples": [
+                "Kayak yaparken çok hızlı <bold>kay</bold>dım.",
+                "Islak zeminde kolayca <bold>kay</bold>abilirsin.",
+                "Kuşlar hava da <bold>kay</bold>arak ilerler."
+            ],
+            "target_examples": [
+                "I slid very fast while skiing.",
+                "You can easily slip on wet ground.",
+                "Birds glide through the air."
+            ],
+            "freq": "9765"
+        },
+        {
+            "source_word": "çarpmak",
+            "target_words": [
+                "to hit",
+                "to strike",
+                "to bump"
+            ],
+            "source_examples": [
+                "Topa sert bir şekilde <bold>çarp</bold>dı.",
+                "Kafasını masaya sert bir şekilde <bold>çarp</bold>tı.",
+                "Arabasıyla ağaca <bold>çarp</bold>tı."
+            ],
+            "target_examples": [
+                "He hit the ball hard.",
+                "He hit his head hard on the table.",
+                "He bumped into a tree with his car."
+            ],
+            "freq": "9750"
+        },
+        {
+            "source_word": "acımak",
+            "target_words": [
+                "to feel pain",
+                "to sympathize"
+            ],
+            "source_examples": [
+                "Onun yaralanmasına çok <bold>acı</bold>yorum.",
+                "Acı <bold>çek</bold>tiği için ona yardım etmeliyiz."
+            ],
+            "target_examples": [
+                "I <bold>feel pain</bold> for his injury.",
+                "We should help him because he is <bold>suffering</bold>."
+            ],
+            "freq": "9498"
+        },
+        {
+            "source_word": "öpmek",
+            "target_words": [
+                "to kiss"
+            ],
+            "source_examples": [
+                "Sevgilisini <bold>öp</bold>erek vedalaştı.",
+                "Çocuğunu her gece uyumadan önce <bold>öp</bold>er."
+            ],
+            "target_examples": [
+                "He said goodbye by <bold>kissing</bold> his girlfriend.",
+                "She <bold>kisses</bold> her child every night before bedtime."
+            ],
+            "freq": "9481"
+        },
+        {
+            "source_word": "itmek",
+            "target_words": [
+                "to push",
+                "to shove"
+            ],
+            "source_examples": [
+                "Kalabalıkta insanları <bold>it</bold>erek ilerledi.",
+                "Kapıyı açmak için onu <bold>it</bold>mek zorunda kaldı."
+            ],
+            "target_examples": [
+                "He <bold>pushed</bold> through the crowd to move forward.",
+                "He had to <bold>shove</bold> it to open the door."
+            ],
+            "freq": "9058"
+        },
+        {
+            "source_word": "savunmak",
+            "target_words": [
+                "to defend",
+                "to advocate"
+            ],
+            "source_examples": [
+                "Haklarını <bold>savun</bold>mak için mücadele ettiler.",
+                "Avukat, suçsuz olduğunu <bold>savun</bold>uyor."
+            ],
+            "target_examples": [
+                "They fought to <bold>defend</bold> their rights.",
+                "The lawyer is <bold>advocating</bold> his innocence."
+            ],
+            "freq": "8824"
+        },
+        {
+            "source_word": "dilemek",
+            "target_words": [
+                "to wish",
+                "to desire"
+            ],
+            "source_examples": [
+                "Yeni yılda mutluluk ve sağlık <bold>dil</bold>erim.",
+                "O, daha iyi bir gelecek için dua <bold>dil</bold>iyor."
+            ],
+            "target_examples": [
+                "I <bold>wish</bold> you happiness and health in the new year.",
+                "He is <bold>wishing</bold> for a better future."
+            ],
+            "freq": "8665"
+        },
+        {
+            "source_word": "çözmek",
+            "target_words": [
+                "to solve",
+                "to resolve"
+            ],
+            "source_examples": [
+                "Bu problemi birlikte <bold>çöz</bold>dük.",
+                "Anlaşmazlığı <bold>çöz</bold>mek için uzlaşmaya varmalıyız."
+            ],
+            "target_examples": [
+                "We <bold>solved</bold> this problem together.",
+                "We must reach a compromise to <bold>resolve</bold> the dispute."
+            ],
+            "freq": "8425"
+        },
+        {
+            "source_word": "temizlemek",
+            "target_words": [
+                "to clean",
+                "to tidy up"
+            ],
+            "source_examples": [
+                "Oda, misafirler gelmeden önce hızlıca <bold>temizle</bold>ndi.",
+                "Masayı yemekten sonra hemen <bold>temizle</bold>r."
+            ],
+            "target_examples": [
+                "The room was quickly <bold>cleaned</bold> before the guests arrived.",
+                "Clean the table right after eating."
+            ],
+            "freq": "8402"
+        },
+        {
+            "source_word": "yakmak",
+            "target_words": [
+                "to burn",
+                "to light"
+            ],
+            "source_examples": [
+                "Odunları ateşe <bold>yak</bold>arak ısındılar.",
+                "Sigara içmek, sağlığını <bold>yak</bold>ar."
+            ],
+            "target_examples": [
+                "They warmed up by <bold>burning</bold> the firewood.",
+                "Smoking <bold>burns</bold> your health."
+            ],
+            "freq": "8101"
+        },
+        {
+            "source_word": "yüzmek",
+            "target_words": [
+                "to swim"
+            ],
+            "source_examples": [
+                "Tatilde her gün denizde <bold>yüz</bold>er.",
+                "Çocuklar, yüzme öğrenmek için kursa <bold>yüz</bold>üyorlar."
+            ],
+            "target_examples": [
+                "She <bold>swims</bold> in the sea every day on vacation.",
+                "Children are <bold>swimming</bold> in the course to learn how to swim."
+            ],
+            "freq": "7994"
+        },
+        {
+            "source_word": "tartışmak",
+            "target_words": [
+                "to discuss",
+                "to argue"
+            ],
+            "source_examples": [
+                "Konuyu detaylıca <bold>tartış</bold>tık ve sonuca vardık.",
+                "Her zaman aynı konuda <bold>tartış</bold>ıyorlar."
+            ],
+            "target_examples": [
+                "We <bold>discussed</bold> the topic in detail and reached a conclusion.",
+                "They always <bold>argue</bold> about the same topic."
+            ],
+            "freq": "7777"
+        },
+        {
+            "source_word": "bağırmak",
+            "target_words": [
+                "to shout",
+                "to yell"
+            ],
+            "source_examples": [
+                "Çocuklar parkta <bold>bağır</bold>ıyorlar.",
+                "Neden bu kadar <bold>bağır</bold>ıyorsun?"
+            ],
+            "target_examples": [
+                "The children are <bold>shouting</bold> in the park.",
+                "Why are you <bold>yelling</bold> so much?"
+            ],
+            "freq": "7385"
+        },
+        {
+            "source_word": "dokunmak",
+            "target_words": [
+                "to touch"
+            ],
+            "source_examples": [
+                "Lütfen bu resme <bold>dokun</bold>ma.",
+                "Hissettiğimde <bold>dokun</bold>mak istiyorum."
+            ],
+            "target_examples": [
+                "Please don't <bold>touch</bold> this painting.",
+                "I want to <bold>touch</bold> when I feel."
+            ],
+            "freq": "7182"
+        },
+        {
+            "source_word": "vazgeçmek",
+            "target_words": [
+                "to give up",
+                "to quit"
+            ],
+            "source_examples": [
+                "Hayallerinden asla <bold>vazgeç</bold>me.",
+                "Bu işten <bold>vazgeç</bold>melisin."
+            ],
+            "target_examples": [
+                "Never <bold>give up</bold> on your dreams.",
+                "You should <bold>quit</bold> this job."
+            ],
+            "freq": "7164"
+        },
+        {
+            "source_word": "binmek",
+            "target_words": [
+                "to get on",
+                "to ride"
+            ],
+            "source_examples": [
+                "Otobüse hızlıca <bold>bin</bold>dik.",
+                "Ata <bold>bin</bold>mek çok eğlenceli."
+            ],
+            "target_examples": [
+                "We quickly <bold>got on</bold> the bus.",
+                "Riding a horse is very fun."
+            ],
+            "freq": "7072"
+        },
+        {
+            "source_word": "bozmak",
+            "target_words": [
+                "to break",
+                "to ruin"
+            ],
+            "source_examples": [
+                "Lütfen bu camı <bold>boz</bold>ma.",
+                "Her şeyi <bold>boz</bold>du."
+            ],
+            "target_examples": [
+                "Please don't <bold>break</bold> this glass.",
+                "He <bold>ruined</bold> everything."
+            ],
+            "freq": "6591"
+        },
+        {
+            "source_word": "dinlenmek",
+            "target_words": [
+                "to rest",
+                "to relax"
+            ],
+            "source_examples": [
+                "Hafta sonu iyi <bold>dinlen</bold>dik.",
+                "Çok yorgunum, biraz <bold>dinlen</bold>meliyim."
+            ],
+            "target_examples": [
+                "We <bold>rested</bold> well on the weekend.",
+                "I'm very tired, I should <bold>relax</bold> a bit."
+            ],
+            "freq": "6406"
+        },
+        {
+            "source_word": "bağışlamak",
+            "target_words": [
+                "to forgive"
+            ],
+            "source_examples": [
+                "Onu <bold>bağışla</bold>, hata yapabilir."
+            ],
+            "target_examples": [
+                "Forgive him, he can make mistakes."
+            ],
+            "freq": "6112"
+        },
+        {
+            "source_word": "yalvarmak",
+            "target_words": [
+                "to beg",
+                "to plead"
+            ],
+            "source_examples": [
+                "Lütfen bana yardım et, <bold>yalvar</bold>ıyorum.",
+                "Ona <bold>yalvar</bold>arak affetmesini istedi."
+            ],
+            "target_examples": [
+                "Please help me, I'm <bold>begging</bold> you.",
+                "He asked for forgiveness by <bold>pleading</bold> to her."
+            ],
+            "freq": "5958"
+        },
+        {
+            "source_word": "üzülmek",
+            "target_words": [
+                "to be sad",
+                "to grieve"
+            ],
+            "source_examples": [
+                "Onun ayrılmasına çok <bold>üzül</bold>düm.",
+                "Babamın ölümü beni çok <bold>üzül</bold>dü."
+            ],
+            "target_examples": [
+                "I was very sad about his departure.",
+                "My father's death made me very <bold>grieve</bold>."
+            ],
+            "freq": "5912"
+        },
+        {
+            "source_word": "yağmak",
+            "target_words": [
+                "to rain"
+            ],
+            "source_examples": [
+                "Dışarıda <bold>yağ</bold>maya başladı.",
+                "Gece boyunca <bold>yağ</bold>dı."
+            ],
+            "target_examples": [
+                "It started <bold>raining</bold> outside.",
+                "It <bold>rained</bold> all night."
+            ],
+            "freq": "5863"
+        },
+        {
+            "source_word": "kovmak",
+            "target_words": [
+                "to drive away",
+                "to kick out"
+            ],
+            "source_examples": [
+                "Köpeği bahçeden <bold>kov</bold>dum.",
+                "Hırsızı evden <bold>kov</bold>dular."
+            ],
+            "target_examples": [
+                "I <bold>drove away</bold> the dog from the garden.",
+                "They <bold>kicked out</bold> the thief from the house."
+            ],
+            "freq": "5859"
+        },
+        {
+            "source_word": "yorulmak",
+            "target_words": [
+                "to get tired"
+            ],
+            "source_examples": [
+                "Ben çok <bold>yorul</bold>dum.",
+                "Çocuklar oyun oynarken <bold>yorul</bold>mazlar."
+            ],
+            "target_examples": [
+                "I <bold>got tired</bold> a lot.",
+                "Children don't <bold>get tired</bold> while playing."
+            ],
+            "freq": "5640"
+        },
+        {
+            "source_word": "eğlenmek",
+            "target_words": [
+                "to have fun",
+                "to enjoy oneself"
+            ],
+            "source_examples": [
+                "Partide çok <bold>eğlen</bold>dik.",
+                "Tatilde denize girip <bold>eğlen</bold>iyoruz."
+            ],
+            "target_examples": [
+                "We had a lot of fun at the party.",
+                "We are having fun by swimming in the sea on holiday."
+            ],
+            "freq": "5401"
+        },
+        {
+            "source_word": "sunmak",
+            "target_words": [
+                "to present",
+                "to offer"
+            ],
+            "source_examples": [
+                "Şef bugün çok güzel bir yemek <bold>sundu</bold>.",
+                "Misafirlere çay ve kahve <bold>sun</bold>uyoruz."
+            ],
+            "target_examples": [
+                "The chef <bold>presented</bold> a very nice meal today.",
+                "We <bold>offer</bold> tea and coffee to the guests."
+            ],
+            "freq": "5109"
+        },
+        {
+            "source_word": "bıkmak",
+            "target_words": [
+                "to get bored",
+                "to be fed up"
+            ],
+            "source_examples": [
+                "Bu filmi izlemekten <bold>bık</bold>tım.",
+                "Sürekli aynı şeyleri yapmaktan <bold>bık</bold>tı."
+            ],
+            "target_examples": [
+                "I <bold>got bored</bold> of watching this movie.",
+                "He got fed up with doing the same things all the time."
+            ],
+            "freq": "4871"
+        },
+        {
+            "source_word": "taramak",
+            "target_words": [
+                "to scan",
+                "to sweep"
+            ],
+            "source_examples": [
+                "Polis, sokakları <bold>tar</bold>ıyor.",
+                "Evde süpürge ile yerleri <bold>tar</bold>ıyoruz."
+            ],
+            "target_examples": [
+                "The police are <bold>scanning</bold> the streets.",
+                "We are <bold>sweeping</bold> the floors with a broom at home."
+            ],
+            "freq": "4547"
+        },
+        {
+            "source_word": "alışmak",
+            "target_words": [
+                "to get used to",
+                "to become accustomed to"
+            ],
+            "source_examples": [
+                "Yeni okula <bold>alış</bold>ması zaman alabilir.",
+                "Yabancı bir ülkeye <bold>alış</bold>mak zor olabilir."
+            ],
+            "target_examples": [
+                "Getting used to a new school can take time.",
+                "Becoming accustomed to a foreign country can be difficult."
+            ],
+            "freq": "3957"
+        },
+        {
+            "source_word": "uzamak",
+            "target_words": [
+                "to extend",
+                "to lengthen"
+            ],
+            "source_examples": [
+                "Yol, inşaat nedeniyle <bold>uzadı</bold>.",
+                "Saçlarını <bold>uzat</bold>mak istiyor."
+            ],
+            "target_examples": [
+                "The road <bold>extended</bold> due to construction.",
+                "She wants to <bold>lengthen</bold> her hair."
+            ],
+            "freq": "3864"
+        },
+        {
+            "source_word": "yıkmak",
+            "target_words": [
+                "to demolish",
+                "to destroy"
+            ],
+            "source_examples": [
+                "Eski bina <bold>yık</bold>ılacak.",
+                "Deprem binaları <bold>yık</bold>tı."
+            ],
+            "target_examples": [
+                "The old building will be <bold>demolished</bold>.",
+                "The earthquake <bold>destroyed</bold> the buildings."
+            ],
+            "freq": "3590"
+        },
+        {
+            "source_word": "çizmek",
+            "target_words": [
+                "to draw",
+                "to sketch"
+            ],
+            "source_examples": [
+                "Çocuklar resim <bold>çiz</bold>iyor.",
+                "Sanatçı, doğayı <bold>çiz</bold>iyor."
+            ],
+            "target_examples": [
+                "The children are <bold>drawing</bold> pictures.",
+                "The artist is <bold>sketching</bold> nature."
+            ],
+            "freq": "3161"
+        },
+        {
+            "source_word": "uygulamak",
+            "target_words": [
+                "to apply"
+            ],
+            "source_examples": [
+                "Bu kuralı nasıl <bold>uygula</bold>yabiliriz?"
+            ],
+            "target_examples": [
+                "How can we <bold>apply</bold> this rule?"
+            ],
+            "freq": "2945"
+        },
+        {
+            "source_word": "sapmak",
+            "target_words": [
+                "to deviate"
+            ],
+            "source_examples": [
+                "Doğru yoldan <bold>sap</bold>mamalısın."
+            ],
+            "target_examples": [
+                "You should not <bold>deviate</bold> from the right path."
+            ],
+            "freq": "2671"
+        },
+        {
+            "source_word": "dövmek",
+            "target_words": [
+                "to beat"
+            ],
+            "source_examples": [
+                "Çocukları hiçbir zaman <bold>döv</bold>me."
+            ],
+            "target_examples": [
+                "Never <bold>beat</bold> children."
+            ],
+            "freq": "2357"
+        },
+        {
+            "source_word": "dökmek",
+            "target_words": [
+                "to pour"
+            ],
+            "source_examples": [
+                "Çayı bardağa <bold>dök</bold>."
+            ],
+            "target_examples": [
+                "<bold>Pour</bold> the tea into the glass."
+            ],
+            "freq": "2346"
+        },
+        {
+            "source_word": "bölmek",
+            "target_words": [
+                "to divide"
+            ],
+            "source_examples": [
+                "Bu pastayı 8 parçaya <bold>böl</bold>."
+            ],
+            "target_examples": [
+                "<bold>Divide</bold> this cake into 8 pieces."
+            ],
+            "freq": "2331"
+        },
+        {
+            "source_word": "kopmak",
+            "target_words": [
+                "to break off"
+            ],
+            "source_examples": [
+                "Kolum <bold>kop</bold>tu."
+            ],
+            "target_examples": [
+                "My arm <bold>broke off</bold>."
+            ],
+            "freq": "2294"
+        },
+        {
+            "source_word": "titremek",
+            "target_words": [
+                "to tremble"
+            ],
+            "source_examples": [
+                "Korkudan ellerim <bold>titre</bold>di."
+            ],
+            "target_examples": [
+                "My hands <bold>trembled</bold> with fear."
+            ],
+            "freq": "2185"
+        },
+        {
+            "source_word": "susamak",
+            "target_words": [
+                "to thirst"
+            ],
+            "source_examples": [
+                "Çok susadım, biraz su <bold>istiyor</bold>um."
+            ],
+            "target_examples": [
+                "I'm very thirsty, I <bold>thirst</bold> for some water."
+            ],
+            "freq": "2146"
+        },
+        {
+            "source_word": "selamlamak",
+            "target_words": [
+                "to greet"
+            ],
+            "source_examples": [
+                "Misafirleri kapıda <bold>selamla</bold>dı."
+            ],
+            "target_examples": [
+                "He <bold>greeted</bold> the guests at the door."
+            ],
+            "freq": "1933"
+        },
+        {
+            "source_word": "gömmek",
+            "target_words": [
+                "to bury"
+            ],
+            "source_examples": [
+                "Ölüyü toprağa <bold>göm</bold>."
+            ],
+            "target_examples": [
+                "<bold>Bury</bold> the dead in the ground."
+            ],
+            "freq": "1870"
+        },
+        {
+            "source_word": "tamamlamak",
+            "target_words": [
+                "to complete"
+            ],
+            "source_examples": [
+                "Bu işi <bold>tamamla</bold>yabilir misin?",
+                "Sınavı <bold>tamamla</bold>dıktan sonra dinleniriz."
+            ],
+            "target_examples": [
+                "Can you <bold>complete</bold> this task?",
+                "We will relax after <bold>completing</bold> the exam."
+            ],
+            "freq": "1769"
+        },
+        {
+            "source_word": "parlamak",
+            "target_words": [
+                "to shine"
+            ],
+            "source_examples": [
+                "Güneş bugün çok güzel <bold>parlıyor</bold>.",
+                "Yıldızlar gece gökyüzünde <bold>parlar</bold>."
+            ],
+            "target_examples": [
+                "The sun is shining very brightly today.",
+                "The stars <bold>shine</bold> in the night sky."
+            ],
+            "freq": "1706"
+        },
+        {
+            "source_word": "asmak",
+            "target_words": [
+                "to hang"
+            ],
+            "source_examples": [
+                "Tabloyu duvara <bold>as</bold>abilir misin?",
+                "Elbiseleri askıya <bold>as</bold>ın."
+            ],
+            "target_examples": [
+                "Can you <bold>hang</bold> the painting on the wall?",
+                "Hang the clothes on the hanger."
+            ],
+            "freq": "1680"
+        },
+        {
+            "source_word": "yıkamak",
+            "target_words": [
+                "to wash"
+            ],
+            "source_examples": [
+                "Ellerini sabunla <bold>yıka</bold>.",
+                "Arabayı yıkamak için suya ihtiyacımız var."
+            ],
+            "target_examples": [
+                "Wash your hands with soap.",
+                "We need water to wash the car."
+            ],
+            "freq": "1663"
+        },
+        {
+            "source_word": "uçmak",
+            "target_words": [
+                "to fly"
+            ],
+            "source_examples": [
+                "Kuşlar özgürce <bold>uçar</bold>.",
+                "Uçak havalanmadan önce motorlarını çalıştırır."
+            ],
+            "target_examples": [
+                "Birds <bold>fly</bold> freely.",
+                "The plane starts its engines before taking off."
+            ],
+            "freq": "1654"
+        },
+        {
+            "source_word": "gezmek",
+            "target_words": [
+                "to visit",
+                "to travel"
+            ],
+            "source_examples": [
+                "Tatilde farklı şehirleri <bold>gez</bold>iyoruz.",
+                "Hafta sonu doğaya <bold>gez</bold>meye gidelim."
+            ],
+            "target_examples": [
+                "During the holiday, we are <bold>visiting</bold> different cities.",
+                "Let's go <bold>traveling</bold> to nature on the weekend."
+            ],
+            "freq": "1614"
+        },
+        {
+            "source_word": "önlemek",
+            "target_words": [
+                "to prevent"
+            ],
+            "source_examples": [
+                "Hastalıklardan korunmak için önlemler <bold>al</bold>malısın.",
+                "Kaza riskini <bold>önle</bold>mek için dikkatli olmalısın."
+            ],
+            "target_examples": [
+                "You should take precautions to protect yourself from diseases.",
+                "You should be careful to prevent the risk of accidents."
+            ],
+            "freq": "1571"
+        },
+        {
+            "source_word": "pişirmek",
+            "target_words": [
+                "to cook"
+            ],
+            "source_examples": [
+                "Akşam yemeği için ne <bold>pişir</bold>eceğiz?",
+                "Annem çok iyi yemek <bold>pişirir</bold>."
+            ],
+            "target_examples": [
+                "What will we <bold>cook</bold> for dinner?",
+                "My mom cooks very well."
+            ],
+            "freq": "1505"
+        },
+        {
+            "source_word": "tatmak",
+            "target_words": [
+                "to taste"
+            ],
+            "source_examples": [
+                "Yemeği tuzsuz <bold>tat</bold>mayı unutma.",
+                "Bu yemeği <bold>tat</bold>mak istiyor musun?"
+            ],
+            "target_examples": [
+                "Don't forget to taste the food without salt.",
+                "Do you want to <bold>taste</bold> this dish?"
+            ],
+            "freq": "1505"
+        },
+        {
+            "source_word": "rastlamak",
+            "target_words": [
+                "to come across",
+                "to meet"
+            ],
+            "source_examples": [
+                "Geçen hafta eski bir arkadaşıma <bold>rastla</bold>dım.",
+                "Toplantıda yeni insanlarla <bold>rastla</bold>şabilirsin."
+            ],
+            "target_examples": [
+                "Last week, I <bold>came across</bold> an old friend.",
+                "You can <bold>meet</bold> new people at the meeting."
+            ],
+            "freq": "1500"
+        },
+        {
+            "source_word": "şaşmak",
+            "target_words": [
+                "to be amazed",
+                "to be surprised"
+            ],
+            "source_examples": [
+                "Onun yaptığı işe <bold>şaş</bold>tım.",
+                "Bu haber karşısında <bold>şaş</bold>ırdım."
+            ],
+            "target_examples": [
+                "I <bold>was amazed</bold> at the work he did.",
+                "I <bold>was surprised</bold> by this news."
+            ],
+            "freq": "1482"
+        },
+        {
+            "source_word": "üretmek",
+            "target_words": [
+                "to produce",
+                "to create"
+            ],
+            "source_examples": [
+                "Bu fabrika yılda 1000 ton çimento <bold>üret</bold>iyor.",
+                "Sanatçı yeni bir eser <bold>üret</bold>ti."
+            ],
+            "target_examples": [
+                "This factory produces 1000 tons of cement per year.",
+                "The artist created a new piece."
+            ],
+            "freq": "1173"
+        },
+        {
+            "source_word": "göçmek",
+            "target_words": [
+                "to migrate",
+                "to move"
+            ],
+            "source_examples": [
+                "Kuşlar kışın güneye <bold>göç</bold>erler.",
+                "Ailemiz şehirden köye <bold>göç</bold>tü."
+            ],
+            "target_examples": [
+                "Birds migrate south in the winter.",
+                "Our family moved from the city to the village."
+            ],
+            "freq": "768"
+        },
+        {
+            "source_word": "örtmek",
+            "target_words": [
+                "to cover",
+                "to hide"
+            ],
+            "source_examples": [
+                "Masanın üzerine bir örtü <bold>ört</bold>tüm.",
+                "Gerçeği <bold>ört</bold>me, her şeyi açıkça söyle."
+            ],
+            "target_examples": [
+                "I covered the table with a cloth.",
+                "Don't hide the truth, tell everything clearly."
+            ],
+            "freq": "730"
+        },
+        {
+            "source_word": "yırtmak",
+            "target_words": [
+                "to tear",
+                "to rip"
+            ],
+            "source_examples": [
+                "Kağıdı <bold>yırt</bold>tım.",
+                "Ceketin kolu <bold>yırt</bold>ılmış."
+            ],
+            "target_examples": [
+                "I tore the paper.",
+                "The sleeve of the jacket is ripped."
+            ],
+            "freq": "604"
+        },
+        {
+            "source_word": "üşümek",
+            "target_words": [
+                "to feel cold",
+                "to shiver"
+            ],
+            "source_examples": [
+                "Dışarıda çok soğuk, üşüyorum.",
+                "Üşüdüğünü belli etmemeye çalış."
+            ],
+            "target_examples": [
+                "It's very cold outside, I feel cold.",
+                "Try not to show that you are shivering."
+            ],
+            "freq": "560"
+        },
+        {
+            "source_word": "işitmek",
+            "target_words": [
+                "to hear",
+                "to listen"
+            ],
+            "source_examples": [
+                "Sesini <bold>işit</bold>tim ama nereden geldiğini anlayamadım.",
+                "Beni <bold>işit</bold>, sana bir şey söylemek istiyorum."
+            ],
+            "target_examples": [
+                "I heard your voice but couldn't understand where it came from.",
+                "Listen to me, I want to tell you something."
+            ],
+            "freq": "507"
+        },
+        {
+            "source_word": "terlemek",
+            "target_words": [
+                "to sweat",
+                "to perspire"
+            ],
+            "source_examples": [
+                "Egzersiz yaparken çok <bold>terle</bold>r.",
+                "Sıcak hava yüzünden ter <bold>terle</bold>dik."
+            ],
+            "target_examples": [
+                "I sweat a lot while exercising.",
+                "We perspired because of the hot weather."
+            ],
+            "freq": "444"
+        },
+        {
+            "source_word": "sezmek",
+            "target_words": [
+                "to sense",
+                "to perceive"
+            ],
+            "source_examples": [
+                "Bir tehlike <bold>sez</bold>dik.",
+                "Oturduğumuz yerden güzel bir koku <bold>sez</bold>dik."
+            ],
+            "target_examples": [
+                "We sensed a danger.",
+                "We perceived a nice smell from where we were sitting."
+            ],
+            "freq": "429"
+        },
+        {
+            "source_word": "üflemek",
+            "target_words": [
+                "to blow",
+                "to puff"
+            ],
+            "source_examples": [
+                "Mumun üstündeki alevi <bold>üfle</bold>dik.",
+                "Sıcak çorbayı yavaşça <bold>üfle</bold>."
+            ],
+            "target_examples": [
+                "We blew out the flame on the candle.",
+                "Blow gently on the hot soup."
+            ],
+            "freq": "423"
+        },
+        {
+            "source_word": "tartmak",
+            "target_words": [
+                "to weigh"
+            ],
+            "source_examples": [
+                "Bu meyve kaç kilo <bold>tart</bold>ar?"
+            ],
+            "target_examples": [
+                "How many kilos does this fruit <bold>weigh</bold>?"
+            ],
+            "freq": "353"
+        },
+        {
+            "source_word": "ölçmek",
+            "target_words": [
+                "to measure"
+            ],
+            "source_examples": [
+                "Bu odanın genişliğini <bold>ölç</bold>ebilir misin?"
+            ],
+            "target_examples": [
+                "Can you <bold>measure</bold> the width of this room?"
+            ],
+            "freq": "212"
+        },
+        {
+            "source_word": "değişmek",
+            "target_words": [
+                "to change"
+            ],
+            "source_examples": [
+                "Hava durumu hızla <bold>değiş</bold>iyor."
+            ],
+            "target_examples": [
+                "The weather is changing rapidly."
+            ],
+            "freq": "1"
+        },
+        {
+            "source_word": "kuşkulanmak",
+            "target_words": [
+                "to suspect"
+            ],
+            "source_examples": [
+                "Polis, olayla ilgili bir kişiyi <bold>kuşkulan</bold>dı."
+            ],
+            "target_examples": [
+                "The police <bold>suspected</bold> a person related to the incident."
+            ],
+            "freq": "1"
+        },
+        {
+            "source_word": "küsmek",
+            "target_words": [
+                "to sulk"
+            ],
+            "source_examples": [
+                "Arkadaşı ona küstüğünde, hiç konuşmaz."
+            ],
+            "target_examples": [
+                "When he <bold>sulks</bold> with his friend, he doesn't talk at all."
+            ],
+            "freq": "1"
+        },
+        {
+            "source_word": "öksürmek",
+            "target_words": [
+                "to cough"
+            ],
+            "source_examples": [
+                "Soğuk algınlığı nedeniyle sürekli <bold>öksür</bold>üyor."
+            ],
+            "target_examples": [
+                "He is constantly <bold>coughing</bold> due to a cold."
+            ],
+            "freq": "1"
+        },
+        {
+            "source_word": "övmek",
+            "target_words": [
+                "to praise"
+            ],
+            "source_examples": [
+                "Öğrenciler, öğretmenlerini <bold>öv</bold>dü."
+            ],
+            "target_examples": [
+                "The students <bold>praised</bold> their teachers."
+            ],
+            "freq": "1"
+        },
+        {
+            "source_word": "üşenmek",
+            "target_words": [
+                "to be lazy"
+            ],
+            "source_examples": [
+                "Bugün dışarı çıkmak istemiyorum, üşeniyorum."
+            ],
+            "target_examples": [
+                "I don't want to go out today, I'm feeling lazy."
+            ],
+            "freq": "1"
         }
     ]
 }

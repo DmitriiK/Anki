@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 
@@ -20,6 +20,7 @@ class WordItem(BaseModel):
 
     target_examples: List[str] = Field(description="""Translations to target language for each of the above examples.
                    The translated word should be included in bold tag.""")
+    freq: Optional[int] = Field(description='frequency index of word, not supposed to be used by llm')
 
 
 class WordItems(BaseModel):

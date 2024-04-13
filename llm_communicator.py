@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Tuple
 import logging
 
 
@@ -15,13 +15,20 @@ class LLMCommunicator:
         self.llm = ChatOpenAI(openai_api_key=cfg.OPENAI_API_KEY, model=cfg.MODEL_NAME, temperature=0)
         self.src_lang, self.trg_lang = src_lang, trg_lang
         self.__prepare_prompt()
-        
-    def enrich_date_by_open_ai(words_lst: List[str]):
-        pass
-        # ret_lst = request_and_parse(words_lst, llm, output_parser, prompt)
-        with open(cfg.output_file, "w", encoding='UTF-8') as outfile:
-            json_str = r.json(ensure_ascii=False, indent=4)
+
+    def request_and_parse_to_json_file(self, words_lst: List[str]):
+        chunks = self.request_and_parse_by_chunks(words_lst=words_lst)
+        obj_to_write = WordItems(output_list=[])
+        for r in chunks:
+            self.write_word_model_to_json(obj_to_write, r)
+
+    #  todo : move IO to file logic to decorator as was done for csv, and all this stuff looks bit strange..
+    def write_word_model_to_json(self, obj_to_write: WordItems, r: WordItems):
+        obj_to_write.output_list.extend(r.output_list)
+        with open(cfg.output_file, "w", encoding=cfg.CSV_ENCODING) as outfile:
+            json_str = obj_to_write.json(ensure_ascii=False, indent=4)
             outfile.write(json_str)
+            logging.info(f'wrote {len(obj_to_write.output_list)} items to {cfg.output_file}')
 
     def __prepare_prompt(self):
         example = """Example of output for turkish -> english
@@ -71,15 +78,22 @@ class LLMCommunicator:
         )
         self.chain = self.prompt | self.llm  # | output_parser
 
-    def request_and_parse_by_chunks(self, words_lst: List[str]):
+    def request_and_parse_by_chunks(self, words_lst: List[Tuple[str, int]]):
+        """request_and_parse_by_chunks
+
+        Args:
+            words_lst (List[Tuple[str, int]]): List of words to generate dictionary data, alongside with their frequency indexed
+        Yields:
+            WordItems:  object with data got from LLM for input words list
+        """
         CHUNK_SIZE = cfg.CHUNK_SIZE
         chunker = (words_lst[i:i + CHUNK_SIZE] for i in range(0, len(words_lst), CHUNK_SIZE))
         for cnt, chunk in enumerate(chunker):
-            logging.info(f'requesting llm for chunk #{cnt}   of {len(chunk)} words') 
-            yield self.request_and_parse(chunk)
+            logging.info(f'requesting llm for chunk #{cnt}   of {len(chunk)} words')
+            yield self.request_and_parse(chunk)  
 
-    def request_and_parse(self, words_lst: List[str]) -> WordItems:
-        words_str = ', '.join(words_lst)
+    def request_and_parse(self, words_lst: List[Tuple[str, int]]) -> WordItems:
+        words_str = ', '.join([t[0] for t in words_lst]) # passing words only, without freq
         prompt_params = {'source_words': words_str}
         #  print(prompt.format(source_word='konuşmak, bilmek'))
         cnt_try = 0
@@ -90,11 +104,17 @@ class LLMCommunicator:
             parsed_r = None
             try:
                 parsed_r = self.output_parser.parse(raw_r.content)
+                self._attach_freq(words_lst, parsed_r)
                 return parsed_r
             except Exception as ex:
                 logging.error(f'on parsing of result from {words_str} got exception: {ex}')
                 if cnt_try >= cfg.MAX_CNT_TRY:
                     raise ex
+
+    def _attach_freq(self, words_lst, parsed_r):# ugly way to attach back frequencies
+        for ind in range(0, len(parsed_r.output_list)):
+            if len(words_lst[ind]) > 1:  
+                parsed_r.output_list[ind].freq = words_lst[ind][1]
 
 
 if __name__ == "__main__":
