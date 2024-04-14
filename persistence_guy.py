@@ -6,13 +6,15 @@ import functools
 
 #  from pydantic_core import from_json
 from models import WordModel
+from output_parser_formats import WordItems
 import config_data as cfg
 
 
-def json_file2WordModel(json_file_path: str) -> dict:  # todo - return wordmodel, not dict
+def json_file2WordItems(json_file_path: str) -> WordItems:
     with open(json_file_path, encoding=cfg.CSV_ENCODING) as f:
         d = json.load(f)
-    return d
+        ret = WordItems.validate(d)
+        return ret
 
 
 def csv_row2WordModel(row: List[str]) -> WordModel:
