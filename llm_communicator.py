@@ -25,10 +25,10 @@ class LLMCommunicator:
     #  todo : move IO to file logic to decorator as was done for csv, and all this stuff looks bit strange..
     def write_word_model_to_json(self, obj_to_write: WordItems, r: WordItems):
         obj_to_write.output_list.extend(r.output_list)
-        with open(cfg.output_file, "w", encoding=cfg.CSV_ENCODING) as outfile:
+        with open(cfg.OUTPUT_FILE_NAME, "w", encoding=cfg.CSV_ENCODING) as outfile:
             json_str = obj_to_write.json(ensure_ascii=False, indent=4)
             outfile.write(json_str)
-            logging.info(f'wrote {len(obj_to_write.output_list)} items to {cfg.output_file}')
+            logging.info(f'wrote {len(obj_to_write.output_list)} items to {cfg.OUTPUT_FILE_NAME}')
 
     def __prepare_prompt(self):
         example = """Example of output for turkish -> english

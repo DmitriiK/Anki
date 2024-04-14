@@ -59,4 +59,4 @@ if __name__ == "__main__":
     # group_by_lemma_io()
     # attach_frequencies_io()
     # request_and_parse_by_chunks_io()
-    generate_audio_batch_from_file(cfg.output_file, cfg.DIR_AUDIO_FILES)
+    generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)

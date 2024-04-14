@@ -15,7 +15,7 @@ CSV_HEADER = ['word', 'lemma', 'pos', 'freq']
 INPUT_WORDS_LIST_FILE = r"data\input\top200TurkishVerbs.csv"
 WORDS_AND_FREQ_LIST_FILE = r"data\output\top200TurkishVerbs_frq.csv"
 
-output_file = r'data\output\word_data.json'
+OUTPUT_FILE_NAME = r'data\output\word_data.json'
 
 ##
 CSV_ENCODING = 'utf-8'

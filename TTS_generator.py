@@ -28,7 +28,7 @@ class TTS_GEN:
         Returns:
             str: _description_
         """
-        silence = ' ---- '
+        silence = ' ___ '
         return tts.replace(r'\n', silence + r'\n')  # .replace(' ', silence)
 
     def generate_audio(self, tts: str, file_name: str = '',  play_sound=False):
