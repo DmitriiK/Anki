@@ -1,10 +1,18 @@
 from typing import List, Iterable, Callable
 import logging
 import csv
+import json
 import functools
 
+#  from pydantic_core import from_json
 from models import WordModel
 import config_data as cfg
+
+
+def json_file2WordModel(json_file_path: str) -> dict:  # todo - return wordmodel, not dict
+    with open(json_file_path, encoding=cfg.CSV_ENCODING) as f:
+        d = json.load(f)
+    return d
 
 
 def csv_row2WordModel(row: List[str]) -> WordModel:

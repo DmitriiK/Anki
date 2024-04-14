@@ -1,9 +1,11 @@
 from typing import List, Iterable, Callable
 import logging
 
-from persistence_guy import file_input, file_output, csv_row2WordModel
+from persistence_guy import file_input, file_output, csv_row2WordModel, json_file2WordModel
 from lemmatization import Lemmanatizer
 from llm_communicator import LLMCommunicator, WordItems
+from TTS_generator import TTS_GEN
+from utils import remove_html_tags
 
 import config_data as cfg
 
@@ -42,9 +44,18 @@ request_and_parse_by_chunks_io = (file_input(cfg.WORDS_AND_FREQ_LIST_FILE,
                                   (llmc.request_and_parse_to_json_file))
 
 
+def generate_audio_batch_from_file(inp_file_path: str, out_dir_path: str):
+    d = json_file2WordModel(inp_file_path)
+    items = ((x['source_word'], [remove_html_tags(se) for se in x['source_examples']])
+             for x in d['output_list'])  # words and examples of usages
+    tts = TTS_GEN(our_dir_path=out_dir_path)
+    tts.generate_audio_batch(items)
+
+
 if __name__ == "__main__":
     # lemmatize_frequency_list_io()
     # attach_frequencies(cfg.INPUT_WORDS_LIST_FILE, cfg.WORDS_AND_FREQ_LIST_FILE)
     # group_by_lemma_io()
     # attach_frequencies_io()
-    request_and_parse_by_chunks_io()
+    # request_and_parse_by_chunks_io()
+    generate_audio_batch_from_file(cfg.output_file, cfg.DIR_AUDIO_FILES)
