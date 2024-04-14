@@ -22,4 +22,4 @@ CSV_ENCODING = 'utf-8'
 FREQ_LST_FILE_PATH = r"data\input\frequency_list.tr.csv"
 FREQ_LST_LM_FILE_PATH = r"data\input\frequency_list_lemmatized.tr.txt"
 
-
+ELEVEN_LABS_API_KEY = os.getenv('ELEVEN_LABS_API_KEY')
