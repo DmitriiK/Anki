@@ -46,8 +46,9 @@ request_and_parse_by_chunks_io = (file_input(cfg.WORDS_AND_FREQ_LIST_FILE,
 
 def generate_audio_batch_from_file(inp_file_path: str, out_dir_path: str):
     d = json_file2WordModel(inp_file_path)
-    items = ((x['source_word'], [remove_html_tags(se) for se in x['source_examples']])
-             for x in d['output_list'])  # words and examples of usages
+    items = [(x['source_word'], [remove_html_tags(se) for se in x['source_examples']])
+             for x in d['output_list']] # words and examples of usages
+    items = items[100:]  # debug
     tts = TTS_GEN(our_dir_path=out_dir_path)
     tts.generate_audio_batch(items)
 
