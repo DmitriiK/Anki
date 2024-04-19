@@ -1,3 +1,4 @@
+from enum import StrEnum, auto
 
 style = """
 .card {
@@ -12,13 +13,20 @@ style = """
 }
 """
 
-fields=[{"name": "source_word"}, 
-        {"name": "target_words"}, 
-        {"name": "source_examples"}, 
-        {"name": "target_examples"},  
-        {'name': 'my_media'},  ]
 
-templates=[
+class AnkiField(StrEnum):
+    source_word = auto()
+    target_words = auto()
+    source_examples = auto()
+    target_examples = auto()
+    freq = auto()
+    my_media = auto()
+
+
+anki_fields = [{'name': str(fld)} for fld in AnkiField]
+
+
+templates = [
     {
         "name": "Card 1",
         "qfmt": '<p class="source_word">{{source_word}}</p> {{my_media}}',
@@ -30,4 +38,3 @@ templates=[
         "afmt": '{{FrontSide}}<hr id="answer"><p class="source_word">{{source_word}}</p><p class="source_examples">{{source_examples}}</p>',
     },
     ]
-
