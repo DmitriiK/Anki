@@ -1,5 +1,4 @@
 from enum import StrEnum, auto
-
 style = """
 .card {
  font-family: arial;

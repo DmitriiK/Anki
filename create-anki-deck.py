@@ -39,9 +39,9 @@ anki_model = genanki.Model(
 def extact_value(fld: str, itm: WordItem):
     if fld == 'my_media':
         return f'[sound:{itm.source_word}.mp3]'
-    val = getattr(itm, fld)
+    val = str(getattr(itm, fld))
     if isinstance(val, list):
-        val = html.escape(' '.join(val))
+        val = html.escape('\n'.join(val))
     return val
 
 
@@ -54,7 +54,8 @@ def get_card_date(fields: List[str]) -> List[List[str]]:
 
 def generate_deck():
     anki_notes = []
-    rows = get_card_date(ads.AnkiField)
+    fld_names = ads.AnkiField  # [fld['name'] for fld in ads.fields]
+    rows = get_card_date(fld_names)
     for row in rows:
         anki_note = genanki.Note(
             model=anki_model,
