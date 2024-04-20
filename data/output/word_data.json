@@ -6,10 +6,10 @@
                 "to do"
             ],
             "source_examples": [
-                "Bugün ne <bold>et</bold>meyi planlıyorsun?"
+                "Bugün ne <u>et</u>meyi planlıyorsun?"
             ],
             "target_examples": [
-                "What do you plan to <bold>do</bold> today?"
+                "What do you plan to <u>do</u> today?"
             ],
             "freq": "893020"
         },
@@ -19,7 +19,7 @@
                 "to want"
             ],
             "source_examples": [
-                "Ben bir kahve <bold>istem</bold>iyorum."
+                "Ben bir kahve <u>istem</u>iyorum."
             ],
             "target_examples": [
                 "I want a coffee."
@@ -33,10 +33,10 @@
                 "to do"
             ],
             "source_examples": [
-                "Bu yemeği nasıl <bold>yap</bold>abilirim?"
+                "Bu yemeği nasıl <u>yap</u>abilirim?"
             ],
             "target_examples": [
-                "How can I <bold>make</bold> this dish?"
+                "How can I <u>make</u> this dish?"
             ],
             "freq": "673777"
         },
@@ -46,7 +46,7 @@
                 "to go"
             ],
             "source_examples": [
-                "Akşam yemeğinden sonra sinemaya <bold>git</bold>meyi planlıyorum."
+                "Akşam yemeğinden sonra sinemaya <u>git</u>meyi planlıyorum."
             ],
             "target_examples": [
                 "I plan to go to the cinema after dinner."
@@ -60,7 +60,7 @@
                 "to assume"
             ],
             "source_examples": [
-                "Onun doğruyu söylediğine <bold>san</bold>mıyorsun?"
+                "Onun doğruyu söylediğine <u>san</u>mıyorsun?"
             ],
             "target_examples": [
                 "Don't you think he is telling the truth?"
@@ -74,10 +74,10 @@
                 "to mean"
             ],
             "source_examples": [
-                "Bu ne <bold>demek</bold>?"
+                "Bu ne <u>demek</u>?"
             ],
             "target_examples": [
-                "What does this <bold>mean</bold>?"
+                "What does this <u>mean</u>?"
             ],
             "freq": "526857"
         },
@@ -88,7 +88,7 @@
                 "to say"
             ],
             "source_examples": [
-                "Bana gerçeği <bold>söyle</bold>."
+                "Bana gerçeği <u>söyle</u>."
             ],
             "target_examples": [
                 "Tell me the truth."
@@ -101,7 +101,7 @@
                 "to come"
             ],
             "source_examples": [
-                "Akşam yemeğe <bold>gel</bold>ir misin?"
+                "Akşam yemeğe <u>gel</u>ir misin?"
             ],
             "target_examples": [
                 "Will you come for dinner tonight?"
@@ -115,7 +115,7 @@
                 "to watch"
             ],
             "source_examples": [
-                "Lütfen pencereden <bold>bak</bold>."
+                "Lütfen pencereden <u>bak</u>."
             ],
             "target_examples": [
                 "Please look out of the window."
@@ -128,10 +128,10 @@
                 "to give"
             ],
             "source_examples": [
-                "Bu hediye senin için, lütfen al ve <bold>ver</bold>."
+                "Bu hediye senin için, lütfen al ve <u>ver</u>."
             ],
             "target_examples": [
-                "This gift is for you, please take and <bold>give</bold>."
+                "This gift is for you, please take and <u>give</u>."
             ],
             "freq": "376156"
         },
@@ -141,14 +141,14 @@
                 "to know"
             ],
             "source_examples": [
-                "Ben bu konuyu <bold>bil</bold>miyorum.",
-                "O, gerçeği <bold>bil</bold>miyor.",
-                "Neden bu kadar az şey <bold>bil</bold>iyoruz?"
+                "Ben bu konuyu <u>bil</u>miyorum.",
+                "O, gerçeği <u>bil</u>miyor.",
+                "Neden bu kadar az şey <u>bil</u>iyoruz?"
             ],
             "target_examples": [
-                "I don't <bold>know</bold> this subject.",
-                "He doesn't <bold>know</bold> the truth.",
-                "Why do we <bold>know</bold> so little?"
+                "I don't <u>know</u> this subject.",
+                "He doesn't <u>know</u> the truth.",
+                "Why do we <u>know</u> so little?"
             ],
             "freq": "348082"
         },
@@ -158,14 +158,14 @@
                 "to see"
             ],
             "source_examples": [
-                "Ben seni <bold>gör</bold>düm.",
-                "O, güzel bir manzara <bold>gör</bold>dü.",
-                "Geçen hafta onu <bold>gör</bold>düm."
+                "Ben seni <u>gör</u>düm.",
+                "O, güzel bir manzara <u>gör</u>dü.",
+                "Geçen hafta onu <u>gör</u>düm."
             ],
             "target_examples": [
-                "I <bold>saw</bold> you.",
-                "He <bold>saw</bold> a beautiful view.",
-                "I <bold>saw</bold> him last week."
+                "I <u>saw</u> you.",
+                "He <u>saw</u> a beautiful view.",
+                "I <u>saw</u> him last week."
             ],
             "freq": "303593"
         },
@@ -176,14 +176,14 @@
                 "to buy"
             ],
             "source_examples": [
-                "Marketten süt <bold>al</bold>dım.",
-                "Yeni bir telefon <bold>al</bold>dı.",
-                "Bu kitabı nereden <bold>al</bold>dın?"
+                "Marketten süt <u>al</u>dım.",
+                "Yeni bir telefon <u>al</u>dı.",
+                "Bu kitabı nereden <u>al</u>dın?"
             ],
             "target_examples": [
-                "I <bold>took</bold> milk from the market.",
-                "He <bold>bought</bold> a new phone.",
-                "Where did you <bold>buy</bold> this book?"
+                "I <u>took</u> milk from the market.",
+                "He <u>bought</u> a new phone.",
+                "Where did you <u>buy</u> this book?"
             ],
             "freq": "246060"
         },
@@ -193,14 +193,14 @@
                 "to eat"
             ],
             "source_examples": [
-                "Ben her gün sağlıklı <bold>ye</bold>rim.",
-                "O, çok hızlı <bold>ye</bold>r.",
-                "Akşam yemeğini nerede <bold>ye</bold>yeceğiz?"
+                "Ben her gün sağlıklı <u>ye</u>rim.",
+                "O, çok hızlı <u>ye</u>r.",
+                "Akşam yemeğini nerede <u>ye</u>yeceğiz?"
             ],
             "target_examples": [
                 "I eat healthy every day.",
                 "He eats very fast.",
-                "Where will we <bold>eat</bold> dinner?"
+                "Where will we <u>eat</u> dinner?"
             ],
             "freq": "235343"
         },
@@ -210,9 +210,9 @@
                 "to think"
             ],
             "source_examples": [
-                "Bu konuyu biraz daha <bold>düşün</bold>memiz lazım.",
-                "O, geleceği hakkında <bold>düşün</bold>üyor.",
-                "Neden böyle bir şey <bold>düşün</bold>üyorsun?"
+                "Bu konuyu biraz daha <u>düşün</u>memiz lazım.",
+                "O, geleceği hakkında <u>düşün</u>üyor.",
+                "Neden böyle bir şey <u>düşün</u>üyorsun?"
             ],
             "target_examples": [
                 "We need to think about this topic a little more.",
@@ -228,13 +228,13 @@
                 "to remain"
             ],
             "source_examples": [
-                "Ben burada <bold>kal</bold>dım.",
-                "O, bir hafta daha burada <bold>kal</bold>acak.",
-                "Neden bu kadar uzun süre <bold>kal</bold>dın?"
+                "Ben burada <u>kal</u>dım.",
+                "O, bir hafta daha burada <u>kal</u>acak.",
+                "Neden bu kadar uzun süre <u>kal</u>dın?"
             ],
             "target_examples": [
-                "I <bold>stayed</bold> here.",
-                "He will <bold>stay</bold> here for another week.",
+                "I <u>stayed</u> here.",
+                "He will <u>stay</u> here for another week.",
                 "Why did you stay for so long?"
             ],
             "freq": "214473"
@@ -245,8 +245,8 @@
                 "to understand"
             ],
             "source_examples": [
-                "Ben bu konuyu <bold>anla</bold>mıyorum.",
-                "O, ne demek istediğimi <bold>anla</bold>dı.",
+                "Ben bu konuyu <u>anla</u>mıyorum.",
+                "O, ne demek istediğimi <u>anla</u>dı.",
                 "Anlamadığını neden söylemedin?"
             ],
             "target_examples": [
@@ -263,9 +263,9 @@
                 "to explain"
             ],
             "source_examples": [
-                "Bu hikayeyi bana tekrar <bold>anlat</bold>ır mısın?",
-                "O, planını bize <bold>anlat</bold>tı.",
-                "Bu konuyu daha iyi <bold>anlat</bold>malısın."
+                "Bu hikayeyi bana tekrar <u>anlat</u>ır mısın?",
+                "O, planını bize <u>anlat</u>tı.",
+                "Bu konuyu daha iyi <u>anlat</u>malısın."
             ],
             "target_examples": [
                 "Can you tell me this story again?",
@@ -280,12 +280,12 @@
                 "to die"
             ],
             "source_examples": [
-                "O, geçen yıl <bold>öl</bold>dü.",
-                "Bu hastalıktan <bold>öl</bold>mek korkutucu.",
+                "O, geçen yıl <u>öl</u>dü.",
+                "Bu hastalıktan <u>öl</u>mek korkutucu.",
                 "Ölüm hakkında hiç düşündün mü?"
             ],
             "target_examples": [
-                "He <bold>died</bold> last year.",
+                "He <u>died</u> last year.",
                 "Dying from this disease is scary.",
                 "Have you ever thought about death?"
             ],
@@ -297,9 +297,9 @@
                 "to work"
             ],
             "source_examples": [
-                "Ben her gün sabahları <bold>çalış</bold>ırım.",
-                "O, çok yoğun bir şekilde <bold>çalış</bold>ıyor.",
-                "Bu projede birlikte <bold>çalış</bold>abiliriz."
+                "Ben her gün sabahları <u>çalış</u>ırım.",
+                "O, çok yoğun bir şekilde <u>çalış</u>ıyor.",
+                "Bu projede birlikte <u>çalış</u>abiliriz."
             ],
             "target_examples": [
                 "I work every morning.",
@@ -316,14 +316,14 @@
                 "to pause"
             ],
             "source_examples": [
-                "Araba <bold>dur</bold>du.",
+                "Araba <u>dur</u>du.",
                 "Dur, lütfen!",
-                "Neden <bold>dur</bold>uyorsun?"
+                "Neden <u>dur</u>uyorsun?"
             ],
             "target_examples": [
-                "The car <bold>stopped</bold>.",
+                "The car <u>stopped</u>.",
                 "Stop, please!",
-                "Why are you <bold>pausing</bold>?"
+                "Why are you <u>pausing</u>?"
             ],
             "freq": "171622"
         },
@@ -334,9 +334,9 @@
                 "to like"
             ],
             "source_examples": [
-                "Seni çok <bold>sev</bold>iyorum.",
-                "Çikolatayı <bold>sev</bold>iyor musun?",
-                "O, müziği <bold>sev</bold>iyor."
+                "Seni çok <u>sev</u>iyorum.",
+                "Çikolatayı <u>sev</u>iyor musun?",
+                "O, müziği <u>sev</u>iyor."
             ],
             "target_examples": [
                 "I love you very much.",
@@ -352,9 +352,9 @@
                 "to look for"
             ],
             "source_examples": [
-                "Anahtarları nerede <bold>ara</bold>yorsun?",
-                "Bir kitapçı <bold>ara</bold>yorum.",
-                "Yardım için <bold>ara</bold>yın."
+                "Anahtarları nerede <u>ara</u>yorsun?",
+                "Bir kitapçı <u>ara</u>yorum.",
+                "Yardım için <u>ara</u>yın."
             ],
             "target_examples": [
                 "Where are you looking for the keys?",
@@ -370,9 +370,9 @@
                 "to expect"
             ],
             "source_examples": [
-                "Beni <bold>bekle</bold>.",
-                "Ne zaman <bold>bekle</bold>yebilirim?",
-                "Biraz <bold>bekle</bold>."
+                "Beni <u>bekle</u>.",
+                "Ne zaman <u>bekle</u>yebilirim?",
+                "Biraz <u>bekle</u>."
             ],
             "target_examples": [
                 "Wait for me.",
@@ -388,9 +388,9 @@
                 "to reach"
             ],
             "source_examples": [
-                "Tren ne zaman <bold>var</bold>acak?",
-                "Sonunda hedefime <bold>var</bold>dım.",
-                "Eve ne zaman <bold>var</bold>acaksın?"
+                "Tren ne zaman <u>var</u>acak?",
+                "Sonunda hedefime <u>var</u>dım.",
+                "Eve ne zaman <u>var</u>acaksın?"
             ],
             "target_examples": [
                 "When will the train arrive?",
@@ -406,9 +406,9 @@
                 "to discover"
             ],
             "source_examples": [
-                "Anahtarı nerede <bold>bul</bold>dun?",
-                "Yeni bir yol <bold>bul</bold>dum.",
-                "Çözümü <bold>bul</bold>dum."
+                "Anahtarı nerede <u>bul</u>dun?",
+                "Yeni bir yol <u>bul</u>dum.",
+                "Çözümü <u>bul</u>dum."
             ],
             "target_examples": [
                 "Where did you find the key?",
@@ -424,9 +424,9 @@
                 "to let go"
             ],
             "source_examples": [
-                "Lütfen beni <bold>bırak</bold>.",
-                "Onu <bold>bırak</bold>.",
-                "Neden <bold>bırak</bold>tın?"
+                "Lütfen beni <u>bırak</u>.",
+                "Onu <u>bırak</u>.",
+                "Neden <u>bırak</u>tın?"
             ],
             "target_examples": [
                 "Please leave me.",
@@ -442,9 +442,9 @@
                 "to inquire"
             ],
             "source_examples": [
-                "Bana bir soru <bold>sor</bold>.",
-                "Neden bu soruyu <bold>sor</bold>uyorsun?",
-                "Sorularını <bold>sor</bold>."
+                "Bana bir soru <u>sor</u>.",
+                "Neden bu soruyu <u>sor</u>uyorsun?",
+                "Sorularını <u>sor</u>."
             ],
             "target_examples": [
                 "Ask me a question.",
@@ -460,9 +460,9 @@
                 "to exit"
             ],
             "source_examples": [
-                "Akşam <bold>çık</bold>ıyoruz.",
-                "Kapıdan <bold>çık</bold>.",
-                "Dışarı <bold>çık</bold>."
+                "Akşam <u>çık</u>ıyoruz.",
+                "Kapıdan <u>çık</u>.",
+                "Dışarı <u>çık</u>."
             ],
             "target_examples": [
                 "We are going out in the evening.",
@@ -478,9 +478,9 @@
                 "to speak"
             ],
             "source_examples": [
-                "Benimle <bold>konuş</bold>.",
-                "Neden <bold>konuş</bold>muyorsun?",
-                "Konuşmaya devam <bold>et</bold>."
+                "Benimle <u>konuş</u>.",
+                "Neden <u>konuş</u>muyorsun?",
+                "Konuşmaya devam <u>et</u>."
             ],
             "target_examples": [
                 "Talk to me.",
@@ -495,8 +495,8 @@
                 "to start"
             ],
             "source_examples": [
-                "Yarın yeni bir projeye <bold>başla</bold>yacağım.",
-                "Ders saatine yetişmek için erken <bold>başla</bold>yın."
+                "Yarın yeni bir projeye <u>başla</u>yacağım.",
+                "Ders saatine yetişmek için erken <u>başla</u>yın."
             ],
             "target_examples": [
                 "I will start a new project tomorrow.",
@@ -511,8 +511,8 @@
                 "to feel"
             ],
             "source_examples": [
-                "Sesini <bold>duy</bold>abiliyorum ama seni göremiyorum.",
-                "Korku <bold>duy</bold>uyorum."
+                "Sesini <u>duy</u>abiliyorum ama seni göremiyorum.",
+                "Korku <u>duy</u>uyorum."
             ],
             "target_examples": [
                 "I can hear your voice but I can't see you.",
@@ -526,8 +526,8 @@
                 "to listen"
             ],
             "source_examples": [
-                "Lütfen beni <bold>dinle</bold>.",
-                "Müzik <bold>dinle</bold>meyi seviyorum."
+                "Lütfen beni <u>dinle</u>.",
+                "Müzik <u>dinle</u>meyi seviyorum."
             ],
             "target_examples": [
                 "Please listen to me.",
@@ -541,8 +541,8 @@
                 "to like"
             ],
             "source_examples": [
-                "Çikolatayı çok <bold>hoşlan</bold>ırım.",
-                "Yeni filmi <bold>hoşlan</bold>dın mı?"
+                "Çikolatayı çok <u>hoşlan</u>ırım.",
+                "Yeni filmi <u>hoşlan</u>dın mı?"
             ],
             "target_examples": [
                 "I really like chocolate.",
@@ -556,8 +556,8 @@
                 "to bring"
             ],
             "source_examples": [
-                "Marketten ekmek <bold>getir</bold>ir misin?",
-                "Lütfen bana bir bardak su <bold>getir</bold>."
+                "Marketten ekmek <u>getir</u>ir misin?",
+                "Lütfen bana bir bardak su <u>getir</u>."
             ],
             "target_examples": [
                 "Can you bring bread from the market?",
@@ -572,8 +572,8 @@
                 "to return"
             ],
             "source_examples": [
-                "Lütfen sağa <bold>dön</bold>.",
-                "Akşamleyin eve <bold>dön</bold>eceğim."
+                "Lütfen sağa <u>dön</u>.",
+                "Akşamleyin eve <u>dön</u>eceğim."
             ],
             "target_examples": [
                 "Please turn right.",
@@ -588,8 +588,8 @@
                 "to spend"
             ],
             "source_examples": [
-                "Otobüs durağından <bold>geç</bold>tim.",
-                "Tatilimi deniz kenarında <bold>geç</bold>irmeyi planlıyorum."
+                "Otobüs durağından <u>geç</u>tim.",
+                "Tatilimi deniz kenarında <u>geç</u>irmeyi planlıyorum."
             ],
             "target_examples": [
                 "I passed by the bus stop.",
@@ -603,8 +603,8 @@
                 "to believe"
             ],
             "source_examples": [
-                "Sana <bold>inan</bold>mıyorum.",
-                "Masallara <bold>inan</bold>ır mısın?"
+                "Sana <u>inan</u>mıyorum.",
+                "Masallara <u>inan</u>ır mısın?"
             ],
             "target_examples": [
                 "I don't believe you.",
@@ -618,8 +618,8 @@
                 "to live"
             ],
             "source_examples": [
-                "Sağlıklı bir yaşam <bold>yaşa</bold>yın.",
-                "O, uzun yıllar mutlu bir hayat <bold>yaşa</bold>dı."
+                "Sağlıklı bir yaşam <u>yaşa</u>yın.",
+                "O, uzun yıllar mutlu bir hayat <u>yaşa</u>dı."
             ],
             "target_examples": [
                 "Live a healthy life.",
@@ -634,8 +634,8 @@
                 "to seem"
             ],
             "source_examples": [
-                "Gökyüzünde yıldızlar <bold>görün</bold>üyor.",
-                "O, çok yorgun <bold>görün</bold>üyor."
+                "Gökyüzünde yıldızlar <u>görün</u>üyor.",
+                "O, çok yorgun <u>görün</u>üyor."
             ],
             "target_examples": [
                 "Stars are visible in the sky.",
@@ -653,7 +653,7 @@
                 "Annem her yıl biraz daha yaşlanıyor."
             ],
             "target_examples": [
-                "<bold>To age</bold> is a natural process.",
+                "<u>To age</u> is a natural process.",
                 "My mother is getting older every year."
             ],
             "freq": "79301"
@@ -665,12 +665,12 @@
                 "to join"
             ],
             "source_examples": [
-                "Lütfen kapıdan <bold>gir</bold>in.",
-                "Yarın yeni bir kursa <bold>gir</bold>eceğim."
+                "Lütfen kapıdan <u>gir</u>in.",
+                "Yarın yeni bir kursa <u>gir</u>eceğim."
             ],
             "target_examples": [
-                "Please <bold>enter</bold> through the door.",
-                "I will <bold>join</bold> a new course tomorrow."
+                "Please <u>enter</u> through the door.",
+                "I will <u>join</u> a new course tomorrow."
             ],
             "freq": "76092"
         },
@@ -680,12 +680,12 @@
                 "to remember"
             ],
             "source_examples": [
-                "Geçmişi <bold>hatırla</bold>mak önemlidir.",
-                "Adını neden <bold>hatırla</bold>yamıyorum?"
+                "Geçmişi <u>hatırla</u>mak önemlidir.",
+                "Adını neden <u>hatırla</u>yamıyorum?"
             ],
             "target_examples": [
-                "It is important to <bold>remember</bold> the past.",
-                "Why can't I <bold>remember</bold> your name?"
+                "It is important to <u>remember</u> the past.",
+                "Why can't I <u>remember</u> your name?"
             ],
             "freq": "74489"
         },
@@ -696,12 +696,12 @@
                 "to end"
             ],
             "source_examples": [
-                "Film sonunda her şey güzel bir şekilde <bold>biter</bold>.",
-                "Bu iş ne zaman <bold>biter</bold>?"
+                "Film sonunda her şey güzel bir şekilde <u>biter</u>.",
+                "Bu iş ne zaman <u>biter</u>?"
             ],
             "target_examples": [
                 "Everything ends nicely at the end of the movie.",
-                "When will this work <bold>finish</bold>?"
+                "When will this work <u>finish</u>?"
             ],
             "freq": "71634"
         },
@@ -712,8 +712,8 @@
                 "to recognize"
             ],
             "source_examples": [
-                "Seni çok iyi <bold>tani</bold>yorum.",
-                "Bu yüzü <bold>tani</bold>yamıyorum."
+                "Seni çok iyi <u>tani</u>yorum.",
+                "Bu yüzü <u>tani</u>yamıyorum."
             ],
             "target_examples": [
                 "I know you very well.",
@@ -727,12 +727,12 @@
                 "to forget"
             ],
             "source_examples": [
-                "Lütfen bu bilgiyi <bold>unut</bold>ma.",
-                "Dün gece anahtarları evde <bold>unut</bold>tum."
+                "Lütfen bu bilgiyi <u>unut</u>ma.",
+                "Dün gece anahtarları evde <u>unut</u>tum."
             ],
             "target_examples": [
-                "Please don't <bold>forget</bold> this information.",
-                "I <bold>forgot</bold> the keys at home last night."
+                "Please don't <u>forget</u> this information.",
+                "I <u>forgot</u> the keys at home last night."
             ],
             "freq": "62401"
         },
@@ -743,12 +743,12 @@
                 "to see"
             ],
             "source_examples": [
-                "Yarın seninle <bold>görüş</bold>eceğim.",
-                "Seni uzun zamandır <bold>görüş</bold>memiştim."
+                "Yarın seninle <u>görüş</u>eceğim.",
+                "Seni uzun zamandır <u>görüş</u>memiştim."
             ],
             "target_examples": [
-                "I will <bold>meet</bold> you tomorrow.",
-                "I haven't <bold>seen</bold> you for a long time."
+                "I will <u>meet</u> you tomorrow.",
+                "I haven't <u>seen</u> you for a long time."
             ],
             "freq": "61803"
         },
@@ -759,12 +759,12 @@
                 "to keep"
             ],
             "source_examples": [
-                "Lütfen bu bardağı <bold>tut</bold>.",
-                "Bu bilgiyi gizli <bold>tut</bold>malısın."
+                "Lütfen bu bardağı <u>tut</u>.",
+                "Bu bilgiyi gizli <u>tut</u>malısın."
             ],
             "target_examples": [
-                "Please <bold>hold</bold> this glass.",
-                "You should <bold>keep</bold> this information secret."
+                "Please <u>hold</u> this glass.",
+                "You should <u>keep</u> this information secret."
             ],
             "freq": "58272"
         },
@@ -775,8 +775,8 @@
                 "to be afraid"
             ],
             "source_examples": [
-                "Karanlıktan <bold>kork</bold>uyorum.",
-                "Yükseklikten <bold>kork</bold>an biri değilim."
+                "Karanlıktan <u>kork</u>uyorum.",
+                "Yükseklikten <u>kork</u>an biri değilim."
             ],
             "target_examples": [
                 "I fear the dark.",
@@ -791,12 +791,12 @@
                 "to remember"
             ],
             "source_examples": [
-                "Bu günü onu <bold>an</bold>arak geçireceğim.",
-                "Babamı her zaman <bold>an</bold>arım."
+                "Bu günü onu <u>an</u>arak geçireceğim.",
+                "Babamı her zaman <u>an</u>arım."
             ],
             "target_examples": [
-                "I will spend this day <bold>commemorating</bold> him.",
-                "I always <bold>remember</bold> my father."
+                "I will spend this day <u>commemorating</u> him.",
+                "I always <u>remember</u> my father."
             ],
             "freq": "57322"
         },
@@ -808,14 +808,14 @@
                 "to drive"
             ],
             "source_examples": [
-                "Yağmur ne kadar <bold>sür</bold>er?",
-                "Bisikletle okula gitmek 20 dakika <bold>sür</bold>üyor.",
-                "Konser ne zaman <bold>sür</bold>ecek?"
+                "Yağmur ne kadar <u>sür</u>er?",
+                "Bisikletle okula gitmek 20 dakika <u>sür</u>üyor.",
+                "Konser ne zaman <u>sür</u>ecek?"
             ],
             "target_examples": [
-                "How long will the rain <bold>continue</bold>?",
-                "It takes 20 minutes to <bold>drive</bold> to school by bike.",
-                "When will the concert <bold>last</bold>?"
+                "How long will the rain <u>continue</u>?",
+                "It takes 20 minutes to <u>drive</u> to school by bike.",
+                "When will the concert <u>last</u>?"
             ],
             "freq": "55682"
         },
@@ -827,7 +827,7 @@
             ],
             "source_examples": [
                 "Yarın hava güzel olur umarım.",
-                "Sonuçlar iyi olacak diye <bold>um</bold>uyorum.",
+                "Sonuçlar iyi olacak diye <u>um</u>uyorum.",
                 "Umarım her şey yolunda gider."
             ],
             "target_examples": [
@@ -844,13 +844,13 @@
                 "to live"
             ],
             "source_examples": [
-                "Lütfen sandalyeye <bold>otur</bold>.",
-                "Bu mahallede çok insan <bold>otur</bold>uyor.",
-                "Akşam yemeğini birlikte <bold>otur</bold>alım."
+                "Lütfen sandalyeye <u>otur</u>.",
+                "Bu mahallede çok insan <u>otur</u>uyor.",
+                "Akşam yemeğini birlikte <u>otur</u>alım."
             ],
             "target_examples": [
-                "Please <bold>sit</bold> on the chair.",
-                "Many people <bold>live</bold> in this neighborhood.",
+                "Please <u>sit</u> on the chair.",
+                "Many people <u>live</u> in this neighborhood.",
                 "Let's have dinner together."
             ],
             "freq": "55408"
@@ -863,13 +863,13 @@
                 "to take"
             ],
             "source_examples": [
-                "Lütfen kapıyı <bold>çek</bold>.",
-                "Bu hastalığı <bold>çek</bold>mek zorunda kaldı.",
-                "Bir fotoğraf <bold>çek</bold>elim."
+                "Lütfen kapıyı <u>çek</u>.",
+                "Bu hastalığı <u>çek</u>mek zorunda kaldı.",
+                "Bir fotoğraf <u>çek</u>elim."
             ],
             "target_examples": [
-                "Please <bold>pull</bold> the door.",
-                "He had to <bold>suffer</bold> from this disease.",
+                "Please <u>pull</u> the door.",
+                "He had to <u>suffer</u> from this disease.",
                 "Let's take a photo."
             ],
             "freq": "55390"
@@ -882,14 +882,14 @@
                 "to think"
             ],
             "source_examples": [
-                "Yere <bold>düş</bold>tü.",
-                "Sıcaklık biraz <bold>düş</bold>tü.",
-                "Bu konuda ne <bold>düş</bold>ünüyorsun?"
+                "Yere <u>düş</u>tü.",
+                "Sıcaklık biraz <u>düş</u>tü.",
+                "Bu konuda ne <u>düş</u>ünüyorsun?"
             ],
             "target_examples": [
-                "It <bold>fell</bold> on the ground.",
-                "The temperature <bold>decreased</bold> a bit.",
-                "What do you <bold>think</bold> about this?"
+                "It <u>fell</u> on the ground.",
+                "The temperature <u>decreased</u> a bit.",
+                "What do you <u>think</u> about this?"
             ],
             "freq": "55298"
         },
@@ -901,9 +901,9 @@
                 "to release"
             ],
             "source_examples": [
-                "Ayakkabılarını <bold>çıkar</bold>.",
-                "Makyajını <bold>çıkar</bold>.",
-                "Yeni albümünü <bold>çıkar</bold>dı."
+                "Ayakkabılarını <u>çıkar</u>.",
+                "Makyajını <u>çıkar</u>.",
+                "Yeni albümünü <u>çıkar</u>dı."
             ],
             "target_examples": [
                 "Take off your shoes.",
@@ -920,9 +920,9 @@
                 "to launch"
             ],
             "source_examples": [
-                "Topu uzaklara <bold>at</bold>.",
-                "Gol için penaltıyı <bold>at</bold>tı.",
-                "Yeni ürününü piyasaya <bold>at</bold>tı."
+                "Topu uzaklara <u>at</u>.",
+                "Gol için penaltıyı <u>at</u>tı.",
+                "Yeni ürününü piyasaya <u>at</u>tı."
             ],
             "target_examples": [
                 "Throw the ball far away.",
@@ -939,9 +939,9 @@
                 "to kill"
             ],
             "source_examples": [
-                "Peyniri <bold>kes</bold>.",
-                "Trafik ışığında <bold>kes</bold>ildik.",
-                "Ağacı <bold>kes</bold>tiler."
+                "Peyniri <u>kes</u>.",
+                "Trafik ışığında <u>kes</u>ildik.",
+                "Ağacı <u>kes</u>tiler."
             ],
             "target_examples": [
                 "Cut the cheese.",
@@ -958,9 +958,9 @@
                 "to display"
             ],
             "source_examples": [
-                "Bana ne olduğunu <bold>göster</bold>.",
-                "Bu işaret tehlikeyi <bold>göster</bold>iyor.",
-                "Yeni koleksiyonu <bold>göster</bold>diler."
+                "Bana ne olduğunu <u>göster</u>.",
+                "Bu işaret tehlikeyi <u>göster</u>iyor.",
+                "Yeni koleksiyonu <u>göster</u>diler."
             ],
             "target_examples": [
                 "Show me what happened.",
@@ -976,9 +976,9 @@
                 "to find out"
             ],
             "source_examples": [
-                "Yeni bir dil <bold>öğren</bold>mek zor olabilir.",
-                "Gerçeği <bold>öğren</bold>dikten sonra şaşıracaksın.",
-                "Bu konuda daha fazla bilgi <bold>öğren</bold>mek istiyorum."
+                "Yeni bir dil <u>öğren</u>mek zor olabilir.",
+                "Gerçeği <u>öğren</u>dikten sonra şaşıracaksın.",
+                "Bu konuda daha fazla bilgi <u>öğren</u>mek istiyorum."
             ],
             "target_examples": [
                 "Learning a new language can be difficult.",
@@ -993,12 +993,12 @@
                 "to use"
             ],
             "source_examples": [
-                "Bu programı nasıl <bold>kullan</bold>abilirim?",
-                "Telefonumu nasıl <bold>kullan</bold>malıyım?"
+                "Bu programı nasıl <u>kullan</u>abilirim?",
+                "Telefonumu nasıl <u>kullan</u>malıyım?"
             ],
             "target_examples": [
-                "How can I <bold>use</bold> this program?",
-                "How should I <bold>use</bold> my phone?"
+                "How can I <u>use</u> this program?",
+                "How should I <u>use</u> my phone?"
             ],
             "freq": "48977"
         },
@@ -1008,12 +1008,12 @@
                 "to write"
             ],
             "source_examples": [
-                "Bu kitabı kim <bold>yaz</bold>dı?",
-                "Yarın sınavda bir kompozisyon <bold>yaz</bold>acağım."
+                "Bu kitabı kim <u>yaz</u>dı?",
+                "Yarın sınavda bir kompozisyon <u>yaz</u>acağım."
             ],
             "target_examples": [
-                "Who <bold>wrote</bold> this book?",
-                "I will <bold>write</bold> an essay in the exam tomorrow."
+                "Who <u>wrote</u> this book?",
+                "I will <u>write</u> an essay in the exam tomorrow."
             ],
             "freq": "45300"
         },
@@ -1023,12 +1023,12 @@
                 "to play"
             ],
             "source_examples": [
-                "Çocuklar parkta <bold>oyna</bold>yorlar.",
-                "Geçen hafta futbol <bold>oyna</bold>dık."
+                "Çocuklar parkta <u>oyna</u>yorlar.",
+                "Geçen hafta futbol <u>oyna</u>dık."
             ],
             "target_examples": [
-                "The children are <bold>playing</bold> in the park.",
-                "We <bold>played</bold> football last week."
+                "The children are <u>playing</u> in the park.",
+                "We <u>played</u> football last week."
             ],
             "freq": "43045"
         },
@@ -1040,12 +1040,12 @@
                 "to land"
             ],
             "source_examples": [
-                "Uçak havaalanına <bold>in</bold>di.",
-                "Otobüsten nerede <bold>in</bold>mem gerekiyor?"
+                "Uçak havaalanına <u>in</u>di.",
+                "Otobüsten nerede <u>in</u>mem gerekiyor?"
             ],
             "target_examples": [
-                "The plane <bold>landed</bold> at the airport.",
-                "Where do I need to <bold>get off</bold> the bus?"
+                "The plane <u>landed</u> at the airport.",
+                "Where do I need to <u>get off</u> the bus?"
             ],
             "freq": "42497"
         },
@@ -1056,11 +1056,11 @@
                 "to bring"
             ],
             "source_examples": [
-                "Lütfen çöpleri dışarıya <bold>götür</bold>.",
-                "Yarın işe gitmek için şemsiyeni <bold>götür</bold>."
+                "Lütfen çöpleri dışarıya <u>götür</u>.",
+                "Yarın işe gitmek için şemsiyeni <u>götür</u>."
             ],
             "target_examples": [
-                "Please <bold>take</bold> the trash outside.",
+                "Please <u>take</u> the trash outside.",
                 "Take your umbrella to work tomorrow."
             ],
             "freq": "40846"
@@ -1073,8 +1073,8 @@
                 "to shoot"
             ],
             "source_examples": [
-                "Topa güçlü bir şekilde <bold>vur</bold>du.",
-                "Polis silahını kullanarak hırsızı <bold>vur</bold>du."
+                "Topa güçlü bir şekilde <u>vur</u>du.",
+                "Polis silahını kullanarak hırsızı <u>vur</u>du."
             ],
             "target_examples": [
                 "He hit the ball strongly.",
@@ -1089,12 +1089,12 @@
                 "to place"
             ],
             "source_examples": [
-                "Anahtarları nereye <bold>koy</bold>duğunu hatırlıyor musun?",
-                "Lütfen çantayı masanın üstüne <bold>koy</bold>."
+                "Anahtarları nereye <u>koy</u>duğunu hatırlıyor musun?",
+                "Lütfen çantayı masanın üstüne <u>koy</u>."
             ],
             "target_examples": [
-                "Do you remember where you <bold>put</bold> the keys?",
-                "Please <bold>put</bold> the bag on the table."
+                "Do you remember where you <u>put</u> the keys?",
+                "Please <u>put</u> the bag on the table."
             ],
             "freq": "38724"
         },
@@ -1106,8 +1106,8 @@
                 "to test"
             ],
             "source_examples": [
-                "Bu yemeği ilk defa <bold>den</bold>iyorum.",
-                "Bu soruyu çözmek için biraz daha <bold>den</bold>eyin."
+                "Bu yemeği ilk defa <u>den</u>iyorum.",
+                "Bu soruyu çözmek için biraz daha <u>den</u>eyin."
             ],
             "target_examples": [
                 "I'm trying this dish for the first time.",
@@ -1122,8 +1122,8 @@
                 "to rescue"
             ],
             "source_examples": [
-                "İtfaiye ekipleri yangında mahsur kalanları <bold>kurtar</bold>dı.",
-                "Doktorlar hastayı ameliyatla <bold>kurtar</bold>dı."
+                "İtfaiye ekipleri yangında mahsur kalanları <u>kurtar</u>dı.",
+                "Doktorlar hastayı ameliyatla <u>kurtar</u>dı."
             ],
             "target_examples": [
                 "The fire brigade rescued those trapped in the fire.",
@@ -1138,8 +1138,8 @@
                 "to look like"
             ],
             "source_examples": [
-                "Bu resimdeki kişiye biraz <bold>ben</bold>ziyorum.",
-                "Kardeşim bana çok <bold>ben</bold>ziyor."
+                "Bu resimdeki kişiye biraz <u>ben</u>ziyorum.",
+                "Kardeşim bana çok <u>ben</u>ziyor."
             ],
             "target_examples": [
                 "I resemble the person in this picture a bit.",
@@ -1153,10 +1153,10 @@
                 "to watch"
             ],
             "source_examples": [
-                "Bu filmi <bold>izle</bold>meliyiz."
+                "Bu filmi <u>izle</u>meliyiz."
             ],
             "target_examples": [
-                "We should <bold>watch</bold> this movie."
+                "We should <u>watch</u> this movie."
             ],
             "freq": "35621"
         },
@@ -1166,7 +1166,7 @@
                 "to get angry"
             ],
             "source_examples": [
-                "Neden bana <bold>kız</bold>ıyorsun?"
+                "Neden bana <u>kız</u>ıyorsun?"
             ],
             "target_examples": [
                 "Why are you getting angry at me?"
@@ -1179,10 +1179,10 @@
                 "to walk"
             ],
             "source_examples": [
-                "Her sabah parkta <bold>yürü</bold>yorum."
+                "Her sabah parkta <u>yürü</u>yorum."
             ],
             "target_examples": [
-                "I <bold>walk</bold> in the park every morning."
+                "I <u>walk</u> in the park every morning."
             ],
             "freq": "35265"
         },
@@ -1192,10 +1192,10 @@
                 "to open"
             ],
             "source_examples": [
-                "Lütfen pencereyi <bold>aç</bold>."
+                "Lütfen pencereyi <u>aç</u>."
             ],
             "target_examples": [
-                "Please <bold>open</bold> the window."
+                "Please <u>open</u> the window."
             ],
             "freq": "34470"
         },
@@ -1205,10 +1205,10 @@
                 "to read"
             ],
             "source_examples": [
-                "Bu kitabı <bold>oku</bold>yorum."
+                "Bu kitabı <u>oku</u>yorum."
             ],
             "target_examples": [
-                "I am <bold>reading</bold> this book."
+                "I am <u>reading</u> this book."
             ],
             "freq": "34343"
         },
@@ -1218,10 +1218,10 @@
                 "to win"
             ],
             "source_examples": [
-                "Takımımız maçı <bold>kazan</bold>dı."
+                "Takımımız maçı <u>kazan</u>dı."
             ],
             "target_examples": [
-                "Our team <bold>won</bold> the match."
+                "Our team <u>won</u> the match."
             ],
             "freq": "33848"
         },
@@ -1231,10 +1231,10 @@
                 "to catch"
             ],
             "source_examples": [
-                "Polis hırsızı <bold>yakala</bold>dı."
+                "Polis hırsızı <u>yakala</u>dı."
             ],
             "target_examples": [
-                "The police <bold>caught</bold> the thief."
+                "The police <u>caught</u> the thief."
             ],
             "freq": "33788"
         },
@@ -1244,10 +1244,10 @@
                 "to get up"
             ],
             "source_examples": [
-                "Sabahları erken <bold>kalk</bold>ıyorum."
+                "Sabahları erken <u>kalk</u>ıyorum."
             ],
             "target_examples": [
-                "I <bold>get up</bold> early in the mornings."
+                "I <u>get up</u> early in the mornings."
             ],
             "freq": "33247"
         },
@@ -1257,10 +1257,10 @@
                 "to protect"
             ],
             "source_examples": [
-                "Doğayı <bold>koru</bold>malıyız."
+                "Doğayı <u>koru</u>malıyız."
             ],
             "target_examples": [
-                "We should <bold>protect</bold> the nature."
+                "We should <u>protect</u> the nature."
             ],
             "freq": "32563"
         },
@@ -1270,10 +1270,10 @@
                 "to laugh"
             ],
             "source_examples": [
-                "O çok komik, hep <bold>gül</bold>er."
+                "O çok komik, hep <u>gül</u>er."
             ],
             "target_examples": [
-                "He is very funny, he always <bold>laughs</bold>."
+                "He is very funny, he always <u>laughs</u>."
             ],
             "freq": "31283"
         },
@@ -1283,13 +1283,13 @@
                 "to send"
             ],
             "source_examples": [
-                "Paketi postaya <bold>gönder</bold>dik.",
-                "E-posta <bold>gönder</bold>mek istiyorum.",
-                "Bana bir mesaj <bold>gönder</bold>."
+                "Paketi postaya <u>gönder</u>dik.",
+                "E-posta <u>gönder</u>mek istiyorum.",
+                "Bana bir mesaj <u>gönder</u>."
             ],
             "target_examples": [
-                "We <bold>sent</bold> the package to the post office.",
-                "I want to <bold>send</bold> an email.",
+                "We <u>sent</u> the package to the post office.",
+                "I want to <u>send</u> an email.",
                 "Send me a message."
             ],
             "freq": "30785"
@@ -1302,13 +1302,13 @@
             ],
             "source_examples": [
                 "Gece yatmadan önce kitap okurum.",
-                "Yatağa <bold>yat</bold>madan önce dua ederim.",
-                "Çok yorgunum, biraz <bold>yat</bold>mak istiyorum."
+                "Yatağa <u>yat</u>madan önce dua ederim.",
+                "Çok yorgunum, biraz <u>yat</u>mak istiyorum."
             ],
             "target_examples": [
-                "I read a book before <bold>lying down</bold> at night.",
-                "I pray before <bold>going to sleep</bold>.",
-                "I'm very tired, I want to <bold>lie down</bold> for a while."
+                "I read a book before <u>lying down</u> at night.",
+                "I pray before <u>going to sleep</u>.",
+                "I'm very tired, I want to <u>lie down</u> for a while."
             ],
             "freq": "29590"
         },
@@ -1319,14 +1319,14 @@
                 "to run away"
             ],
             "source_examples": [
-                "Hırsız polisten <bold>kaç</bold>tı.",
-                "Köpekler bize saldırdı, hemen <bold>kaç</bold>tık.",
-                "Tehlikeden <bold>kaç</bold>mak için hızlı davranmalısın."
+                "Hırsız polisten <u>kaç</u>tı.",
+                "Köpekler bize saldırdı, hemen <u>kaç</u>tık.",
+                "Tehlikeden <u>kaç</u>mak için hızlı davranmalısın."
             ],
             "target_examples": [
-                "The thief <bold>escaped</bold> from the police.",
-                "The dogs attacked us, we <bold>ran away</bold> immediately.",
-                "You must act fast to <bold>escape</bold> from danger."
+                "The thief <u>escaped</u> from the police.",
+                "The dogs attacked us, we <u>ran away</u> immediately.",
+                "You must act fast to <u>escape</u> from danger."
             ],
             "freq": "29420"
         },
@@ -1337,13 +1337,13 @@
                 "to play (an instrument)"
             ],
             "source_examples": [
-                "Hırsız evden birkaç eşya <bold>çal</bold>dı.",
-                "Piyano <bold>çal</bold>mayı öğrenmek istiyorum.",
-                "Gece yarısı gitar <bold>çal</bold>mak çok keyifli."
+                "Hırsız evden birkaç eşya <u>çal</u>dı.",
+                "Piyano <u>çal</u>mayı öğrenmek istiyorum.",
+                "Gece yarısı gitar <u>çal</u>mak çok keyifli."
             ],
             "target_examples": [
-                "The thief <bold>stole</bold> some items from the house.",
-                "I want to learn to <bold>play</bold> the piano.",
+                "The thief <u>stole</u> some items from the house.",
+                "I want to learn to <u>play</u> the piano.",
                 "Playing the guitar at midnight is very enjoyable."
             ],
             "freq": "28090"
@@ -1354,13 +1354,13 @@
                 "to sleep"
             ],
             "source_examples": [
-                "Gece geç <bold>uyu</bold>duğum için sabah geç kalktım.",
-                "Çok yorgunum, hemen <bold>uyu</bold>yacağım.",
-                "Uyku ilacı alarak daha iyi <bold>uyu</bold>yorum."
+                "Gece geç <u>uyu</u>duğum için sabah geç kalktım.",
+                "Çok yorgunum, hemen <u>uyu</u>yacağım.",
+                "Uyku ilacı alarak daha iyi <u>uyu</u>yorum."
             ],
             "target_examples": [
-                "I woke up late in the morning because I <bold>slept</bold> late at night.",
-                "I'm very tired, I will <bold>sleep</bold> right away.",
+                "I woke up late in the morning because I <u>slept</u> late at night.",
+                "I'm very tired, I will <u>sleep</u> right away.",
                 "I sleep better by taking sleeping pills."
             ],
             "freq": "25729"
@@ -1372,9 +1372,9 @@
                 "to rejoice"
             ],
             "source_examples": [
-                "Başarılı olunca çok <bold>sevin</bold>irim.",
-                "Güzel bir haber aldığımda içim <bold>sevin</bold>ir.",
-                "Doğum günümde herkes benimle birlikte <bold>sevin</bold>ir."
+                "Başarılı olunca çok <u>sevin</u>irim.",
+                "Güzel bir haber aldığımda içim <u>sevin</u>ir.",
+                "Doğum günümde herkes benimle birlikte <u>sevin</u>ir."
             ],
             "target_examples": [
                 "I am very happy when I succeed.",
@@ -1390,14 +1390,14 @@
                 "to stroll"
             ],
             "source_examples": [
-                "Tatil günlerinde şehirde <bold>dolaş</bold>mayı severim.",
-                "Parkta biraz <bold>dolaş</bold>alım mı?",
-                "Akşamüstü sahilde <bold>dolaş</bold>mak çok keyifli."
+                "Tatil günlerinde şehirde <u>dolaş</u>mayı severim.",
+                "Parkta biraz <u>dolaş</u>alım mı?",
+                "Akşamüstü sahilde <u>dolaş</u>mak çok keyifli."
             ],
             "target_examples": [
-                "I like to <bold>wander</bold> around the city on holidays.",
-                "Do you want to <bold>stroll</bold> in the park for a while?",
-                "It's very enjoyable to <bold>wander</bold> on the beach in the evening."
+                "I like to <u>wander</u> around the city on holidays.",
+                "Do you want to <u>stroll</u> in the park for a while?",
+                "It's very enjoyable to <u>wander</u> on the beach in the evening."
             ],
             "freq": "25028"
         },
@@ -1407,9 +1407,9 @@
                 "to pay"
             ],
             "source_examples": [
-                "Faturayı hemen <bold>öde</bold>dik.",
-                "Alışveriş yaparken nakit para ile <bold>öde</bold>yebilirsiniz.",
-                "Kredi kartı ile kolayca <bold>öde</bold>me yapabilirsiniz."
+                "Faturayı hemen <u>öde</u>dik.",
+                "Alışveriş yaparken nakit para ile <u>öde</u>yebilirsiniz.",
+                "Kredi kartı ile kolayca <u>öde</u>me yapabilirsiniz."
             ],
             "target_examples": [
                 "We paid the bill immediately.",
@@ -1424,9 +1424,9 @@
                 "to drink"
             ],
             "source_examples": [
-                "Her gün yeterli su <bold>iç</bold>melisin.",
-                "Çayı şekersiz <bold>iç</bold>erim.",
-                "Akşam yemeğinden sonra bir fincan kahve <bold>iç</bold>erim."
+                "Her gün yeterli su <u>iç</u>melisin.",
+                "Çayı şekersiz <u>iç</u>erim.",
+                "Akşam yemeğinden sonra bir fincan kahve <u>iç</u>erim."
             ],
             "target_examples": [
                 "You should drink enough water every day.",
@@ -1441,9 +1441,9 @@
                 "to sell"
             ],
             "source_examples": [
-                "Eski eşyalarımı internet üzerinden <bold>sat</bold>tım.",
-                "Pazarda meyve ve sebze <bold>sat</bold>an bir tezgah gördüm.",
-                "Bu mağaza her türlü giyim eşyasını <bold>sat</bold>ıyor."
+                "Eski eşyalarımı internet üzerinden <u>sat</u>tım.",
+                "Pazarda meyve ve sebze <u>sat</u>an bir tezgah gördüm.",
+                "Bu mağaza her türlü giyim eşyasını <u>sat</u>ıyor."
             ],
             "target_examples": [
                 "I sold my old items online.",
@@ -1459,12 +1459,12 @@
                 "to consider"
             ],
             "source_examples": [
-                "Bu kitapta kaç sayfa var, say <bold>say</bold>!",
-                "Onu çok önemli biri olarak <bold>say</bold>ıyorlar."
+                "Bu kitapta kaç sayfa var, say <u>say</u>!",
+                "Onu çok önemli biri olarak <u>say</u>ıyorlar."
             ],
             "target_examples": [
-                "How many pages are there in this book, <bold>count</bold>!",
-                "They <bold>consider</bold> him as a very important person."
+                "How many pages are there in this book, <u>count</u>!",
+                "They <u>consider</u> him as a very important person."
             ],
             "freq": "22169"
         },
@@ -1475,12 +1475,12 @@
                 "to complete"
             ],
             "source_examples": [
-                "Bu işi ne zaman <bold>bitir</bold>eceksin?",
-                "Sınavı başarıyla <bold>bitir</bold>dik."
+                "Bu işi ne zaman <u>bitir</u>eceksin?",
+                "Sınavı başarıyla <u>bitir</u>dik."
             ],
             "target_examples": [
-                "When will you <bold>finish</bold> this job?",
-                "We successfully <bold>completed</bold> the exam."
+                "When will you <u>finish</u> this job?",
+                "We successfully <u>completed</u> the exam."
             ],
             "freq": "20623"
         },
@@ -1491,12 +1491,12 @@
                 "to invite"
             ],
             "source_examples": [
-                "Arkadaşlarını partiye <bold>çağır</bold>.",
-                "Doktoru muayene etmek için <bold>çağır</bold>dık."
+                "Arkadaşlarını partiye <u>çağır</u>.",
+                "Doktoru muayene etmek için <u>çağır</u>dık."
             ],
             "target_examples": [
-                "<bold>Call</bold> your friends to the party.",
-                "We <bold>invited</bold> the doctor for examination."
+                "<u>Call</u> your friends to the party.",
+                "We <u>invited</u> the doctor for examination."
             ],
             "freq": "19489"
         },
@@ -1507,11 +1507,11 @@
                 "to wear"
             ],
             "source_examples": [
-                "Resmi belgeyi dosyaya <bold>tak</bold>.",
-                "Bugün yeşil gömleğini <bold>tak</bold>."
+                "Resmi belgeyi dosyaya <u>tak</u>.",
+                "Bugün yeşil gömleğini <u>tak</u>."
             ],
             "target_examples": [
-                "<bold>Attach</bold> the official document to the file.",
+                "<u>Attach</u> the official document to the file.",
                 "Wear your green shirt today."
             ],
             "freq": "19456"
@@ -1523,8 +1523,8 @@
                 "to enlarge"
             ],
             "source_examples": [
-                "Çocuklar hızla <bold>büyü</bold>r.",
-                "Bu resmi daha büyük boyutta <bold>büyü</bold>t."
+                "Çocuklar hızla <u>büyü</u>r.",
+                "Bu resmi daha büyük boyutta <u>büyü</u>t."
             ],
             "target_examples": [
                 "Children grow up quickly.",
@@ -1539,11 +1539,11 @@
                 "to interfere"
             ],
             "source_examples": [
-                "Malzemeleri iyice <bold>karış</bold>tır.",
+                "Malzemeleri iyice <u>karış</u>tır.",
                 "Bu konuya karışma, seninle alakası yok."
             ],
             "target_examples": [
-                "<bold>Mix</bold> the ingredients well.",
+                "<u>Mix</u> the ingredients well.",
                 "Don't interfere in this matter, it's not related to you."
             ],
             "freq": "18870"
@@ -1555,12 +1555,12 @@
                 "to contribute"
             ],
             "source_examples": [
-                "Yemeğe biraz tuz <bold>kat</bold>.",
-                "Bu projeye nasıl bir değer <bold>kat</bold>abilirsin?"
+                "Yemeğe biraz tuz <u>kat</u>.",
+                "Bu projeye nasıl bir değer <u>kat</u>abilirsin?"
             ],
             "target_examples": [
-                "<bold>Add</bold> some salt to the food.",
-                "How can you <bold>contribute</bold> value to this project?"
+                "<u>Add</u> some salt to the food.",
+                "How can you <u>contribute</u> value to this project?"
             ],
             "freq": "18772"
         },
@@ -1571,11 +1571,11 @@
                 "to allocate"
             ],
             "source_examples": [
-                "Çöpleri geri dönüşüm için ayrı <bold>ayır</bold>.",
-                "Bütçeden bu projeye özel bir miktar <bold>ayır</bold>dık."
+                "Çöpleri geri dönüşüm için ayrı <u>ayır</u>.",
+                "Bütçeden bu projeye özel bir miktar <u>ayır</u>dık."
             ],
             "target_examples": [
-                "<bold>Separate</bold> the garbage for recycling.",
+                "<u>Separate</u> the garbage for recycling.",
                 "We allocated a specific amount from the budget for this project."
             ],
             "freq": "18517"
@@ -1587,11 +1587,11 @@
                 "to select"
             ],
             "source_examples": [
-                "Menüden bir yemek <bold>seç</bold>.",
-                "En iyi adayı <bold>seç</bold>mek zor olabilir."
+                "Menüden bir yemek <u>seç</u>.",
+                "En iyi adayı <u>seç</u>mek zor olabilir."
             ],
             "target_examples": [
-                "<bold>Choose</bold> a meal from the menu.",
+                "<u>Choose</u> a meal from the menu.",
                 "Selecting the best candidate can be difficult."
             ],
             "freq": "18490"
@@ -1603,11 +1603,11 @@
                 "to long for"
             ],
             "source_examples": [
-                "Seni çok <bold>özle</bold>dik.",
-                "Memleketini <bold>özle</bold>mek normaldir."
+                "Seni çok <u>özle</u>dik.",
+                "Memleketini <u>özle</u>mek normaldir."
             ],
             "target_examples": [
-                "We <bold>miss</bold> you a lot.",
+                "We <u>miss</u> you a lot.",
                 "Longing for your homeland is normal."
             ],
             "freq": "17632"
@@ -1618,12 +1618,12 @@
                 "to run"
             ],
             "source_examples": [
-                "Her sabah parkta <bold>koş</bold>arım.",
+                "Her sabah parkta <u>koş</u>arım.",
                 "Koşarak formumu koruyorum."
             ],
             "target_examples": [
-                "I <bold>run</bold> in the park every morning.",
-                "I keep my shape by <bold>running</bold>."
+                "I <u>run</u> in the park every morning.",
+                "I keep my shape by <u>running</u>."
             ],
             "freq": "17477"
         },
@@ -1633,12 +1633,12 @@
                 "to be born"
             ],
             "source_examples": [
-                "O, İstanbul'da <bold>doğ</bold>du.",
-                "Yeni bir gün <bold>doğ</bold>uyor."
+                "O, İstanbul'da <u>doğ</u>du.",
+                "Yeni bir gün <u>doğ</u>uyor."
             ],
             "target_examples": [
-                "He was <bold>born</bold> in Istanbul.",
-                "A new day is <bold>born</bold>."
+                "He was <u>born</u> in Istanbul.",
+                "A new day is <u>born</u>."
             ],
             "freq": "16799"
         },
@@ -1648,12 +1648,12 @@
                 "to approach"
             ],
             "source_examples": [
-                "Yavaşça ona <bold>yaklaş</bold>tı.",
-                "Sonuna <bold>yaklaş</bold>tık."
+                "Yavaşça ona <u>yaklaş</u>tı.",
+                "Sonuna <u>yaklaş</u>tık."
             ],
             "target_examples": [
-                "He <bold>approached</bold> her slowly.",
-                "We <bold>approached</bold> the end."
+                "He <u>approached</u> her slowly.",
+                "We <u>approached</u> the end."
             ],
             "freq": "16574"
         },
@@ -1663,12 +1663,12 @@
                 "to hide"
             ],
             "source_examples": [
-                "Sürprizi ondan <bold>sakla</bold>dım.",
-                "Gerçeği benden <bold>sakla</bold>ma."
+                "Sürprizi ondan <u>sakla</u>dım.",
+                "Gerçeği benden <u>sakla</u>ma."
             ],
             "target_examples": [
-                "I <bold>hid</bold> the surprise from her.",
-                "Don't <bold>hide</bold> the truth from me."
+                "I <u>hid</u> the surprise from her.",
+                "Don't <u>hide</u> the truth from me."
             ],
             "freq": "16511"
         },
@@ -1678,12 +1678,12 @@
                 "to succeed"
             ],
             "source_examples": [
-                "Sonunda amacına <bold>başar</bold>dı.",
-                "Başarıya ulaşmak için çok <bold>başar</bold>malısın."
+                "Sonunda amacına <u>başar</u>dı.",
+                "Başarıya ulaşmak için çok <u>başar</u>malısın."
             ],
             "target_examples": [
-                "He finally <bold>succeeded</bold> in his goal.",
-                "You must work very hard to <bold>succeed</bold>."
+                "He finally <u>succeeded</u> in his goal.",
+                "You must work very hard to <u>succeed</u>."
             ],
             "freq": "16019"
         },
@@ -1693,11 +1693,11 @@
                 "to press"
             ],
             "source_examples": [
-                "Düğmeye <bold>bas</bold>arak açabilirsin.",
-                "Kağıdı sıkıca <bold>bas</bold>."
+                "Düğmeye <u>bas</u>arak açabilirsin.",
+                "Kağıdı sıkıca <u>bas</u>."
             ],
             "target_examples": [
-                "You can open it by <bold>pressing</bold> the button.",
+                "You can open it by <u>pressing</u> the button.",
                 "Press the paper firmly."
             ],
             "freq": "15710"
@@ -1708,11 +1708,11 @@
                 "to establish"
             ],
             "source_examples": [
-                "Şirketi 1990 yılında <bold>kur</bold>du.",
-                "İyi bir ilişki <bold>kur</bold>mak önemlidir."
+                "Şirketi 1990 yılında <u>kur</u>du.",
+                "İyi bir ilişki <u>kur</u>mak önemlidir."
             ],
             "target_examples": [
-                "He <bold>established</bold> the company in 1990.",
+                "He <u>established</u> the company in 1990.",
                 "Establishing a good relationship is important."
             ],
             "freq": "15614"
@@ -1723,11 +1723,11 @@
                 "to wear"
             ],
             "source_examples": [
-                "Bugün ne <bold>giy</bold>eceksin?",
-                "Kışın sıcak giysiler <bold>giy</bold>melisin."
+                "Bugün ne <u>giy</u>eceksin?",
+                "Kışın sıcak giysiler <u>giy</u>melisin."
             ],
             "target_examples": [
-                "What will you <bold>wear</bold> today?",
+                "What will you <u>wear</u> today?",
                 "You should wear warm clothes in winter."
             ],
             "freq": "15585"
@@ -1738,11 +1738,11 @@
                 "to move"
             ],
             "source_examples": [
-                "Yeni bir eve <bold>taşın</bold>dık.",
+                "Yeni bir eve <u>taşın</u>dık.",
                 "Taşınma işlemi zor olabilir."
             ],
             "target_examples": [
-                "We <bold>moved</bold> to a new house.",
+                "We <u>moved</u> to a new house.",
                 "Moving process can be difficult."
             ],
             "freq": "15527"
@@ -1753,8 +1753,8 @@
                 "to fit"
             ],
             "source_examples": [
-                "Bu elbise sana çok iyi <bold>uy</bold>du.",
-                "Ayakkabılarım tam olarak <bold>uy</bold>uyor."
+                "Bu elbise sana çok iyi <u>uy</u>du.",
+                "Ayakkabılarım tam olarak <u>uy</u>uyor."
             ],
             "target_examples": [
                 "This dress fits you very well.",
@@ -1768,14 +1768,14 @@
                 "to send"
             ],
             "source_examples": [
-                "Paketi postaya <bold>yolla</bold>yım.",
-                "Anneme bir mektup <bold>yolla</bold>yım.",
-                "Yarın kargoyla paketi <bold>yolla</bold>yacağım."
+                "Paketi postaya <u>yolla</u>yım.",
+                "Anneme bir mektup <u>yolla</u>yım.",
+                "Yarın kargoyla paketi <u>yolla</u>yacağım."
             ],
             "target_examples": [
-                "Let me <bold>send</bold> the package to the post office.",
-                "I will <bold>send</bold> a letter to my mother.",
-                "Tomorrow I will <bold>send</bold> the package by courier."
+                "Let me <u>send</u> the package to the post office.",
+                "I will <u>send</u> a letter to my mother.",
+                "Tomorrow I will <u>send</u> the package by courier."
             ],
             "freq": "14947"
         },
@@ -1785,14 +1785,14 @@
                 "to like"
             ],
             "source_examples": [
-                "Bu filmi <bold>beğen</bold>dim.",
-                "Yemeği çok <bold>beğen</bold>di.",
-                "Bu kitabı <bold>beğen</bold>mezsin."
+                "Bu filmi <u>beğen</u>dim.",
+                "Yemeği çok <u>beğen</u>di.",
+                "Bu kitabı <u>beğen</u>mezsin."
             ],
             "target_examples": [
-                "I <bold>liked</bold> this movie.",
-                "He really <bold>liked</bold> the food.",
-                "You won't <bold>like</bold> this book."
+                "I <u>liked</u> this movie.",
+                "He really <u>liked</u> the food.",
+                "You won't <u>like</u> this book."
             ],
             "freq": "14866"
         },
@@ -1802,14 +1802,14 @@
                 "to jump"
             ],
             "source_examples": [
-                "Çocuklar havuza <bold>atla</bold>dılar.",
-                "Köpek çitin üstünden <bold>atla</bold>dı.",
-                "Yüksek bir yerden <bold>atla</bold>mamalısın."
+                "Çocuklar havuza <u>atla</u>dılar.",
+                "Köpek çitin üstünden <u>atla</u>dı.",
+                "Yüksek bir yerden <u>atla</u>mamalısın."
             ],
             "target_examples": [
-                "The children <bold>jumped</bold> into the pool.",
-                "The dog <bold>jumped</bold> over the fence.",
-                "You shouldn't <bold>jump</bold> from a high place."
+                "The children <u>jumped</u> into the pool.",
+                "The dog <u>jumped</u> over the fence.",
+                "You shouldn't <u>jump</u> from a high place."
             ],
             "freq": "14081"
         },
@@ -1819,14 +1819,14 @@
                 "to wake up"
             ],
             "source_examples": [
-                "Sabahları erken <bold>uyan</bold>ırım.",
-                "Gece geç <bold>uyan</bold>mak istemiyorum.",
-                "Kuşlar şafakta <bold>uyan</bold>ır."
+                "Sabahları erken <u>uyan</u>ırım.",
+                "Gece geç <u>uyan</u>mak istemiyorum.",
+                "Kuşlar şafakta <u>uyan</u>ır."
             ],
             "target_examples": [
-                "I <bold>wake up</bold> early in the mornings.",
-                "I don't want to <bold>wake up</bold> late at night.",
-                "Birds <bold>wake up</bold> at dawn."
+                "I <u>wake up</u> early in the mornings.",
+                "I don't want to <u>wake up</u> late at night.",
+                "Birds <u>wake up</u> at dawn."
             ],
             "freq": "14011"
         },
@@ -1836,14 +1836,14 @@
                 "to close"
             ],
             "source_examples": [
-                "Lütfen kapıyı <bold>kapa</bold>.",
-                "Pencereyi <bold>kapa</bold>.",
-                "Kitabı <bold>kapa</bold>."
+                "Lütfen kapıyı <u>kapa</u>.",
+                "Pencereyi <u>kapa</u>.",
+                "Kitabı <u>kapa</u>."
             ],
             "target_examples": [
-                "Please <bold>close</bold> the door.",
-                "<bold>Close</bold> the window.",
-                "<bold>Close</bold> the book."
+                "Please <u>close</u> the door.",
+                "<u>Close</u> the window.",
+                "<u>Close</u> the book."
             ],
             "freq": "13700"
         },
@@ -1854,9 +1854,9 @@
                 "to translate"
             ],
             "source_examples": [
-                "Anahtarı sağa <bold>çevir</bold>.",
-                "Bu kitabı İngilizce'ye <bold>çevir</bold>.",
-                "Kafanı sola <bold>çevir</bold>."
+                "Anahtarı sağa <u>çevir</u>.",
+                "Bu kitabı İngilizce'ye <u>çevir</u>.",
+                "Kafanı sola <u>çevir</u>."
             ],
             "target_examples": [
                 "Turn the key to the right.",
@@ -1872,14 +1872,14 @@
                 "to add up"
             ],
             "source_examples": [
-                "Çöpleri <bold>topla</bold>yın.",
-                "Bu sayıları <bold>topla</bold>yın.",
-                "Para <bold>topla</bold>yın."
+                "Çöpleri <u>topla</u>yın.",
+                "Bu sayıları <u>topla</u>yın.",
+                "Para <u>topla</u>yın."
             ],
             "target_examples": [
-                "<bold>Collect</bold> the garbage.",
-                "<bold>Add up</bold> these numbers.",
-                "<bold>Collect</bold> the money."
+                "<u>Collect</u> the garbage.",
+                "<u>Add up</u> these numbers.",
+                "<u>Collect</u> the money."
             ],
             "freq": "13040"
         },
@@ -1890,14 +1890,14 @@
                 "to stop talking"
             ],
             "source_examples": [
-                "Lütfen <bold>sus</bold>.",
-                "Çocuklar oyun oynarken <bold>sus</bold>arlar.",
-                "Konuşmayı <bold>sus</bold>tur."
+                "Lütfen <u>sus</u>.",
+                "Çocuklar oyun oynarken <u>sus</u>arlar.",
+                "Konuşmayı <u>sus</u>tur."
             ],
             "target_examples": [
-                "Please <bold>be silent</bold>.",
-                "Children <bold>are silent</bold> when playing games.",
-                "<bold>Stop talking</bold>."
+                "Please <u>be silent</u>.",
+                "Children <u>are silent</u> when playing games.",
+                "<u>Stop talking</u>."
             ],
             "freq": "12765"
         },
@@ -1908,14 +1908,14 @@
                 "to battle"
             ],
             "source_examples": [
-                "Askerler düşmanla <bold>savaş</bold>tılar.",
-                "Köpekler birbirleriyle <bold>savaş</bold>tılar.",
+                "Askerler düşmanla <u>savaş</u>tılar.",
+                "Köpekler birbirleriyle <u>savaş</u>tılar.",
                 "Savaşmayı sevmem."
             ],
             "target_examples": [
-                "The soldiers <bold>fought</bold> with the enemy.",
-                "The dogs <bold>fought</bold> with each other.",
-                "I don't like <bold>fighting</bold>."
+                "The soldiers <u>fought</u> with the enemy.",
+                "The dogs <u>fought</u> with each other.",
+                "I don't like <u>fighting</u>."
             ],
             "freq": "12674"
         },
@@ -1926,14 +1926,14 @@
                 "to put in"
             ],
             "source_examples": [
-                "Anahtarı kilitli kapıya <bold>sok</bold>.",
-                "Çantana anahtarları <bold>sok</bold>.",
-                "Kalem kutusuna kalemleri <bold>sok</bold>."
+                "Anahtarı kilitli kapıya <u>sok</u>.",
+                "Çantana anahtarları <u>sok</u>.",
+                "Kalem kutusuna kalemleri <u>sok</u>."
             ],
             "target_examples": [
-                "<bold>Insert</bold> the key into the locked door.",
-                "<bold>Put in</bold> the keys in your bag.",
-                "<bold>Put in</bold> the pens into the pencil case."
+                "<u>Insert</u> the key into the locked door.",
+                "<u>Put in</u> the keys in your bag.",
+                "<u>Put in</u> the pens into the pencil case."
             ],
             "freq": "12500"
         },
@@ -1945,9 +1945,9 @@
                 "to embrace"
             ],
             "source_examples": [
-                "Hediyeyi güzel bir kağıda <bold>sar</bold>.",
+                "Hediyeyi güzel bir kağıda <u>sar</u>.",
                 "Sarma işlemi oldukça zahmetli bir iştir.",
-                "Kollarını etrafıma <bold>sar</bold>."
+                "Kollarını etrafıma <u>sar</u>."
             ],
             "target_examples": [
                 "Wrap the gift in a nice paper.",
@@ -1964,9 +1964,9 @@
                 "to waste"
             ],
             "source_examples": [
-                "Para <bold>harc</bold>amak zorunda kaldım.",
-                "Enerjiyi gereksiz yere <bold>harc</bold>amak yanlıştır.",
-                "Zamanını boşa <bold>harc</bold>ama."
+                "Para <u>harc</u>amak zorunda kaldım.",
+                "Enerjiyi gereksiz yere <u>harc</u>amak yanlıştır.",
+                "Zamanını boşa <u>harc</u>ama."
             ],
             "target_examples": [
                 "I had to spend money.",
@@ -1983,9 +1983,9 @@
                 "to connect"
             ],
             "source_examples": [
-                "Ayakkabı bağcıklarını sıkıca <bold>bağla</bold>.",
-                "Bu iki konu arasında bir bağlantı <bold>kur</bold>mak gerekiyor.",
-                "Telefonunu bilgisayara <bold>bağla</bold>."
+                "Ayakkabı bağcıklarını sıkıca <u>bağla</u>.",
+                "Bu iki konu arasında bir bağlantı <u>kur</u>mak gerekiyor.",
+                "Telefonunu bilgisayara <u>bağla</u>."
             ],
             "target_examples": [
                 "Tie your shoelaces tightly.",
@@ -2002,9 +2002,9 @@
                 "to ignite"
             ],
             "source_examples": [
-                "Odunlar yavaş yavaş <bold>yan</bold>dı.",
-                "Evde bir yangın çıktı ve her şey <bold>yan</bold>dı.",
-                "Ateş hemen <bold>yan</bold>ar."
+                "Odunlar yavaş yavaş <u>yan</u>dı.",
+                "Evde bir yangın çıktı ve her şey <u>yan</u>dı.",
+                "Ateş hemen <u>yan</u>ar."
             ],
             "target_examples": [
                 "The logs were burning slowly.",
@@ -2021,9 +2021,9 @@
                 "to fracture"
             ],
             "source_examples": [
-                "Camı dikkatsizce <bold>kır</bold>dım.",
-                "Kalbim <bold>kır</bold>ık.",
-                "Kolu <bold>kır</bold>dı."
+                "Camı dikkatsizce <u>kır</u>dım.",
+                "Kalbim <u>kır</u>ık.",
+                "Kolu <u>kır</u>dı."
             ],
             "target_examples": [
                 "I carelessly broke the glass.",
@@ -2040,8 +2040,8 @@
                 "to sob"
             ],
             "source_examples": [
-                "Çocuklar bazen <bold>ağla</bold>r.",
-                "Üzüntüden <bold>ağla</bold>yarak uyandı.",
+                "Çocuklar bazen <u>ağla</u>r.",
+                "Üzüntüden <u>ağla</u>yarak uyandı.",
                 "Ağlamak bazen rahatlatıcı olabilir."
             ],
             "target_examples": [
@@ -2059,9 +2059,9 @@
                 "to reek"
             ],
             "source_examples": [
-                "Bu yemek çok güzel <bold>kok</bold>uyor.",
-                "Çöp kutusu kötü bir şekilde <bold>kok</bold>uyor.",
-                "Bu çiçekler harika <bold>kok</bold>uyor."
+                "Bu yemek çok güzel <u>kok</u>uyor.",
+                "Çöp kutusu kötü bir şekilde <u>kok</u>uyor.",
+                "Bu çiçekler harika <u>kok</u>uyor."
             ],
             "target_examples": [
                 "This food smells very nice.",
@@ -2078,9 +2078,9 @@
                 "to stop by"
             ],
             "source_examples": [
-                "Geçen hafta annemi <bold>uğra</bold>dım.",
-                "Yolda bir arkadaşımın evine <bold>uğra</bold>dım.",
-                "Bir kafeye <bold>uğra</bold>."
+                "Geçen hafta annemi <u>uğra</u>dım.",
+                "Yolda bir arkadaşımın evine <u>uğra</u>dım.",
+                "Bir kafeye <u>uğra</u>."
             ],
             "target_examples": [
                 "I visited my mom last week.",
@@ -2097,9 +2097,9 @@
                 "to glide"
             ],
             "source_examples": [
-                "Kayak yaparken çok hızlı <bold>kay</bold>dım.",
-                "Islak zeminde kolayca <bold>kay</bold>abilirsin.",
-                "Kuşlar hava da <bold>kay</bold>arak ilerler."
+                "Kayak yaparken çok hızlı <u>kay</u>dım.",
+                "Islak zeminde kolayca <u>kay</u>abilirsin.",
+                "Kuşlar hava da <u>kay</u>arak ilerler."
             ],
             "target_examples": [
                 "I slid very fast while skiing.",
@@ -2116,9 +2116,9 @@
                 "to bump"
             ],
             "source_examples": [
-                "Topa sert bir şekilde <bold>çarp</bold>dı.",
-                "Kafasını masaya sert bir şekilde <bold>çarp</bold>tı.",
-                "Arabasıyla ağaca <bold>çarp</bold>tı."
+                "Topa sert bir şekilde <u>çarp</u>dı.",
+                "Kafasını masaya sert bir şekilde <u>çarp</u>tı.",
+                "Arabasıyla ağaca <u>çarp</u>tı."
             ],
             "target_examples": [
                 "He hit the ball hard.",
@@ -2134,12 +2134,12 @@
                 "to sympathize"
             ],
             "source_examples": [
-                "Onun yaralanmasına çok <bold>acı</bold>yorum.",
-                "Acı <bold>çek</bold>tiği için ona yardım etmeliyiz."
+                "Onun yaralanmasına çok <u>acı</u>yorum.",
+                "Acı <u>çek</u>tiği için ona yardım etmeliyiz."
             ],
             "target_examples": [
-                "I <bold>feel pain</bold> for his injury.",
-                "We should help him because he is <bold>suffering</bold>."
+                "I <u>feel pain</u> for his injury.",
+                "We should help him because he is <u>suffering</u>."
             ],
             "freq": "9498"
         },
@@ -2149,12 +2149,12 @@
                 "to kiss"
             ],
             "source_examples": [
-                "Sevgilisini <bold>öp</bold>erek vedalaştı.",
-                "Çocuğunu her gece uyumadan önce <bold>öp</bold>er."
+                "Sevgilisini <u>öp</u>erek vedalaştı.",
+                "Çocuğunu her gece uyumadan önce <u>öp</u>er."
             ],
             "target_examples": [
-                "He said goodbye by <bold>kissing</bold> his girlfriend.",
-                "She <bold>kisses</bold> her child every night before bedtime."
+                "He said goodbye by <u>kissing</u> his girlfriend.",
+                "She <u>kisses</u> her child every night before bedtime."
             ],
             "freq": "9481"
         },
@@ -2165,12 +2165,12 @@
                 "to shove"
             ],
             "source_examples": [
-                "Kalabalıkta insanları <bold>it</bold>erek ilerledi.",
-                "Kapıyı açmak için onu <bold>it</bold>mek zorunda kaldı."
+                "Kalabalıkta insanları <u>it</u>erek ilerledi.",
+                "Kapıyı açmak için onu <u>it</u>mek zorunda kaldı."
             ],
             "target_examples": [
-                "He <bold>pushed</bold> through the crowd to move forward.",
-                "He had to <bold>shove</bold> it to open the door."
+                "He <u>pushed</u> through the crowd to move forward.",
+                "He had to <u>shove</u> it to open the door."
             ],
             "freq": "9058"
         },
@@ -2181,12 +2181,12 @@
                 "to advocate"
             ],
             "source_examples": [
-                "Haklarını <bold>savun</bold>mak için mücadele ettiler.",
-                "Avukat, suçsuz olduğunu <bold>savun</bold>uyor."
+                "Haklarını <u>savun</u>mak için mücadele ettiler.",
+                "Avukat, suçsuz olduğunu <u>savun</u>uyor."
             ],
             "target_examples": [
-                "They fought to <bold>defend</bold> their rights.",
-                "The lawyer is <bold>advocating</bold> his innocence."
+                "They fought to <u>defend</u> their rights.",
+                "The lawyer is <u>advocating</u> his innocence."
             ],
             "freq": "8824"
         },
@@ -2197,12 +2197,12 @@
                 "to desire"
             ],
             "source_examples": [
-                "Yeni yılda mutluluk ve sağlık <bold>dil</bold>erim.",
-                "O, daha iyi bir gelecek için dua <bold>dil</bold>iyor."
+                "Yeni yılda mutluluk ve sağlık <u>dil</u>erim.",
+                "O, daha iyi bir gelecek için dua <u>dil</u>iyor."
             ],
             "target_examples": [
-                "I <bold>wish</bold> you happiness and health in the new year.",
-                "He is <bold>wishing</bold> for a better future."
+                "I <u>wish</u> you happiness and health in the new year.",
+                "He is <u>wishing</u> for a better future."
             ],
             "freq": "8665"
         },
@@ -2213,12 +2213,12 @@
                 "to resolve"
             ],
             "source_examples": [
-                "Bu problemi birlikte <bold>çöz</bold>dük.",
-                "Anlaşmazlığı <bold>çöz</bold>mek için uzlaşmaya varmalıyız."
+                "Bu problemi birlikte <u>çöz</u>dük.",
+                "Anlaşmazlığı <u>çöz</u>mek için uzlaşmaya varmalıyız."
             ],
             "target_examples": [
-                "We <bold>solved</bold> this problem together.",
-                "We must reach a compromise to <bold>resolve</bold> the dispute."
+                "We <u>solved</u> this problem together.",
+                "We must reach a compromise to <u>resolve</u> the dispute."
             ],
             "freq": "8425"
         },
@@ -2229,11 +2229,11 @@
                 "to tidy up"
             ],
             "source_examples": [
-                "Oda, misafirler gelmeden önce hızlıca <bold>temizle</bold>ndi.",
-                "Masayı yemekten sonra hemen <bold>temizle</bold>r."
+                "Oda, misafirler gelmeden önce hızlıca <u>temizle</u>ndi.",
+                "Masayı yemekten sonra hemen <u>temizle</u>r."
             ],
             "target_examples": [
-                "The room was quickly <bold>cleaned</bold> before the guests arrived.",
+                "The room was quickly <u>cleaned</u> before the guests arrived.",
                 "Clean the table right after eating."
             ],
             "freq": "8402"
@@ -2245,12 +2245,12 @@
                 "to light"
             ],
             "source_examples": [
-                "Odunları ateşe <bold>yak</bold>arak ısındılar.",
-                "Sigara içmek, sağlığını <bold>yak</bold>ar."
+                "Odunları ateşe <u>yak</u>arak ısındılar.",
+                "Sigara içmek, sağlığını <u>yak</u>ar."
             ],
             "target_examples": [
-                "They warmed up by <bold>burning</bold> the firewood.",
-                "Smoking <bold>burns</bold> your health."
+                "They warmed up by <u>burning</u> the firewood.",
+                "Smoking <u>burns</u> your health."
             ],
             "freq": "8101"
         },
@@ -2260,12 +2260,12 @@
                 "to swim"
             ],
             "source_examples": [
-                "Tatilde her gün denizde <bold>yüz</bold>er.",
-                "Çocuklar, yüzme öğrenmek için kursa <bold>yüz</bold>üyorlar."
+                "Tatilde her gün denizde <u>yüz</u>er.",
+                "Çocuklar, yüzme öğrenmek için kursa <u>yüz</u>üyorlar."
             ],
             "target_examples": [
-                "She <bold>swims</bold> in the sea every day on vacation.",
-                "Children are <bold>swimming</bold> in the course to learn how to swim."
+                "She <u>swims</u> in the sea every day on vacation.",
+                "Children are <u>swimming</u> in the course to learn how to swim."
             ],
             "freq": "7994"
         },
@@ -2276,12 +2276,12 @@
                 "to argue"
             ],
             "source_examples": [
-                "Konuyu detaylıca <bold>tartış</bold>tık ve sonuca vardık.",
-                "Her zaman aynı konuda <bold>tartış</bold>ıyorlar."
+                "Konuyu detaylıca <u>tartış</u>tık ve sonuca vardık.",
+                "Her zaman aynı konuda <u>tartış</u>ıyorlar."
             ],
             "target_examples": [
-                "We <bold>discussed</bold> the topic in detail and reached a conclusion.",
-                "They always <bold>argue</bold> about the same topic."
+                "We <u>discussed</u> the topic in detail and reached a conclusion.",
+                "They always <u>argue</u> about the same topic."
             ],
             "freq": "7777"
         },
@@ -2292,12 +2292,12 @@
                 "to yell"
             ],
             "source_examples": [
-                "Çocuklar parkta <bold>bağır</bold>ıyorlar.",
-                "Neden bu kadar <bold>bağır</bold>ıyorsun?"
+                "Çocuklar parkta <u>bağır</u>ıyorlar.",
+                "Neden bu kadar <u>bağır</u>ıyorsun?"
             ],
             "target_examples": [
-                "The children are <bold>shouting</bold> in the park.",
-                "Why are you <bold>yelling</bold> so much?"
+                "The children are <u>shouting</u> in the park.",
+                "Why are you <u>yelling</u> so much?"
             ],
             "freq": "7385"
         },
@@ -2307,12 +2307,12 @@
                 "to touch"
             ],
             "source_examples": [
-                "Lütfen bu resme <bold>dokun</bold>ma.",
-                "Hissettiğimde <bold>dokun</bold>mak istiyorum."
+                "Lütfen bu resme <u>dokun</u>ma.",
+                "Hissettiğimde <u>dokun</u>mak istiyorum."
             ],
             "target_examples": [
-                "Please don't <bold>touch</bold> this painting.",
-                "I want to <bold>touch</bold> when I feel."
+                "Please don't <u>touch</u> this painting.",
+                "I want to <u>touch</u> when I feel."
             ],
             "freq": "7182"
         },
@@ -2323,12 +2323,12 @@
                 "to quit"
             ],
             "source_examples": [
-                "Hayallerinden asla <bold>vazgeç</bold>me.",
-                "Bu işten <bold>vazgeç</bold>melisin."
+                "Hayallerinden asla <u>vazgeç</u>me.",
+                "Bu işten <u>vazgeç</u>melisin."
             ],
             "target_examples": [
-                "Never <bold>give up</bold> on your dreams.",
-                "You should <bold>quit</bold> this job."
+                "Never <u>give up</u> on your dreams.",
+                "You should <u>quit</u> this job."
             ],
             "freq": "7164"
         },
@@ -2339,11 +2339,11 @@
                 "to ride"
             ],
             "source_examples": [
-                "Otobüse hızlıca <bold>bin</bold>dik.",
-                "Ata <bold>bin</bold>mek çok eğlenceli."
+                "Otobüse hızlıca <u>bin</u>dik.",
+                "Ata <u>bin</u>mek çok eğlenceli."
             ],
             "target_examples": [
-                "We quickly <bold>got on</bold> the bus.",
+                "We quickly <u>got on</u> the bus.",
                 "Riding a horse is very fun."
             ],
             "freq": "7072"
@@ -2355,12 +2355,12 @@
                 "to ruin"
             ],
             "source_examples": [
-                "Lütfen bu camı <bold>boz</bold>ma.",
-                "Her şeyi <bold>boz</bold>du."
+                "Lütfen bu camı <u>boz</u>ma.",
+                "Her şeyi <u>boz</u>du."
             ],
             "target_examples": [
-                "Please don't <bold>break</bold> this glass.",
-                "He <bold>ruined</bold> everything."
+                "Please don't <u>break</u> this glass.",
+                "He <u>ruined</u> everything."
             ],
             "freq": "6591"
         },
@@ -2371,12 +2371,12 @@
                 "to relax"
             ],
             "source_examples": [
-                "Hafta sonu iyi <bold>dinlen</bold>dik.",
-                "Çok yorgunum, biraz <bold>dinlen</bold>meliyim."
+                "Hafta sonu iyi <u>dinlen</u>dik.",
+                "Çok yorgunum, biraz <u>dinlen</u>meliyim."
             ],
             "target_examples": [
-                "We <bold>rested</bold> well on the weekend.",
-                "I'm very tired, I should <bold>relax</bold> a bit."
+                "We <u>rested</u> well on the weekend.",
+                "I'm very tired, I should <u>relax</u> a bit."
             ],
             "freq": "6406"
         },
@@ -2386,7 +2386,7 @@
                 "to forgive"
             ],
             "source_examples": [
-                "Onu <bold>bağışla</bold>, hata yapabilir."
+                "Onu <u>bağışla</u>, hata yapabilir."
             ],
             "target_examples": [
                 "Forgive him, he can make mistakes."
@@ -2400,12 +2400,12 @@
                 "to plead"
             ],
             "source_examples": [
-                "Lütfen bana yardım et, <bold>yalvar</bold>ıyorum.",
-                "Ona <bold>yalvar</bold>arak affetmesini istedi."
+                "Lütfen bana yardım et, <u>yalvar</u>ıyorum.",
+                "Ona <u>yalvar</u>arak affetmesini istedi."
             ],
             "target_examples": [
-                "Please help me, I'm <bold>begging</bold> you.",
-                "He asked for forgiveness by <bold>pleading</bold> to her."
+                "Please help me, I'm <u>begging</u> you.",
+                "He asked for forgiveness by <u>pleading</u> to her."
             ],
             "freq": "5958"
         },
@@ -2416,12 +2416,12 @@
                 "to grieve"
             ],
             "source_examples": [
-                "Onun ayrılmasına çok <bold>üzül</bold>düm.",
-                "Babamın ölümü beni çok <bold>üzül</bold>dü."
+                "Onun ayrılmasına çok <u>üzül</u>düm.",
+                "Babamın ölümü beni çok <u>üzül</u>dü."
             ],
             "target_examples": [
                 "I was very sad about his departure.",
-                "My father's death made me very <bold>grieve</bold>."
+                "My father's death made me very <u>grieve</u>."
             ],
             "freq": "5912"
         },
@@ -2431,12 +2431,12 @@
                 "to rain"
             ],
             "source_examples": [
-                "Dışarıda <bold>yağ</bold>maya başladı.",
-                "Gece boyunca <bold>yağ</bold>dı."
+                "Dışarıda <u>yağ</u>maya başladı.",
+                "Gece boyunca <u>yağ</u>dı."
             ],
             "target_examples": [
-                "It started <bold>raining</bold> outside.",
-                "It <bold>rained</bold> all night."
+                "It started <u>raining</u> outside.",
+                "It <u>rained</u> all night."
             ],
             "freq": "5863"
         },
@@ -2447,12 +2447,12 @@
                 "to kick out"
             ],
             "source_examples": [
-                "Köpeği bahçeden <bold>kov</bold>dum.",
-                "Hırsızı evden <bold>kov</bold>dular."
+                "Köpeği bahçeden <u>kov</u>dum.",
+                "Hırsızı evden <u>kov</u>dular."
             ],
             "target_examples": [
-                "I <bold>drove away</bold> the dog from the garden.",
-                "They <bold>kicked out</bold> the thief from the house."
+                "I <u>drove away</u> the dog from the garden.",
+                "They <u>kicked out</u> the thief from the house."
             ],
             "freq": "5859"
         },
@@ -2462,12 +2462,12 @@
                 "to get tired"
             ],
             "source_examples": [
-                "Ben çok <bold>yorul</bold>dum.",
-                "Çocuklar oyun oynarken <bold>yorul</bold>mazlar."
+                "Ben çok <u>yorul</u>dum.",
+                "Çocuklar oyun oynarken <u>yorul</u>mazlar."
             ],
             "target_examples": [
-                "I <bold>got tired</bold> a lot.",
-                "Children don't <bold>get tired</bold> while playing."
+                "I <u>got tired</u> a lot.",
+                "Children don't <u>get tired</u> while playing."
             ],
             "freq": "5640"
         },
@@ -2478,8 +2478,8 @@
                 "to enjoy oneself"
             ],
             "source_examples": [
-                "Partide çok <bold>eğlen</bold>dik.",
-                "Tatilde denize girip <bold>eğlen</bold>iyoruz."
+                "Partide çok <u>eğlen</u>dik.",
+                "Tatilde denize girip <u>eğlen</u>iyoruz."
             ],
             "target_examples": [
                 "We had a lot of fun at the party.",
@@ -2494,12 +2494,12 @@
                 "to offer"
             ],
             "source_examples": [
-                "Şef bugün çok güzel bir yemek <bold>sundu</bold>.",
-                "Misafirlere çay ve kahve <bold>sun</bold>uyoruz."
+                "Şef bugün çok güzel bir yemek <u>sundu</u>.",
+                "Misafirlere çay ve kahve <u>sun</u>uyoruz."
             ],
             "target_examples": [
-                "The chef <bold>presented</bold> a very nice meal today.",
-                "We <bold>offer</bold> tea and coffee to the guests."
+                "The chef <u>presented</u> a very nice meal today.",
+                "We <u>offer</u> tea and coffee to the guests."
             ],
             "freq": "5109"
         },
@@ -2510,11 +2510,11 @@
                 "to be fed up"
             ],
             "source_examples": [
-                "Bu filmi izlemekten <bold>bık</bold>tım.",
-                "Sürekli aynı şeyleri yapmaktan <bold>bık</bold>tı."
+                "Bu filmi izlemekten <u>bık</u>tım.",
+                "Sürekli aynı şeyleri yapmaktan <u>bık</u>tı."
             ],
             "target_examples": [
-                "I <bold>got bored</bold> of watching this movie.",
+                "I <u>got bored</u> of watching this movie.",
                 "He got fed up with doing the same things all the time."
             ],
             "freq": "4871"
@@ -2526,12 +2526,12 @@
                 "to sweep"
             ],
             "source_examples": [
-                "Polis, sokakları <bold>tar</bold>ıyor.",
-                "Evde süpürge ile yerleri <bold>tar</bold>ıyoruz."
+                "Polis, sokakları <u>tar</u>ıyor.",
+                "Evde süpürge ile yerleri <u>tar</u>ıyoruz."
             ],
             "target_examples": [
-                "The police are <bold>scanning</bold> the streets.",
-                "We are <bold>sweeping</bold> the floors with a broom at home."
+                "The police are <u>scanning</u> the streets.",
+                "We are <u>sweeping</u> the floors with a broom at home."
             ],
             "freq": "4547"
         },
@@ -2542,8 +2542,8 @@
                 "to become accustomed to"
             ],
             "source_examples": [
-                "Yeni okula <bold>alış</bold>ması zaman alabilir.",
-                "Yabancı bir ülkeye <bold>alış</bold>mak zor olabilir."
+                "Yeni okula <u>alış</u>ması zaman alabilir.",
+                "Yabancı bir ülkeye <u>alış</u>mak zor olabilir."
             ],
             "target_examples": [
                 "Getting used to a new school can take time.",
@@ -2558,12 +2558,12 @@
                 "to lengthen"
             ],
             "source_examples": [
-                "Yol, inşaat nedeniyle <bold>uzadı</bold>.",
-                "Saçlarını <bold>uzat</bold>mak istiyor."
+                "Yol, inşaat nedeniyle <u>uzadı</u>.",
+                "Saçlarını <u>uzat</u>mak istiyor."
             ],
             "target_examples": [
-                "The road <bold>extended</bold> due to construction.",
-                "She wants to <bold>lengthen</bold> her hair."
+                "The road <u>extended</u> due to construction.",
+                "She wants to <u>lengthen</u> her hair."
             ],
             "freq": "3864"
         },
@@ -2574,12 +2574,12 @@
                 "to destroy"
             ],
             "source_examples": [
-                "Eski bina <bold>yık</bold>ılacak.",
-                "Deprem binaları <bold>yık</bold>tı."
+                "Eski bina <u>yık</u>ılacak.",
+                "Deprem binaları <u>yık</u>tı."
             ],
             "target_examples": [
-                "The old building will be <bold>demolished</bold>.",
-                "The earthquake <bold>destroyed</bold> the buildings."
+                "The old building will be <u>demolished</u>.",
+                "The earthquake <u>destroyed</u> the buildings."
             ],
             "freq": "3590"
         },
@@ -2590,12 +2590,12 @@
                 "to sketch"
             ],
             "source_examples": [
-                "Çocuklar resim <bold>çiz</bold>iyor.",
-                "Sanatçı, doğayı <bold>çiz</bold>iyor."
+                "Çocuklar resim <u>çiz</u>iyor.",
+                "Sanatçı, doğayı <u>çiz</u>iyor."
             ],
             "target_examples": [
-                "The children are <bold>drawing</bold> pictures.",
-                "The artist is <bold>sketching</bold> nature."
+                "The children are <u>drawing</u> pictures.",
+                "The artist is <u>sketching</u> nature."
             ],
             "freq": "3161"
         },
@@ -2605,10 +2605,10 @@
                 "to apply"
             ],
             "source_examples": [
-                "Bu kuralı nasıl <bold>uygula</bold>yabiliriz?"
+                "Bu kuralı nasıl <u>uygula</u>yabiliriz?"
             ],
             "target_examples": [
-                "How can we <bold>apply</bold> this rule?"
+                "How can we <u>apply</u> this rule?"
             ],
             "freq": "2945"
         },
@@ -2618,10 +2618,10 @@
                 "to deviate"
             ],
             "source_examples": [
-                "Doğru yoldan <bold>sap</bold>mamalısın."
+                "Doğru yoldan <u>sap</u>mamalısın."
             ],
             "target_examples": [
-                "You should not <bold>deviate</bold> from the right path."
+                "You should not <u>deviate</u> from the right path."
             ],
             "freq": "2671"
         },
@@ -2631,10 +2631,10 @@
                 "to beat"
             ],
             "source_examples": [
-                "Çocukları hiçbir zaman <bold>döv</bold>me."
+                "Çocukları hiçbir zaman <u>döv</u>me."
             ],
             "target_examples": [
-                "Never <bold>beat</bold> children."
+                "Never <u>beat</u> children."
             ],
             "freq": "2357"
         },
@@ -2644,10 +2644,10 @@
                 "to pour"
             ],
             "source_examples": [
-                "Çayı bardağa <bold>dök</bold>."
+                "Çayı bardağa <u>dök</u>."
             ],
             "target_examples": [
-                "<bold>Pour</bold> the tea into the glass."
+                "<u>Pour</u> the tea into the glass."
             ],
             "freq": "2346"
         },
@@ -2657,10 +2657,10 @@
                 "to divide"
             ],
             "source_examples": [
-                "Bu pastayı 8 parçaya <bold>böl</bold>."
+                "Bu pastayı 8 parçaya <u>böl</u>."
             ],
             "target_examples": [
-                "<bold>Divide</bold> this cake into 8 pieces."
+                "<u>Divide</u> this cake into 8 pieces."
             ],
             "freq": "2331"
         },
@@ -2670,10 +2670,10 @@
                 "to break off"
             ],
             "source_examples": [
-                "Kolum <bold>kop</bold>tu."
+                "Kolum <u>kop</u>tu."
             ],
             "target_examples": [
-                "My arm <bold>broke off</bold>."
+                "My arm <u>broke off</u>."
             ],
             "freq": "2294"
         },
@@ -2683,10 +2683,10 @@
                 "to tremble"
             ],
             "source_examples": [
-                "Korkudan ellerim <bold>titre</bold>di."
+                "Korkudan ellerim <u>titre</u>di."
             ],
             "target_examples": [
-                "My hands <bold>trembled</bold> with fear."
+                "My hands <u>trembled</u> with fear."
             ],
             "freq": "2185"
         },
@@ -2696,10 +2696,10 @@
                 "to thirst"
             ],
             "source_examples": [
-                "Çok susadım, biraz su <bold>istiyor</bold>um."
+                "Çok susadım, biraz su <u>istiyor</u>um."
             ],
             "target_examples": [
-                "I'm very thirsty, I <bold>thirst</bold> for some water."
+                "I'm very thirsty, I <u>thirst</u> for some water."
             ],
             "freq": "2146"
         },
@@ -2709,10 +2709,10 @@
                 "to greet"
             ],
             "source_examples": [
-                "Misafirleri kapıda <bold>selamla</bold>dı."
+                "Misafirleri kapıda <u>selamla</u>dı."
             ],
             "target_examples": [
-                "He <bold>greeted</bold> the guests at the door."
+                "He <u>greeted</u> the guests at the door."
             ],
             "freq": "1933"
         },
@@ -2722,10 +2722,10 @@
                 "to bury"
             ],
             "source_examples": [
-                "Ölüyü toprağa <bold>göm</bold>."
+                "Ölüyü toprağa <u>göm</u>."
             ],
             "target_examples": [
-                "<bold>Bury</bold> the dead in the ground."
+                "<u>Bury</u> the dead in the ground."
             ],
             "freq": "1870"
         },
@@ -2735,12 +2735,12 @@
                 "to complete"
             ],
             "source_examples": [
-                "Bu işi <bold>tamamla</bold>yabilir misin?",
-                "Sınavı <bold>tamamla</bold>dıktan sonra dinleniriz."
+                "Bu işi <u>tamamla</u>yabilir misin?",
+                "Sınavı <u>tamamla</u>dıktan sonra dinleniriz."
             ],
             "target_examples": [
-                "Can you <bold>complete</bold> this task?",
-                "We will relax after <bold>completing</bold> the exam."
+                "Can you <u>complete</u> this task?",
+                "We will relax after <u>completing</u> the exam."
             ],
             "freq": "1769"
         },
@@ -2750,12 +2750,12 @@
                 "to shine"
             ],
             "source_examples": [
-                "Güneş bugün çok güzel <bold>parlıyor</bold>.",
-                "Yıldızlar gece gökyüzünde <bold>parlar</bold>."
+                "Güneş bugün çok güzel <u>parlıyor</u>.",
+                "Yıldızlar gece gökyüzünde <u>parlar</u>."
             ],
             "target_examples": [
                 "The sun is shining very brightly today.",
-                "The stars <bold>shine</bold> in the night sky."
+                "The stars <u>shine</u> in the night sky."
             ],
             "freq": "1706"
         },
@@ -2765,11 +2765,11 @@
                 "to hang"
             ],
             "source_examples": [
-                "Tabloyu duvara <bold>as</bold>abilir misin?",
-                "Elbiseleri askıya <bold>as</bold>ın."
+                "Tabloyu duvara <u>as</u>abilir misin?",
+                "Elbiseleri askıya <u>as</u>ın."
             ],
             "target_examples": [
-                "Can you <bold>hang</bold> the painting on the wall?",
+                "Can you <u>hang</u> the painting on the wall?",
                 "Hang the clothes on the hanger."
             ],
             "freq": "1680"
@@ -2780,7 +2780,7 @@
                 "to wash"
             ],
             "source_examples": [
-                "Ellerini sabunla <bold>yıka</bold>.",
+                "Ellerini sabunla <u>yıka</u>.",
                 "Arabayı yıkamak için suya ihtiyacımız var."
             ],
             "target_examples": [
@@ -2795,11 +2795,11 @@
                 "to fly"
             ],
             "source_examples": [
-                "Kuşlar özgürce <bold>uçar</bold>.",
+                "Kuşlar özgürce <u>uçar</u>.",
                 "Uçak havalanmadan önce motorlarını çalıştırır."
             ],
             "target_examples": [
-                "Birds <bold>fly</bold> freely.",
+                "Birds <u>fly</u> freely.",
                 "The plane starts its engines before taking off."
             ],
             "freq": "1654"
@@ -2811,12 +2811,12 @@
                 "to travel"
             ],
             "source_examples": [
-                "Tatilde farklı şehirleri <bold>gez</bold>iyoruz.",
-                "Hafta sonu doğaya <bold>gez</bold>meye gidelim."
+                "Tatilde farklı şehirleri <u>gez</u>iyoruz.",
+                "Hafta sonu doğaya <u>gez</u>meye gidelim."
             ],
             "target_examples": [
-                "During the holiday, we are <bold>visiting</bold> different cities.",
-                "Let's go <bold>traveling</bold> to nature on the weekend."
+                "During the holiday, we are <u>visiting</u> different cities.",
+                "Let's go <u>traveling</u> to nature on the weekend."
             ],
             "freq": "1614"
         },
@@ -2826,8 +2826,8 @@
                 "to prevent"
             ],
             "source_examples": [
-                "Hastalıklardan korunmak için önlemler <bold>al</bold>malısın.",
-                "Kaza riskini <bold>önle</bold>mek için dikkatli olmalısın."
+                "Hastalıklardan korunmak için önlemler <u>al</u>malısın.",
+                "Kaza riskini <u>önle</u>mek için dikkatli olmalısın."
             ],
             "target_examples": [
                 "You should take precautions to protect yourself from diseases.",
@@ -2841,11 +2841,11 @@
                 "to cook"
             ],
             "source_examples": [
-                "Akşam yemeği için ne <bold>pişir</bold>eceğiz?",
-                "Annem çok iyi yemek <bold>pişirir</bold>."
+                "Akşam yemeği için ne <u>pişir</u>eceğiz?",
+                "Annem çok iyi yemek <u>pişirir</u>."
             ],
             "target_examples": [
-                "What will we <bold>cook</bold> for dinner?",
+                "What will we <u>cook</u> for dinner?",
                 "My mom cooks very well."
             ],
             "freq": "1505"
@@ -2856,12 +2856,12 @@
                 "to taste"
             ],
             "source_examples": [
-                "Yemeği tuzsuz <bold>tat</bold>mayı unutma.",
-                "Bu yemeği <bold>tat</bold>mak istiyor musun?"
+                "Yemeği tuzsuz <u>tat</u>mayı unutma.",
+                "Bu yemeği <u>tat</u>mak istiyor musun?"
             ],
             "target_examples": [
                 "Don't forget to taste the food without salt.",
-                "Do you want to <bold>taste</bold> this dish?"
+                "Do you want to <u>taste</u> this dish?"
             ],
             "freq": "1505"
         },
@@ -2872,12 +2872,12 @@
                 "to meet"
             ],
             "source_examples": [
-                "Geçen hafta eski bir arkadaşıma <bold>rastla</bold>dım.",
-                "Toplantıda yeni insanlarla <bold>rastla</bold>şabilirsin."
+                "Geçen hafta eski bir arkadaşıma <u>rastla</u>dım.",
+                "Toplantıda yeni insanlarla <u>rastla</u>şabilirsin."
             ],
             "target_examples": [
-                "Last week, I <bold>came across</bold> an old friend.",
-                "You can <bold>meet</bold> new people at the meeting."
+                "Last week, I <u>came across</u> an old friend.",
+                "You can <u>meet</u> new people at the meeting."
             ],
             "freq": "1500"
         },
@@ -2888,12 +2888,12 @@
                 "to be surprised"
             ],
             "source_examples": [
-                "Onun yaptığı işe <bold>şaş</bold>tım.",
-                "Bu haber karşısında <bold>şaş</bold>ırdım."
+                "Onun yaptığı işe <u>şaş</u>tım.",
+                "Bu haber karşısında <u>şaş</u>ırdım."
             ],
             "target_examples": [
-                "I <bold>was amazed</bold> at the work he did.",
-                "I <bold>was surprised</bold> by this news."
+                "I <u>was amazed</u> at the work he did.",
+                "I <u>was surprised</u> by this news."
             ],
             "freq": "1482"
         },
@@ -2904,8 +2904,8 @@
                 "to create"
             ],
             "source_examples": [
-                "Bu fabrika yılda 1000 ton çimento <bold>üret</bold>iyor.",
-                "Sanatçı yeni bir eser <bold>üret</bold>ti."
+                "Bu fabrika yılda 1000 ton çimento <u>üret</u>iyor.",
+                "Sanatçı yeni bir eser <u>üret</u>ti."
             ],
             "target_examples": [
                 "This factory produces 1000 tons of cement per year.",
@@ -2920,8 +2920,8 @@
                 "to move"
             ],
             "source_examples": [
-                "Kuşlar kışın güneye <bold>göç</bold>erler.",
-                "Ailemiz şehirden köye <bold>göç</bold>tü."
+                "Kuşlar kışın güneye <u>göç</u>erler.",
+                "Ailemiz şehirden köye <u>göç</u>tü."
             ],
             "target_examples": [
                 "Birds migrate south in the winter.",
@@ -2936,8 +2936,8 @@
                 "to hide"
             ],
             "source_examples": [
-                "Masanın üzerine bir örtü <bold>ört</bold>tüm.",
-                "Gerçeği <bold>ört</bold>me, her şeyi açıkça söyle."
+                "Masanın üzerine bir örtü <u>ört</u>tüm.",
+                "Gerçeği <u>ört</u>me, her şeyi açıkça söyle."
             ],
             "target_examples": [
                 "I covered the table with a cloth.",
@@ -2952,8 +2952,8 @@
                 "to rip"
             ],
             "source_examples": [
-                "Kağıdı <bold>yırt</bold>tım.",
-                "Ceketin kolu <bold>yırt</bold>ılmış."
+                "Kağıdı <u>yırt</u>tım.",
+                "Ceketin kolu <u>yırt</u>ılmış."
             ],
             "target_examples": [
                 "I tore the paper.",
@@ -2984,8 +2984,8 @@
                 "to listen"
             ],
             "source_examples": [
-                "Sesini <bold>işit</bold>tim ama nereden geldiğini anlayamadım.",
-                "Beni <bold>işit</bold>, sana bir şey söylemek istiyorum."
+                "Sesini <u>işit</u>tim ama nereden geldiğini anlayamadım.",
+                "Beni <u>işit</u>, sana bir şey söylemek istiyorum."
             ],
             "target_examples": [
                 "I heard your voice but couldn't understand where it came from.",
@@ -3000,8 +3000,8 @@
                 "to perspire"
             ],
             "source_examples": [
-                "Egzersiz yaparken çok <bold>terle</bold>r.",
-                "Sıcak hava yüzünden ter <bold>terle</bold>dik."
+                "Egzersiz yaparken çok <u>terle</u>r.",
+                "Sıcak hava yüzünden ter <u>terle</u>dik."
             ],
             "target_examples": [
                 "I sweat a lot while exercising.",
@@ -3016,8 +3016,8 @@
                 "to perceive"
             ],
             "source_examples": [
-                "Bir tehlike <bold>sez</bold>dik.",
-                "Oturduğumuz yerden güzel bir koku <bold>sez</bold>dik."
+                "Bir tehlike <u>sez</u>dik.",
+                "Oturduğumuz yerden güzel bir koku <u>sez</u>dik."
             ],
             "target_examples": [
                 "We sensed a danger.",
@@ -3032,8 +3032,8 @@
                 "to puff"
             ],
             "source_examples": [
-                "Mumun üstündeki alevi <bold>üfle</bold>dik.",
-                "Sıcak çorbayı yavaşça <bold>üfle</bold>."
+                "Mumun üstündeki alevi <u>üfle</u>dik.",
+                "Sıcak çorbayı yavaşça <u>üfle</u>."
             ],
             "target_examples": [
                 "We blew out the flame on the candle.",
@@ -3047,10 +3047,10 @@
                 "to weigh"
             ],
             "source_examples": [
-                "Bu meyve kaç kilo <bold>tart</bold>ar?"
+                "Bu meyve kaç kilo <u>tart</u>ar?"
             ],
             "target_examples": [
-                "How many kilos does this fruit <bold>weigh</bold>?"
+                "How many kilos does this fruit <u>weigh</u>?"
             ],
             "freq": "353"
         },
@@ -3060,10 +3060,10 @@
                 "to measure"
             ],
             "source_examples": [
-                "Bu odanın genişliğini <bold>ölç</bold>ebilir misin?"
+                "Bu odanın genişliğini <u>ölç</u>ebilir misin?"
             ],
             "target_examples": [
-                "Can you <bold>measure</bold> the width of this room?"
+                "Can you <u>measure</u> the width of this room?"
             ],
             "freq": "212"
         },
@@ -3073,7 +3073,7 @@
                 "to change"
             ],
             "source_examples": [
-                "Hava durumu hızla <bold>değiş</bold>iyor."
+                "Hava durumu hızla <u>değiş</u>iyor."
             ],
             "target_examples": [
                 "The weather is changing rapidly."
@@ -3086,10 +3086,10 @@
                 "to suspect"
             ],
             "source_examples": [
-                "Polis, olayla ilgili bir kişiyi <bold>kuşkulan</bold>dı."
+                "Polis, olayla ilgili bir kişiyi <u>kuşkulan</u>dı."
             ],
             "target_examples": [
-                "The police <bold>suspected</bold> a person related to the incident."
+                "The police <u>suspected</u> a person related to the incident."
             ],
             "freq": "1"
         },
@@ -3102,7 +3102,7 @@
                 "Arkadaşı ona küstüğünde, hiç konuşmaz."
             ],
             "target_examples": [
-                "When he <bold>sulks</bold> with his friend, he doesn't talk at all."
+                "When he <u>sulks</u> with his friend, he doesn't talk at all."
             ],
             "freq": "1"
         },
@@ -3112,10 +3112,10 @@
                 "to cough"
             ],
             "source_examples": [
-                "Soğuk algınlığı nedeniyle sürekli <bold>öksür</bold>üyor."
+                "Soğuk algınlığı nedeniyle sürekli <u>öksür</u>üyor."
             ],
             "target_examples": [
-                "He is constantly <bold>coughing</bold> due to a cold."
+                "He is constantly <u>coughing</u> due to a cold."
             ],
             "freq": "1"
         },
@@ -3125,10 +3125,10 @@
                 "to praise"
             ],
             "source_examples": [
-                "Öğrenciler, öğretmenlerini <bold>öv</bold>dü."
+                "Öğrenciler, öğretmenlerini <u>öv</u>dü."
             ],
             "target_examples": [
-                "The students <bold>praised</bold> their teachers."
+                "The students <u>praised</u> their teachers."
             ],
             "freq": "1"
         },

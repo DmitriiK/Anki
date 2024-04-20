@@ -14,12 +14,12 @@ class WordItem(BaseModel):
     source_examples: List[str] = Field(description="""example of usage for each of the meanings, 
                         with different grammar forms of the word from source language,
                         as a  sentence in source language,  
-                        containing 4-10 words for each of the examples. 
-                        The root part of initial word should be separated in "<bold>" tag. 
+                        containing 4-10 words for each of the examples.
+                        The root part of initial word should be separated in "<u>" tag. 
                         The words in examples should be from top 1000 of most frequent words in source language. """)
 
     target_examples: List[str] = Field(description="""Translations to target language for each of the above examples.
-                   The translated word should be included in bold tag.""")
+                   The translated word should be separated in <u> tag.""")
     freq: Optional[int] = Field(description='frequency index of word, not supposed to be used by llm')
 
 

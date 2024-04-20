@@ -1,14 +1,9 @@
-#!/usr/bin/env python3
 # https://charly-lersteau.com/blog/2019-11-17-create-anki-deck-csv/
 
-
-import json
 import random
-import html
 from typing import List
 
 import genanki
-from dotenv import load_dotenv
 
 from output_parser_formats import WordItems, WordItem
 import anki_deck_structure as ads
@@ -17,15 +12,13 @@ from persistence_guy import json_file2WordItems
 # Filename of the data file
 data_filename = cfg.OUTPUT_FILE_NAME
 
-deck_filename = "Turk2Eng.apkg"
-
 # Title of the deck as shown in Anki
 anki_deck_title = "Turk2Eng"
 
 anki_model_name = "Turk2EngModel"
 # Create the deck model
 model_id = random.randrange(1 << 30, 1 << 31)
-load_dotenv()
+
 
 anki_model = genanki.Model(
     model_id,
@@ -37,29 +30,31 @@ anki_model = genanki.Model(
 
 
 def extact_value(fld: str, itm: WordItem):
-    if fld == 'my_media':
+    if fld == ads.AnkiField.my_media:
         return f'[sound:{itm.source_word}.mp3]'
-    val = str(getattr(itm, fld))
+    val = getattr(itm, fld)
+    if fld == ads.AnkiField.freq:
+        return str(val)
     if isinstance(val, list):
-        val = html.escape('\n'.join(val))
+        val = '<br>'.join([f'- {itm}' for itm in val])  # html.escape(
     return val
 
 
-def get_card_date(fields: List[str]) -> List[List[str]]:
+def get_card_date() -> List[List[str]]:
     w_itms: WordItems = json_file2WordItems(cfg.OUTPUT_FILE_NAME)
-    rows = [[extact_value(fld, itm) for fld in fields]
+    rows = [[extact_value(fld, itm) for fld in ads.AnkiField]
             for itm in w_itms.output_list[20:40]]
     return rows
 
 
-def generate_deck():
+def generate_deck(deck_filename: str):
     anki_notes = []
-    fld_names = ads.AnkiField  # [fld['name'] for fld in ads.fields]
-    rows = get_card_date(fld_names)
+    rows = get_card_date()
     for row in rows:
         anki_note = genanki.Note(
             model=anki_model,
             fields=row,
+            tags=['Turkish', 'Verbs']
         )
         anki_notes.append(anki_note)
 
@@ -80,5 +75,4 @@ def generate_deck():
 
 
 if __name__ == "__main__":
-    generate_deck()
-    # make_audio()
+    generate_deck("Turk2Eng.apkg")
