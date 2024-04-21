@@ -12,6 +12,11 @@ CHUNK_SIZE = 10  # chunk size for batch processing of words a
 MAX_CNT_TRY = 3  # Max number or retry attempts in case of failed parsing
 CSV_HEADER = ['word', 'lemma', 'pos', 'freq']
 
+#  Azure TTL
+SPEECH_REGION = 'westeurope'
+SPEECH_KEY = os.getenv('SPEECH_KEY')
+
+
 INPUT_WORDS_LIST_FILE = r"data\input\top200TurkishVerbs.csv"
 WORDS_AND_FREQ_LIST_FILE = r"data\output\top200TurkishVerbs_frq.csv"
 

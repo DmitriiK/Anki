@@ -1,54 +1,49 @@
+# https://github.com/Azure-Samples/cognitive-services-speech-sdk/blob/master/samples/python/console/speech_synthesis_sample.py
 
-import os
 from typing import Iterable, Tuple, List
 import logging
+import os
 
-from elevenlabs.client import ElevenLabs
-from elevenlabs import save  # Voice, VoiceSettings, play,
-from elevenlabs import play  # to use play need to ffmpeg to be installed 
+import azure.cognitiveservices.speech as speechsdk
+
 import config_data as cfg
-
-if cfg.FFMPEG_PATH:
-    os.environ['PATH'] += os.pathsep + cfg.FFMPEG_PATH  # for audio player
 
 
 class TTS_GEN:
-    def __init__(self, voice: str = 'Sarah', model: str = 'eleven_multilingual_v2', our_dir_path=''):
-        self.client = ElevenLabs(api_key=cfg.ELEVEN_LABS_API_KEY)
-        self.voice = voice
-        self.model = model
+    def __init__(self,
+                 voice: str = 'en-US-AvaMultilingualNeural',
+                 output_format=speechsdk.SpeechSynthesisOutputFormat.Audio16Khz32KBitRateMonoMp3,
+                 our_dir_path: str = ''):
+        speech_config = speechsdk.SpeechConfig(subscription=cfg.SPEECH_KEY, region=cfg.SPEECH_REGION)
+        speech_config.set_speech_synthesis_output_format(output_format)
+        # audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
+        #  audio_config = speechsdk.audio.AudioOutputConfig(filename="test_azure_tts.mp3")
+        speech_config.speech_synthesis_voice_name = voice  # en-US-AvaMultilingualNeural'
+        self.speech_config = speech_config
         self.our_dir_path = our_dir_path
-     
-    @staticmethod
-    def text_transform(tts: str) -> str:
-        """To make model separate words more distinctly.
-        Args:
-            tts (str): _description_
 
-        Returns:
-            str: _description_
-        """
-        silence = ' ___ '
-        return tts.replace(r'\n', silence + r'\n')  # .replace(' ', silence)
-
-    def generate_audio(self, tts: str, file_name: str = '',  play_sound=False):
+    def generate_audio(self, tts: str, file_name: str = '', skip_if_exists=False):
         file_name = file_name or self.voice
         file_name = file_name + '.mp3'
         if self.our_dir_path:
             file_name = os.path.join(self.our_dir_path, file_name)
-        if os.path.exists(file_name):
+        if os.path.exists(file_name) and skip_if_exists:
             logging.warning(f'file {file_name} exists. skipping')
             return
         logging.info(f'producing audio for text having len {len(tts)} chars')
-        audio = self.client.generate(text=tts, voice=self.voice, model=self.model,)
-        if play_sound:
-            print(tts)
-            play(audio)
-        else:
-            save(audio=audio, filename=file_name)
-            logging.info(f'wrote audio to file {file_name}.')
+        file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
+        speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=self.speech_config, audio_config=file_config)
 
-    def generate_audio_batch(self, items: Iterable[Tuple[str, List[str]]], play_sound=False):
+        result = speech_synthesizer.speak_text_async(tts).get()
+        if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
+            logging.info(f'wrote audio to file {file_name}.')
+        elif result.reason == speechsdk.ResultReason.Canceled:
+            cancellation_details = result.cancellation_details
+            print("Speech synthesis canceled: {}".format(cancellation_details.reason))
+            if cancellation_details.reason == speechsdk.CancellationReason.Error:
+                print("Error details: {}".format(cancellation_details.error_details))
+
+    def generate_audio_batch(self, items: Iterable[Tuple[str, List[str]]]):
         """generate audio files in batch mode
         Args:
             items (Iterable[Tuple[str, List[str]]]):words and examples of usages
@@ -57,17 +52,17 @@ class TTS_GEN:
         cnt_len = 0
         for word, exs in items:
             ex_str = r'.\n'.join(exs)
-            ex_str = self.text_transform(ex_str)
             cnt_len += len(ex_str)
-            self.generate_audio(tts=ex_str, file_name=word, play_sound=play_sound)
+            self.generate_audio(tts=ex_str, file_name=word)
             print(f'{cnt_len=}')
 
 
 def test():
+    #  https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts
     #  text = "Hello! 你好! Hola! नमस्ते! Bonjour! こんにちは! مرحبا! 안녕하세요! Ciao! Cześć! Привіт! வணக்கம்!"
-    text = "Ben----bunu bilmiyordum.----Hava çok sıcak oldu."
-    tts = TTS_GEN()
-    tts.generate_audio(text, 'test_turkish')
+    text = """Ben bunu bilmiyordum. Hava çok sıcak oldu."""
+    tts = TTS_GEN('tr-TR-EmelNeural')
+    tts.generate_audio(text, 'test_tts')
 
 
 if __name__ == "__main__":
