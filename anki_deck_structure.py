@@ -43,6 +43,7 @@ templates = [
             <div>{{target_words}}</div>
             <div class="hd">Usage examples:</div>
             <div>{{target_examples}}</div>
+             <div> Frequency: {{freq}}</div>
             """,
     },
     
@@ -54,6 +55,7 @@ templates = [
             <div class="source_word">{{source_word}}</div>
             <div class="hd">Usage examples:</div>
             <div class="source_examples">{{source_examples}}</div>
+             <div> Frequency: {{freq}}</div>
              {{my_media}}
             """,
     },

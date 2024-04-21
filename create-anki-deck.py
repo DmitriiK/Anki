@@ -43,7 +43,7 @@ def extact_value(fld: str, itm: WordItem):
 def get_card_date() -> List[List[str]]:
     w_itms: WordItems = json_file2WordItems(cfg.OUTPUT_FILE_NAME)
     rows = [[extact_value(fld, itm) for fld in ads.AnkiField]
-            for itm in w_itms.output_list[20:40]]
+            for itm in w_itms.output_list]
     return rows
 
 
