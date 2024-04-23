@@ -1,0 +1,35 @@
+Description: List of some voices, been used in text-to-speach module
+Source: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts#prebuilt-neural-voices
+languages: # BCP-47
+  en-GB:
+    language: English (United Kingdom)
+    voices:
+      en-GB-SoniaNeural:
+        sex: female
+      en-GB-RyanNeural:
+        sex: male
+
+  en-US:
+    language: English (United States)
+    voices:
+      en-GB-SoniaNeural:
+        sex: female
+      en-GB-RyanNeural:
+        sex: male
+
+  tr-TR:
+    language: Turkish (Türkiye)
+    voices:
+      tr-TR-EmelNeural:
+        sex: female
+      tr-TR-AhmetNeural:
+        sex: male
+
+  ru-RU:
+    language: Russian (Russia)
+    voices:
+       ru-RU-SvetlanaNeural:
+         sex: female
+       ru-RU-DmitryNeural:
+         sex: male
+  

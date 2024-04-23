@@ -4,6 +4,7 @@ from typing import Iterable, Tuple, List
 import logging
 import os
 
+import yaml
 import azure.cognitiveservices.speech as speechsdk
 
 import config_data as cfg
@@ -21,6 +22,23 @@ class TTS_GEN:
         speech_config.speech_synthesis_voice_name = voice  # en-US-AvaMultilingualNeural'
         self.speech_config = speech_config
         self.our_dir_path = our_dir_path
+
+    @staticmethod
+    def find_voice(lng: str = 'en-US', sex: str = 'Male') -> str:
+        with open(cfg.LIST_OF_VOICES_FILE_PATH, 'r') as file:
+            dv = yaml.safe_load(file)
+            src = dv.get('Source')
+            lng_itm = dv['languages'][lng]
+            if not lng_itm:
+                print(f'language {lng} not found in the list, please check {src}')
+                return
+            voices = lng_itm['voices']
+            sex_voices = [v for v in voices
+                          if voices[v]['sex'] == sex or not sex]
+            if not sex_voices:
+                print(f'language {lng} for {sex} not found in the list, please check {src}')
+                return
+            return sex_voices[0]
 
     def generate_audio(self, tts: str, file_name: str = '', skip_if_exists=False):
         file_name = file_name or self.voice
@@ -66,4 +84,5 @@ def test():
 
 
 if __name__ == "__main__":
+    # TTS_GEN.find_voice('tr-TR', 'male')
     test()

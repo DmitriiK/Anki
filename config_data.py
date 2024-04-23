@@ -27,5 +27,9 @@ CSV_ENCODING = 'utf-8'
 FREQ_LST_FILE_PATH = r"data\input\frequency_list.tr.csv"
 FREQ_LST_LM_FILE_PATH = r"data\input\frequency_list_lemmatized.tr.txt"
 DIR_AUDIO_FILES = r'.\data\output\audio'
+
+LIST_OF_VOICES_FILE_PATH = 'TTS_voices.yml'
+
+# obsolete
 ELEVEN_LABS_API_KEY = os.getenv('ELEVEN_LABS_API_KEY')
 FFMPEG_PATH = r'D:\Soft\ffmpeg-2024-04-10-git-0e4dfa4709-essentials_build\bin'
