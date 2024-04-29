@@ -1,5 +1,6 @@
 
 from persistence_guy import file_input, file_output, csv_row2WordModel, json_file2WordItems
+from persistence_guy import read_from_parquet, csv_write_helper
 from create_frequency_list import create_frequency_list
 from lemmatization import Lemmanatizer, group_by_lemma
 from llm_communicator import LLMCommunicator, WordItems
@@ -52,10 +53,16 @@ def generate_audio_batch_from_file(inp_file_path: str, out_dir_path: str):
     tts = TTS_GEN(voice=voice, our_dir_path=out_dir_path)
     tts.generate_audio_batch(items)
 
+    
+def create_frequency_list_io(inp_file: str, out_file: str, column: str):
+    ss = read_from_parquet(inp_file=inp_file, column=column)
+    cntr = create_frequency_list(ss)
+    csv_write_helper(cntr, out_file, cfg.CSV_FL_HEADER) 
+
 
 if __name__ == "__main__":
-    # create_frequency_list(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH)
-    lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()
+    create_frequency_list_io(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH+'.test', 'text')
+     # lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()
     # group_by_lemma_io(ifp=cfg.FREQ_LST_LM_FILE_PATH, ofp=cfg.FREQ_LST_GR_FILE_PATH)()
     # attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()
     # request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()

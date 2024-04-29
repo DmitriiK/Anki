@@ -24,9 +24,12 @@ def csv_row2WordModel(row: List[str]) -> WordModel:
         setattr(wm, cfg.CSV_HEADER[ind], row[ind])
     return wm
 
-def read_from parquet(inp_file: str):
-    df = pd.read_parquet(inp_file)
+
+def read_from_parquet(inp_file: str, column: str = None):
+    df = pd.read_parquet(path=inp_file, columns=[column])
     logging.info(f'read dataset {df.shape} from {inp_file}')
+    return df[column]
+
 
 def csv_read_helper(file_path: str, delimeter=',', skip_row0: bool = True):
     with open(file_path, mode='r', encoding=cfg.CSV_ENCODING) as file:
