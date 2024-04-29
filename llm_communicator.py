@@ -1,4 +1,5 @@
 from typing import List, Tuple
+from random import shuffle
 import logging
 
 
@@ -34,7 +35,8 @@ class LLMCommunicator:
     def __prepare_prompt(self):
         example = """Example of output for turkish -> english
                     and source_words = 'olmak, etmek' : 
-            [
+            {
+            "output_list": [
             {
             "source_word": "bilmek",
             "target_words": [
@@ -63,6 +65,7 @@ class LLMCommunicator:
                 ]
                 }
             ]
+            )
             """
 
         self.output_parser = PydanticOutputParser(pydantic_object=WordItems)
@@ -101,23 +104,28 @@ class LLMCommunicator:
             yield self.request_and_parse(chunk)
 
     def request_and_parse(self, words_lst: List[Tuple[str, int, int]]) -> WordItems:
-        words_str = ', '.join([t[0] for t in words_lst])  # passing words only, without freq
-        prompt_params = {'source_words': words_str}
+
         #  print(prompt.format(source_word='konuşmak, bilmek'))
         cnt_try = 0
         while cnt_try < cfg.MAX_CNT_TRY:
             cnt_try += 1
+            words_str = ', '.join([t[0] for t in words_lst])  # passing words only, without freq
+            prompt_params = {'source_words': words_str}
             raw_r = self.chain.invoke(prompt_params)
             logging.info(f'got request from LLM, len = {len(raw_r.content)}, trying to parse')
+            # print(f'json: {raw_r.content}')
             parsed_r = None
             try:
                 parsed_r = self.output_parser.parse(raw_r.content)
                 self._attach_freq(words_lst, parsed_r)
                 return parsed_r
             except Exception as ex:
-                logging.error(f'on parsing of result from {words_str} got exception: {ex}')
+                logging.error(f'on parsing of result from {raw_r.content} got exception: {ex}')
+                logging.error(f' {raw_r.content=}')
                 if cnt_try >= cfg.MAX_CNT_TRY:
+                    logging.error(f'Giving up after {cfg.MAX_CNT_TRY} attempts')
                     raise ex
+                shuffle(words_lst)  # hopefully next time llm will produce slightly different output and this can help
 
     def _attach_freq(self, words_lst, parsed_r: WordItems):  # ugly way to attach back frequencies
         for ind, itm in enumerate(parsed_r.output_list):
