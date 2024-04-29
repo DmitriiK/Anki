@@ -13,22 +13,30 @@
 
 
 ## Data sources:
-- [Wiktionary:Frequency lists/40K Turkish Subtitles](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/40K_Turkish_Subtitles) 
+- [Wiktionary:Frequency lists/40K Turkish Subtitles](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/40K_Turkish_Subtitles)
+    Ready frequency list, not full enough, for some reason I was not able to find words 'nar' and 'cami'
 - [Kaggle Turkish Wikipedia Dataset] (https://www.kaggle.com/datasets/osmankagankurnaz/turkish-wikipedia-dataset?resource=download)
+    Huge parquet file with Wikipedia articles, that I have been used as corpus to create own frequency list
+- [Yeni İstanbul Uluslararası Öğrenciler İçin Türkçe A1] (https://akdemyayinlari.com/urun/yeni-istanbul-uluslararasi-ogrenciler-icin-turkce-a1/)
+    Turkish language, A1, - to create input list of words to study.
+
 
 ## Currently it works like this:
 ( Root executor for sequence of batch executions is pipelines.py module)
- - create_frequency_list(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH):
-      :reading of corpus texts and creation of frequency list
-- lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()
-      : lemmatization of the word from frequency list
-- group_by_lemma_io(ifp=cfg.FREQ_LST_LM_FILE_PATH, ofp=cfg.FREQ_LST_GR_FILE_PATH)()
-    :grouping by lemma (main grammar form)
-- attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()
-
-- request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()
-
-- generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
+ - *create_frequency_list(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH)*:
+      reading of corpus texts and creation of frequency list
+- *lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()*: 
+       lemmatization of the word from frequency list
+- *group_by_lemma_io(ifp=cfg.FREQ_LST_LM_FILE_PATH, ofp=cfg.FREQ_LST_GR_FILE_PATH)()* :
+    grouping by lemma (main grammar form)
+- *attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()* :
+    join of frequency list to input list of words
+- *request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()* :
+    calling to Open AI in order to translate the list of words and to prepare examples of usage
+- *generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)* :
+    calling to Text-To-Speech API on order to produce .mp3 files for the examples of usage from the previous steps
+- *create-anki-deck.generate_deck()*:
+    creation of anki deck to study translations of words and examples of usage
 
 - 
 
@@ -42,3 +50,4 @@
 
 
     
+ 
