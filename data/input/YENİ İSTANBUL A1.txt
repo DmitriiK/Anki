@@ -113,7 +113,7 @@ sağlam
 yavaş
 kıskanç
 eczacı
-arti
+artı
 eğlenceli
 kibar
 sehpa
@@ -142,7 +142,7 @@ yiyecek
 bilet
 fakir
 komik
-sifat
+sıfat
 yoğun
 bina
 fark
@@ -150,7 +150,7 @@ konuşkan
 sinirli
 yok
 birçok
-firin
+fırın
 koridor
 soğuk
 yorgun
@@ -412,7 +412,7 @@ sevmek
 Şiir
 dolaşmak
 sıkılmak
-salon ; 
+salon 
 mavi
 açmak
 inek
@@ -422,9 +422,8 @@ anneler günü
 çay
 Afrika
 çiçek
-Ingiliz 
-Ingiltere
-mayis
+İngiliz 
+mayıs
 sandalye
 bakmak
 merdiven
@@ -438,18 +437,16 @@ seyahat
 cevap vermek 
 dinlemek
 ağustos
-Iran
 akşam
 Çinli
 Mısır
 sira
 etmek
-İranlı
 çocuk
 aktör
 alkol
 çocuk odası
-İspanya
+Ispanya
 Mısırlı
 silgi
 gelmek
@@ -549,7 +546,7 @@ balkon
 findik
 kış
 banka
-firça
+fırça
 kız
 banyo
 film
@@ -630,7 +627,7 @@ yeni
 cami
 kütüphane
 hanım
-postaci
+postacı
 cetvel
 lacivert
 yeşil
@@ -709,7 +706,7 @@ rezervasyon
 baklava
 hayvanat bahçesi
 salı
-balayı
+bal
 hazırlık
 saniye
 bayram
@@ -776,7 +773,7 @@ mavi
 yaz
 para toplamak
 çarşamba
-mayis
+mayıs
 yeşil
 çeşitli
 mevsim
@@ -943,6 +940,6 @@ iç
 sebze
 iskele
 sinirli
-karin
+karın
 soğuk algınlığı
 karşı
