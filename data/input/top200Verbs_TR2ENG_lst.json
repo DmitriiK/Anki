@@ -1,0 +1,112 @@
+[
+    {
+      "source_word": "olmak",
+      "target_words": ["to be", "to become", "to happen"],
+      "source_examples": [
+        "O, çok iyi bir insan oldu.",
+        "Hava çok sıcak oldu.",
+        "Ne oldu?"
+      ],
+      "target_examples": [
+        "He was a very good person.",
+        "The weather became very hot.",
+        "What happened?"
+      ]
+    },
+    {
+      "source_word": "etmek",
+      "target_words": ["to do", "to make"],
+      "source_examples": [
+        "Bugün ne etmeyi planlıyorsun?",
+        "Bana bir iyilik et."
+      ],
+      "target_examples": [
+        "What do you plan to do today?",
+        "Do me a favor."
+      ]
+    },
+    {
+      "source_word": "var",
+      "target_words": ["to exist", "to have"],
+      "source_examples": [
+        "Burada bir sorun var.",
+        "Benim bir fikrim var."
+      ],
+      "target_examples": [
+        "There is a problem here.",
+        "I have an idea."
+      ]
+    },
+    {
+      "source_word": "istemek",
+      "target_words": ["to want"],
+      "source_examples": [
+        "Ne istediğini bilmiyorum."
+      ],
+      "target_examples": [
+        "I don't know what you want."
+      ]
+    },
+    {
+      "source_word": "bilmek",
+      "target_words": ["to know"],
+      "source_examples": [
+        "Ben bunu bilmiyordum."
+      ],
+      "target_examples": [
+        "I didn't know that."
+      ]
+    },
+    {
+      "source_word": "gelmek",
+      "target_words": ["to come"],
+      "source_examples": [
+        "Yarın bize gel."
+      ],
+      "target_examples": [
+        "Come to us tomorrow."
+      ]
+    },
+    {
+      "source_word": "vermek",
+      "target_words": ["to give"],
+      "source_examples": [
+        "Bana bir kitap ver."
+      ],
+      "target_examples": [
+        "Give me a book."
+      ]
+    },
+    {
+      "source_word": "almak",
+      "target_words": ["to take", "to buy"],
+      "source_examples": [
+        "Anahtarları almayı unutma.",
+        "Yeni bir araba almak istiyorum."
+      ],
+      "target_examples": [
+        "Don't forget to take the keys.",
+        "I want to buy a new car."
+      ]
+    },
+    {
+      "source_word": "gitmek",
+      "target_words": ["to go"],
+      "source_examples": [
+        "Eve gitmek istiyorum."
+      ],
+      "target_examples": [
+        "I want to go home."
+      ]
+    },
+    {
+      "source_word": "görmek",
+      "target_words": ["to see"],
+      "source_examples": [
+        "Seni tekrar görmek güzel."
+      ],
+      "target_examples": [
+        "It's good to see you again."
+      ]
+    }
+  ]

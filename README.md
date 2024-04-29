@@ -1,0 +1,44 @@
+# Python modules for creation of custom dictionaries for learning of foreign languages and Anki decks
+
+## Objectives:
+ - Given a list of of  words or some text in specific language (let's call it 'Source language'), prepare materials for memorization of meanings of input words in 'Target' language, including examples of usages and media-files for these examples of usages. Final output is Anki decks.
+ 
+## What technologies are being used?
+-  Python morphological Analyzer and Lemmatizer for Turkish language for lemmatization and frequency analysis : [zeyrek](https://github.com/obulat/zeyrek)
+- Open AI for translation and for preparation of usage examples: [OpenAI](https://openai.com/blog/openai-api)
+- Langchain for formatting of input prompts and output for LLM-s: [https://www.langchain.com/](https://www.langchain.com/)
+- Microsoft Azure Text-To-Speech API [MS Azure Text-to-Speech](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/index-text-to-speech)
+- genanki: A Library for Generating Anki Decks: [genakli](https://github.com/kerrickstaley/genanki)
+- Anki applications (mobile, desktop and Web) [Anki](https://apps.ankiweb.net/)
+
+
+## Data sources:
+- [Wiktionary:Frequency lists/40K Turkish Subtitles](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/40K_Turkish_Subtitles) 
+- [Kaggle Turkish Wikipedia Dataset] (https://www.kaggle.com/datasets/osmankagankurnaz/turkish-wikipedia-dataset?resource=download)
+
+## Currently it works like this:
+( Root executor for sequence of batch executions is pipelines.py module)
+ - create_frequency_list(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH):
+      :reading of corpus texts and creation of frequency list
+- lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()
+      : lemmatization of the word from frequency list
+- group_by_lemma_io(ifp=cfg.FREQ_LST_LM_FILE_PATH, ofp=cfg.FREQ_LST_GR_FILE_PATH)()
+    :grouping by lemma (main grammar form)
+- attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()
+
+- request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()
+
+- generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
+
+- 
+
+
+## Repository organization
+
+
+## Results
+
+
+
+
+    

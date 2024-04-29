@@ -16,7 +16,8 @@ class LLMCommunicator:
         self.src_lang, self.trg_lang = src_lang, trg_lang
         self.__prepare_prompt()
 
-    def request_and_parse_to_json_file(self, words_lst: List[str]):
+    def request_and_parse_to_json_file(self, words_lst: List):
+        # words_lst = words_lst[260:270]
         chunks = self.request_and_parse_by_chunks(words_lst=words_lst)
         obj_to_write = WordItems(output_list=[])
         for r in chunks:
@@ -34,25 +35,32 @@ class LLMCommunicator:
         example = """Example of output for turkish -> english
                     and source_words = 'olmak, etmek' : 
             [
-                {
-                    "source_word": "olmak",
-                    "target_words": ["to be", "to become", "to happen"],
-                    "source_examples": [
-                        "O, çok iyi bir insan <bold>ol</bold>du.",
-                        "Hava çok sıcak <bold>ol</bold>du.",
-                        "Ne <bold>ol</bold>du?"
-                    ],
-                    "target_examples": [
-                        "He <bold>was</bold> a very good person.",
-                        "The weather <bold>became</bold> very hot.",
-                        "What <bold>happened</bold>?"
-                    ]
-                },
-                {
-                    "source_word": "etmek",
-                    "target_words": ["to do"],
-                    "source_examples": ["Bugün ne <bold>et</bold>meyi planlıyorsun?" ],
-                    "target_examples": [  "What do you plan to <bold>do</bold> today?"] 
+            {
+            "source_word": "bilmek",
+            "target_words": [
+                "to know"
+            ],
+            "source_examples": [
+                "Ben bu konuyu <u>bil</u>yorum."
+            ],
+            "target_examples": [
+                "I <u>know</u> this subject.",
+            ]
+        },
+             {
+                "source_word": "duymak",
+                "target_words": [
+                    "to hear",
+                    "to feel"
+                ],
+                "source_examples": [
+                    "Sesini <u>duy</u>abiliyorum ama seni göremiyorum.",
+                    "Korku <u>duy</u>uyorum."
+                ],
+                "target_examples": [
+                    "I can hear your voice but I can't see you.",
+                    "I feel fear."
+                ]
                 }
             ]
             """
@@ -78,7 +86,7 @@ class LLMCommunicator:
         )
         self.chain = self.prompt | self.llm  # | output_parser
 
-    def request_and_parse_by_chunks(self, words_lst: List[Tuple[str, int]]):
+    def request_and_parse_by_chunks(self, words_lst: List[Tuple[str, int, int]]):
         """request_and_parse_by_chunks
 
         Args:
@@ -90,10 +98,10 @@ class LLMCommunicator:
         chunker = (words_lst[i:i + CHUNK_SIZE] for i in range(0, len(words_lst), CHUNK_SIZE))
         for cnt, chunk in enumerate(chunker):
             logging.info(f'requesting llm for chunk #{cnt}   of {len(chunk)} words')
-            yield self.request_and_parse(chunk)  
+            yield self.request_and_parse(chunk)
 
-    def request_and_parse(self, words_lst: List[Tuple[str, int]]) -> WordItems:
-        words_str = ', '.join([t[0] for t in words_lst]) # passing words only, without freq
+    def request_and_parse(self, words_lst: List[Tuple[str, int, int]]) -> WordItems:
+        words_str = ', '.join([t[0] for t in words_lst])  # passing words only, without freq
         prompt_params = {'source_words': words_str}
         #  print(prompt.format(source_word='konuşmak, bilmek'))
         cnt_try = 0
@@ -111,11 +119,21 @@ class LLMCommunicator:
                 if cnt_try >= cfg.MAX_CNT_TRY:
                     raise ex
 
-    def _attach_freq(self, words_lst, parsed_r):# ugly way to attach back frequencies
-        for ind in range(0, len(parsed_r.output_list)):
-            if len(words_lst[ind]) > 1:  
-                parsed_r.output_list[ind].freq = words_lst[ind][1]
-
+    def _attach_freq(self, words_lst, parsed_r: WordItems):  # ugly way to attach back frequencies
+        for ind, itm in enumerate(parsed_r.output_list):
+            w = None
+            ww = [w for w in words_lst
+                  if w[0].strip() == itm.source_word.strip()]
+            if ww:
+                w = ww[0]
+            else:  # shit happens and it changes the word, like kisa
+                if ind < len(words_lst):
+                    w = words_lst[ind]
+            if w:
+                itm.freq = w[1]
+                if len(w) > 2:
+                    itm.freq_rank = w[2]
+           
 
 if __name__ == "__main__":
     llmc = LLMCommunicator('Turkish', 'English')

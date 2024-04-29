@@ -4,7 +4,9 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 
 class WordItem(BaseModel):
     source_word: str = Field(description="initial word from source language")
-
+    source_word_pos: str = Field(description="""parts of speech for initial word from source language, like verb, noun, etc..
+                                 If there maybe different parts of speech,
+                                 put all of them as concatenated list though '; '.""")
     target_words: List[str] = Field(description="""translations to target language.
                     It should be list, as if  the word has rather different  meanings,
                     it should contain all of them (but not more than 3).
@@ -21,6 +23,7 @@ class WordItem(BaseModel):
     target_examples: List[str] = Field(description="""Translations to target language for each of the above examples.
                    The translated word should be separated in <u> tag.""")
     freq: Optional[int] = Field(description='frequency index of word, not supposed to be used by llm')
+    freq_rank: Optional[int] = Field(description='frequency rank of word in the input list, not supposed to be used by llm')
 
 
 class WordItems(BaseModel):

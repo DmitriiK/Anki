@@ -1,6 +1,7 @@
 from typing import List, Iterable, Callable
 import logging
 import csv
+import pandas as pd
 import json
 import functools
 
@@ -23,6 +24,9 @@ def csv_row2WordModel(row: List[str]) -> WordModel:
         setattr(wm, cfg.CSV_HEADER[ind], row[ind])
     return wm
 
+def read_from parquet(inp_file: str):
+    df = pd.read_parquet(inp_file)
+    logging.info(f'read dataset {df.shape} from {inp_file}')
 
 def csv_read_helper(file_path: str, delimeter=',', skip_row0: bool = True):
     with open(file_path, mode='r', encoding=cfg.CSV_ENCODING) as file:
@@ -35,10 +39,12 @@ def csv_read_helper(file_path: str, delimeter=',', skip_row0: bool = True):
                 yield row
 
 
-def csv_write_helper(rows: List[List[str]], dest_file_path: str):
+def csv_write_helper(rows: List[Iterable[str]], dest_file_path: str, header: str = None):
     #  writing down the output to another csv_file
     with open(dest_file_path, 'w', encoding=cfg.CSV_ENCODING, newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
+        if header:
+            csvwriter.writerow(header)
         csvwriter.writerows(rows)
 
 
@@ -49,7 +55,10 @@ def write_iterable_to_csv(items: Iterable, dest_file_path: str,
     if col_names:
         rows.append(col_names)
     if flatten_func:
-        new_rows = [flatten_func(itm) for itm in items]
+        if issubclass(type(items), dict):
+            new_rows = [flatten_func(itm) for itm in items.items()] 
+        else:
+            new_rows = [flatten_func(itm) for itm in items]
     else:
         new_rows = items
     rows.extend(new_rows)
