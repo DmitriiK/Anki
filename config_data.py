@@ -23,6 +23,7 @@ INPUT_WORDS_LIST_FILE = r"data\input\YENİ İSTANBUL A1.txt"
 WORDS_AND_FREQ_LIST_FILE = r"data\output\YENİ İSTANBUL A1_frq.csv"
 
 OUTPUT_FILE_NAME = r'data\output\YENİ İSTANBUL A1_llm_output.json'
+OUTPUT_ANKI_DECK_FILE_NAME = 'TurkishA1-to-Eng.apkg'
 
 ##
 CSV_ENCODING = 'utf-8'

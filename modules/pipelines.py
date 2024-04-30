@@ -4,6 +4,7 @@ from .NLP.create_frequency_list import create_frequency_list
 from .NLP.lemmatization import Lemmanatizer, group_by_lemma
 from .LLM.llm_communicator import LLMCommunicator, WordItems
 from .TTS.tts_generator import TTS_GEN
+from .ANKI.create_anki_deck import generate_deck
 from .utils import remove_html_tags
 
 import config_data as cfg

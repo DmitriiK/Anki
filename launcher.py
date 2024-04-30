@@ -6,11 +6,11 @@ from modules.pipelines import (create_frequency_list_io,
                                attach_frequencies_io,
                                group_by_lemma_io,
                                request_and_parse_by_chunks_io,
-                               generate_audio_batch_from_file)
+                               generate_audio_batch_from_file,
+                               generate_deck)
 import config_data as cfg
 
 parser = argparse.ArgumentParser()
- 
 # Adding optional argument
 parser.add_argument("-cfl", "--create_frequency_list_io", help="run create_frequency_list_io", action='store_true')
 parser.add_argument("-lfl", "--lemmatize_frequency_list_io", help="run lemmatize_frequency_list_io", action='store_true')
@@ -18,6 +18,7 @@ parser.add_argument("-afl", "--attach_frequencies_io", help="run attach_frequenc
 parser.add_argument("-llm", "--llm_request", help="run request llm and_parse_by_chunks_io", action='store_true')
 parser.add_argument("-gab", "--generate_audio_batch_from_file", help="run generate_audio_batch_from_file",
                     action='store_true')
+parser.add_argument("-gad", "--generate_anki_deck", help="run request llm generate_deck", action='store_true')
 
 args = parser.parse_args()
 
@@ -39,5 +40,12 @@ if args.llm_request:
 
 if args.generate_audio_batch_from_file:
     generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
+
+if args.generate_audio_batch_from_file:
+    generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
+
+if args.generate_anki_deck:
+    generate_deck(cfg.OUTPUT_ANKI_DECK_FILE_NAME)
 else:
     print('default execution..add something you need')
+    generate_deck(cfg.OUTPUT_ANKI_DECK_FILE_NAME)
