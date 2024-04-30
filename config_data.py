@@ -31,7 +31,7 @@ FREQ_LST_LM_FILE_PATH = r"data\input\frequency_list_lemmatized.tr.csv"
 FREQ_LST_GR_FILE_PATH = r"data\input\frequency_list_grouped.tr.csv"
 DIR_AUDIO_FILES = r'.\data\output\audio'
 
-LIST_OF_VOICES_FILE_PATH = 'TTS_voices.yml'
+LIST_OF_VOICES_FILE_PATH = r'modules\tts\TTS_voices.yml'
 
 # obsolete
 ELEVEN_LABS_API_KEY = os.getenv('ELEVEN_LABS_API_KEY')

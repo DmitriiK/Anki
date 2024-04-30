@@ -1,3 +1,4 @@
 *.mp3
 .env
 __pycache__/*
+modules/TTS/__pycache__/__init__.cpython-312.pyc
