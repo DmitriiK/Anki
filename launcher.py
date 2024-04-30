@@ -16,7 +16,8 @@ parser.add_argument("-cfl", "--create_frequency_list_io", help="run create_frequ
 parser.add_argument("-lfl", "--lemmatize_frequency_list_io", help="run lemmatize_frequency_list_io", action='store_true')
 parser.add_argument("-afl", "--attach_frequencies_io", help="run attach_frequencies_io", action='store_true')
 parser.add_argument("-llm", "--llm_request", help="run request llm and_parse_by_chunks_io", action='store_true')
-parser.add_argument("-gab", "--generate_audio_batch_from_file", help="run generate_audio_batch_from_file", action='store_true')
+parser.add_argument("-gab", "--generate_audio_batch_from_file", help="run generate_audio_batch_from_file",
+                    action='store_true')
 
 args = parser.parse_args()
 
