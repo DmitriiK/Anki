@@ -39,6 +39,7 @@ class LLMCommunicator:
             "output_list": [
             {
             "source_word": "bilmek",
+            "source_word_pos": "verb"
             "target_words": [
                 "to know"
             ],
@@ -51,6 +52,7 @@ class LLMCommunicator:
         },
              {
                 "source_word": "duymak",
+                "source_word_pos": "verb"
                 "target_words": [
                     "to hear",
                     "to feel"
@@ -64,6 +66,24 @@ class LLMCommunicator:
                     "I feel fear."
                 ]
                 }
+                ,
+             {
+                "source_word": "Sıcak",
+                "source_word_pos": "verb, noun"
+                "target_words": [
+                    "hot"
+                ],
+                "source_examples": [
+                    "<u>Sıcak</u> çay içmek istiyorum",
+                    "Bu <u>sıcak</u> çok dayanılmaz."
+                ],
+                "target_examples": [
+                    "I want to drink hot tea..",
+                    "This heat is unbearable.."
+                ]
+                }
+                
+                
             ]
             )
             """
@@ -121,7 +141,6 @@ class LLMCommunicator:
                 return parsed_r
             except Exception as ex:
                 logging.error(f'on parsing of result from {raw_r.content} got exception: {ex}')
-                logging.error(f' {raw_r.content=}')
                 if cnt_try >= cfg.MAX_CNT_TRY:
                     logging.error(f'Giving up after {cfg.MAX_CNT_TRY} attempts')
                     raise ex
