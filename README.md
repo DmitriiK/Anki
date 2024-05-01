@@ -41,8 +41,8 @@
 
 
 ## Results
-[Resulting Anki deck file](.\TurkishA1-to-Eng.apk)
-Anki deck that contains:
+[Resulting Anki deck file](.\TurkishA1-to-Eng.apk)  
+Anki deck that contains:  
 Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of that word in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts.
 You can easily configure the code to make similar decks for whatever pair of languages.
 You can use Anki decks in desktop, mobile, or web application. 
