@@ -20,7 +20,7 @@ def _extract_value(fld: str, itm: WordItem):
     if fld == ads.AnkiField.my_media:
         return f'[sound:{itm.source_word}.mp3]'
     val = getattr(itm, fld)
-    if fld == ads.AnkiField.freq:
+    if fld in [ads.AnkiField.freq, ads.AnkiField.freq_rank]:
         return str(val)
     if isinstance(val, list):
         val = '<br>'.join([f'- {itm}' for itm in val])  # html.escape(

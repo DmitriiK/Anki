@@ -15,6 +15,9 @@ style = """
     color:blue;
     font-size: 30;
 }
+.inf {
+    font-size: 15;
+}
 """
 
 
@@ -24,6 +27,7 @@ class AnkiField(StrEnum):
     source_examples = auto()
     target_examples = auto()
     freq = auto()
+    freq_rank = auto()
     my_media = auto()
 
 
@@ -43,7 +47,7 @@ templates = [
             <div>{{target_words}}</div>
             <div class="hd">Usage examples:</div>
             <div>{{target_examples}}</div>
-             <div> Frequency: {{freq}}</div>
+             <div class = "inf"> Frequency: {{freq}}.  Frequency rank: {{freq_rank}}</div>
             """,
     },
     
@@ -55,7 +59,7 @@ templates = [
             <div class="source_word">{{source_word}}</div>
             <div class="hd">Usage examples:</div>
             <div class="source_examples">{{source_examples}}</div>
-             <div> Frequency: {{freq}}</div>
+             <div class = "inf"> Frequency: {{freq}}.  Frequency rank: {{freq_rank}}</div>
              {{my_media}}
             """,
     },
