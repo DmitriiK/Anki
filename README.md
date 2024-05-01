@@ -45,6 +45,12 @@
 
 
 ## Results
+Anki deck that contains:
+Words in some, let's say, source language, (for my case it is Turkish), it's tranlation to target language( English), the examples of usage of that word in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts.
+You can easily configure the code to make similar decks for whatever pair of languages.
+You can use Anki decks in desctop, mobile, or web application. 
+![image](https://github.com/DmitriiK/Anki/assets/20965831/f1aad0f3-e126-45a0-afde-99017df17a2f)
+
 
 
 
