@@ -15,9 +15,9 @@
 ## Data sources:
 - [Wiktionary:Frequency lists/40K Turkish Subtitles](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/40K_Turkish_Subtitles)
     Ready frequency list, not full enough, for some reason I was not able to find words 'nar' and 'cami'
-- [Kaggle Turkish Wikipedia Dataset] (https://www.kaggle.com/datasets/osmankagankurnaz/turkish-wikipedia-dataset?resource=download)
+- [Kaggle Turkish Wikipedia Dataset](https://www.kaggle.com/datasets/osmankagankurnaz/turkish-wikipedia-dataset?resource=download)
     Huge parquet file with Wikipedia articles, that I have been used as corpus to create own frequency list
-- [Yeni İstanbul Uluslararası Öğrenciler İçin Türkçe A1] (https://akdemyayinlari.com/urun/yeni-istanbul-uluslararasi-ogrenciler-icin-turkce-a1/)
+- [Yeni İstanbul Uluslararası Öğrenciler İçin Türkçe A1](https://akdemyayinlari.com/urun/yeni-istanbul-uluslararasi-ogrenciler-icin-turkce-a1/)
     Turkish language, A1, - to create input list of words to study.
 
 
