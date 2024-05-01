@@ -6,8 +6,9 @@ from modules.pipelines import (create_frequency_list_io,
                                attach_frequencies_io,
                                group_by_lemma_io,
                                request_and_parse_by_chunks_io,
-                               generate_audio_batch_from_file,
-                               generate_deck)
+                               generate_audio_batch_from_file
+                               )
+from modules.ANKI.create_anki_deck import generate_deck
 import config_data as cfg
 
 parser = argparse.ArgumentParser()
@@ -45,7 +46,7 @@ if args.generate_audio_batch_from_file:
     generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
 
 if args.generate_anki_deck:
-    generate_deck(cfg.OUTPUT_ANKI_DECK_FILE_NAME)
+    generate_deck(cfg.OUTPUT_FILE_NAME, "Turk2Eng", "Turk2EngModel", cfg.OUTPUT_ANKI_DECK_FILE_NAME, False, ['Turkish'])
 else:
-    print('default execution..add something you need')
-    generate_deck(cfg.OUTPUT_ANKI_DECK_FILE_NAME)
+    print('default execution.. add something you need')
+    

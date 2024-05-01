@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Python Debugger: Current File",
             "type": "debugpy",
@@ -11,6 +12,21 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "generate_anki_deck",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program":  "${workspaceFolder}/launcher.py",
+            "args": [
+                "--generate_anki_deck"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+        
+            },
+            
         }
     ]
 }
