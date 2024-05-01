@@ -17,21 +17,6 @@ class LLMCommunicator:
         self.src_lang, self.trg_lang = src_lang, trg_lang
         self.__prepare_prompt()
 
-    def request_and_parse_to_json_file(self, words_lst: List):
-        # words_lst = words_lst[260:270]
-        chunks = self.request_and_parse_by_chunks(words_lst=words_lst)
-        obj_to_write = WordItems(output_list=[])
-        for r in chunks:
-            self.write_word_model_to_json(obj_to_write, r)
-
-    #  todo : move IO to file logic to decorator as was done for csv, and all this stuff looks bit strange..
-    def write_word_model_to_json(self, obj_to_write: WordItems, r: WordItems):
-        obj_to_write.output_list.extend(r.output_list)
-        with open(cfg.OUTPUT_FILE_NAME, "w", encoding=cfg.CSV_ENCODING) as outfile:
-            json_str = obj_to_write.json(ensure_ascii=False, indent=4)
-            outfile.write(json_str)
-            logging.info(f'wrote {len(obj_to_write.output_list)} items to {cfg.OUTPUT_FILE_NAME}')
-
     def __prepare_prompt(self):
         example = """Example of output for turkish -> english
                     and source_words = 'olmak, etmek' : 
@@ -109,19 +94,25 @@ class LLMCommunicator:
         )
         self.chain = self.prompt | self.llm  # | output_parser
 
-    def request_and_parse_by_chunks(self, words_lst: List[Tuple[str, int, int]]):
-        """request_and_parse_by_chunks
-
+    def feed_list_to_llm(self, words_lst: List[Tuple[str, int, int]], yield_running_total=True):
+        """Feeds list of words to llm, for splitting to chunks and processing
         Args:
-            words_lst (List[Tuple[str, int]]): List of words to generate dictionary data, alongside with their frequency indexed
+            words_lst (List[Tuple[str, int]]): List of words to generate dictionary data, 
+            alongside with their frequency indexed
         Yields:
             WordItems:  object with data got from LLM for input words list
         """
         CHUNK_SIZE = cfg.CHUNK_SIZE
         chunker = (words_lst[i:i + CHUNK_SIZE] for i in range(0, len(words_lst), CHUNK_SIZE))
+        obj_to_write = WordItems(output_list=[])
         for cnt, chunk in enumerate(chunker):
             logging.info(f'requesting llm for chunk #{cnt}   of {len(chunk)} words')
-            yield self.request_and_parse(chunk)
+            r = self.request_and_parse(chunk)
+            if yield_running_total:  # to write running total as json.. 
+                obj_to_write.output_list.extend(r.output_list)
+            else:
+                obj_to_write = r
+            yield obj_to_write
 
     def request_and_parse(self, words_lst: List[Tuple[str, int, int]]) -> WordItems:
 

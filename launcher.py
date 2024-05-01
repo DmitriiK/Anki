@@ -5,7 +5,7 @@ from modules.pipelines import (create_frequency_list_io,
                                lemmatize_frequency_list_io,
                                attach_frequencies_io,
                                group_by_lemma_io,
-                               request_and_parse_by_chunks_io,
+                               feed_list_to_llm_io,
                                generate_audio_batch_from_file
                                )
 from modules.ANKI.create_anki_deck import generate_deck
@@ -37,10 +37,7 @@ if args.attach_frequencies_io:
     attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()
 
 if args.llm_request:
-    request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()
-
-if args.generate_audio_batch_from_file:
-    generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
+    feed_list_to_llm_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE, outp=cfg.OUTPUT_FILE_NAME)()
 
 if args.generate_audio_batch_from_file:
     generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
@@ -49,4 +46,7 @@ if args.generate_anki_deck:
     generate_deck(cfg.OUTPUT_FILE_NAME, "Turk2Eng", "Turk2EngModel", cfg.OUTPUT_ANKI_DECK_FILE_NAME, False, ['Turkish'])
 else:
     print('default execution.. add something you need')
+    feed_list_to_llm_io(inp=r'D:\projects\Anki\data\output\top200TurkishVerbs_freq.csv',
+                                outp=r'D:\projects\Anki\data\output\top200TurkishVerbs_llm_output.json')()
+    
     

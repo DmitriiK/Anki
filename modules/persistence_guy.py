@@ -1,4 +1,5 @@
 from typing import List, Iterable, Callable
+from types import GeneratorType
 import logging
 import csv
 import pandas as pd
@@ -117,9 +118,9 @@ def file_input(input_file_path: str,
     return decorator_file_input
 
 
-def file_output(dest_file_path: str,
-                col_names: List[str] = cfg.CSV_HEADER,
-                flatten_func: Callable = None):
+def file_output_to_csv(dest_file_path: str,
+                       col_names: List[str] = cfg.CSV_HEADER,
+                       flatten_func: Callable = None):
     """_summary_
     Wraps functions that returns iterable,so that it  writes result to file
     Args:
@@ -140,3 +141,26 @@ def file_output(dest_file_path: str,
         return wrapper_output
     return decorator_file_output
 
+
+def file_output_to_json(dest_file_path: str):
+    """_summary_
+    Wraps functions that returns iterable,so that it  writes result to file
+    Args:
+        output_file_path (str): Path to resulting json file
+    """
+    def decorator_file_output(func: Callable):
+        @functools.wraps(func)
+        def wrapper_output(*args, **kwargs):
+            # main call
+            ret = func(*args)
+            if isinstance(ret, GeneratorType):
+                xx = ret
+            else:
+                xx = [ret]
+            for itm_to_write in xx:
+                with open(dest_file_path, "w", encoding=cfg.CSV_ENCODING) as outfile:
+                    json_str = itm_to_write.json(ensure_ascii=False, indent=4)
+                    outfile.write(json_str)
+                    logging.info(f'wrote {len(json_str)} symbols to {dest_file_path}')
+        return wrapper_output
+    return decorator_file_output

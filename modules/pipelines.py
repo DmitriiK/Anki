@@ -1,4 +1,4 @@
-from .persistence_guy import file_input, file_output, csv_row2WordModel, json_file2WordItems
+from .persistence_guy import file_input, file_output_to_csv, file_output_to_json, csv_row2WordModel, json_file2WordItems
 from .persistence_guy import read_from_parquet, csv_write_helper
 from .NLP.create_frequency_list import create_frequency_list
 from .NLP.lemmatization import Lemmanatizer, group_by_lemma
@@ -12,7 +12,7 @@ lmm = Lemmanatizer()
 
 # applying of IO decorators
 lemmatize_frequency_list_io = (lambda ifp, ofp: file_input(input_file_path=ifp)
-    (file_output(
+    (file_output_to_csv(
         dest_file_path=ofp,
         col_names=cfg.CSV_HEADER,
         flatten_func=lambda word: [word.word, word.lemma, word.pos, word.freq]
@@ -22,7 +22,7 @@ lemmatize_frequency_list_io = (lambda ifp, ofp: file_input(input_file_path=ifp)
 
 
 group_by_lemma_io = (lambda ifp,  ofp: file_input(input_file_path=ifp, row2itm_func=csv_row2WordModel) 
-                         (file_output(dest_file_path=ofp,
+                         (file_output_to_csv(dest_file_path=ofp,
                                       flatten_func=lambda x: [x[0], x[1][0], x[1][1]],
                                       col_names=['word', 'freq', 'freq_rank'])
                           (group_by_lemma)))
@@ -31,16 +31,16 @@ attach_frequencies_io = (lambda ifp, ifp2, ofp: file_input(input_file_path=ifp,
                                                            row2itm_func=lambda row: row[0],
                                                            input2_file_path=ifp2,
                                                            row2itm_func2=lambda row: (row[0], row[1], row[2])) 
-                         (file_output(dest_file_path=ofp, col_names=['word', 'freq', 'freq_rank'])
+                         (file_output_to_csv(dest_file_path=ofp, col_names=['word', 'freq', 'freq_rank'])
                           (lmm.attach_frequencies)))
 
 # LLM pipelines:
 llmc = LLMCommunicator('Turkish', 'English')
 
 
-request_and_parse_by_chunks_io = (lambda inp: file_input(input_file_path=inp,
-                                  row2itm_func=lambda row: (row[0].strip(), row[1], row[2]))
-                                  (llmc.request_and_parse_to_json_file))
+feed_list_to_llm_io = (lambda inp, outp: file_input(input_file_path=inp,
+                                                    row2itm_func=lambda row: (row[0].strip(), row[1], row[2]))
+                                  (file_output_to_json(dest_file_path=outp)(llmc.feed_list_to_llm)))
 
 
 def generate_audio_batch_from_file(inp_file_path: str, out_dir_path: str):
@@ -64,5 +64,5 @@ if __name__ == "__main__":
     # lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()
     # group_by_lemma_io(ifp=cfg.FREQ_LST_LM_FILE_PATH, ofp=cfg.FREQ_LST_GR_FILE_PATH)()
     # attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()
-    request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()
+    feed_list_to_llm_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()
     # generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)
