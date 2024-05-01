@@ -16,7 +16,7 @@
 - [Wiktionary:Frequency lists/40K Turkish Subtitles](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/40K_Turkish_Subtitles)
     Ready frequency list, not full enough, for some reason I was not able to find words 'nar' and 'cami'
 - [Kaggle Turkish Wikipedia Dataset](https://www.kaggle.com/datasets/osmankagankurnaz/turkish-wikipedia-dataset?resource=download)
-    Huge parquet file with Wikipedia articles, that I have been used as corpus to create own frequency list
+    Huge parquet file with Wikipedia articles, that I have been used as corpus to create own frequency list. Frequency and frequency rank in Anki cards are based on this text, thus it can be significantly different from usual speaking language.
 - [Yeni İstanbul Uluslararası Öğrenciler İçin Türkçe A1](https://akdemyayinlari.com/urun/yeni-istanbul-uluslararasi-ogrenciler-icin-turkce-a1/)
     Turkish language, A1, - to create input list of words to study.
 
@@ -43,7 +43,7 @@
 ## Results
 [Resulting Anki deck file](.\TurkishA1-to-Eng.apk)  
 Anki deck that contains:  
-Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of that word in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts.
+Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of these words in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts. 
 You can easily configure the code to make similar decks for whatever pair of languages.
 You can use Anki decks in desktop, mobile, or web application. 
 ![image](https://github.com/DmitriiK/Anki/assets/20965831/f1aad0f3-e126-45a0-afde-99017df17a2f)
