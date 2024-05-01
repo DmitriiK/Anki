@@ -36,7 +36,7 @@
 - *generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)* :
     calling to Text-To-Speech API on order to produce .mp3 files for the examples of usage from the previous steps
 - *create-anki-deck.generate_deck()*:
-    creation of anki deck to study translations of words and examples of usage
+    creation of anki deck to study translations of words and examples of usage. 
     Note: in order to leverage this for creation of Anki decks with multimedia they should be in the same directory, where main python file been launched..
 
 
