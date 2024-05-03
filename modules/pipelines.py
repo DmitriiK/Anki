@@ -30,7 +30,7 @@ group_by_lemma_io = (lambda ifp,  ofp: file_input(input_file_path=ifp, row2itm_f
 attach_frequencies_io = (lambda ifp, ifp2, ofp: file_input(input_file_path=ifp,
                                                            row2itm_func=lambda row: row[0],
                                                            input2_file_path=ifp2,
-                                                           row2itm_func2=lambda row: (row[0], row[1], row[2])) 
+                                                           row2itm_func2=lambda row: (row[0], row[1], row[2]))
                          (file_output_to_csv(dest_file_path=ofp, col_names=['word', 'freq', 'freq_rank'])
                           (lmm.attach_frequencies)))
 
@@ -56,7 +56,7 @@ def generate_audio_batch_from_file(inp_file_path: str, out_dir_path: str):
 def create_frequency_list_io(inp_file: str, out_file: str, column: str):
     ss = read_from_parquet(inp_file=inp_file, column=column)
     cntr = create_frequency_list(ss)
-    csv_write_helper(cntr, out_file, cfg.CSV_FL_HEADER) 
+    csv_write_helper(cntr, out_file, cfg.CSV_FL_HEADER)
 
 
 if __name__ == "__main__":
