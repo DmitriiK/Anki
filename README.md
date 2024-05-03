@@ -41,8 +41,8 @@
 
 
 ## Results
-- [Resulting Anki deck file for A1 book (to English)](data\output\anki\TurkishA1-to-Eng.apkg)
-- [top200 Turkish words (to English)](data\output\anki\TurkishTop200Verbs-to-Eng.apkg)
+- [Resulting Anki deck file for A1 book (to English)](data/output/anki/TurkishA1-to-Eng.apkg)
+- [top200 Turkish words (to English)](data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
   
 Anki deck that contains:  
 Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of these words in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts. 
