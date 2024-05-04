@@ -40,7 +40,7 @@
 
 Root executor for the sequence above is [launcher](./launcher.py) module.  
 Module [persistence_guy](./modules/persistence_guy.py) contains decorators with functions to input output data from/to files.
-Module [pipelines](./modules/pipelines.py) chanind decorators for file IO and main functions together.
+Module [pipelines](./modules/pipelines.py) chains decorators from module above and main functions together.
 
 ## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
 - [Resulting Anki deck file for A1 book (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
