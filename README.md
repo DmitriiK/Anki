@@ -31,7 +31,7 @@
     grouping by lemma (main grammar form)
 - *attach_frequencies_io(cfg.INPUT_WORDS_LIST_FILE, cfg.FREQ_LST_GR_FILE_PATH, cfg.WORDS_AND_FREQ_LIST_FILE)()* :
     join of frequency list to input list of words
-- *request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE)()* :
+- *request_and_parse_by_chunks_io(inp=cfg.WORDS_AND_FREQ_LIST_FILE, outp = )()* :
     calling to Open AI in order to translate the list of words and to prepare examples of usage
 - *generate_audio_batch_from_file(cfg.OUTPUT_FILE_NAME, cfg.DIR_AUDIO_FILES)* :
     calling to Text-To-Speech API on order to produce .mp3 files for the examples of usage from the previous steps
@@ -40,9 +40,9 @@
     Note: in order to leverage this for creation of Anki decks with multimedia they should be in the same directory, where main python file been launched..
 
 
-## Resulting Anki decks
+## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
 - [Resulting Anki deck file for A1 book (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
-- [top200 Turkish words (to English)](raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
+- [top200 Turkish words (to English)]((https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
   
 Anki deck that contains:  
 Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of these words in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts. https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/
