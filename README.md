@@ -39,7 +39,7 @@
     Note: in order to leverage this for creation of Anki decks with multimedia they should be in the same directory, where main python file been launched..
 
 Root executor for the sequence above is [launcher](./modules/launcher.py) module.  
-Module [persistence_guy](./modules/persistence_guy.py) contains decorators with functions to input output data from/to files.
+Module [persistence_guy](https://github.com/DmitriiK/Anki/blob/main/modules/persistence_guy.py) contains decorators with functions to input output data from/to files.
 Module [pipelines](./modules/pipelines.py) chanind decorators for file IO and main functions together.
 
 ## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
