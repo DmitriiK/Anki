@@ -38,9 +38,9 @@
     creation of anki deck to study translations of words and examples of usage. 
     Note: in order to leverage this for creation of Anki decks with multimedia they should be in the same directory, where main python file been launched..
 
-Root executor for the sequence above is [launcher](blob/main/modules/launcher.py) module. 
-Module [persistence_guy](blob/main/modules/persistence_guy.py) contains decorators with functions to input output data from/to files.
-Module [pipelines](blob/main/modules/pipelines.py) chanind decorators for file IO and main functions together.
+Root executor for the sequence above is [launcher](./blob/main/modules/launcher.py) module.  
+Module [persistence_guy](./blob/main/modules/persistence_guy.py) contains decorators with functions to input output data from/to files.
+Module [pipelines](./blob/main/modules/pipelines.py) chanind decorators for file IO and main functions together.
 
 ## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
 - [Resulting Anki deck file for A1 book (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
