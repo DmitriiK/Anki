@@ -43,7 +43,7 @@ Module [persistence_guy](./modules/persistence_guy.py) contains decorators with 
 Module [pipelines](./modules/pipelines.py) chains decorators from module above and main functions together.
 
 ## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
-- [Resulting Anki deck file for A1 book (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
+- [Resulting Anki deck file for A1 book (to English)](https://ankiweb.net/shared/info/1490330057)
 - [top200 Turkish words (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
   
 Anki decks contain: 
