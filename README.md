@@ -22,7 +22,7 @@
 
 
 ## Currently it works like this:
-( Root executor for sequence of batch executions is pipelines.py module)
+( Root executor for sequence of batch executions is launcher.py module)
  - *create_frequency_list(cfg.INPUT_CORPUS_FILE, cfg.FREQ_LST_FILE_PATH)*:
       reading of corpus texts and creation of frequency list
 - *lemmatize_frequency_list_io(cfg.FREQ_LST_FILE_PATH, cfg.FREQ_LST_LM_FILE_PATH)()*: 
@@ -40,12 +40,12 @@
     Note: in order to leverage this for creation of Anki decks with multimedia they should be in the same directory, where main python file been launched..
 
 
-## Results
-- [Resulting Anki deck file for A1 book (to English)](data/output/anki/TurkishA1-to-Eng.apkg)
-- [top200 Turkish words (to English)](data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
+## Resulting Anki decks
+- [Resulting Anki deck file for A1 book (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
+- [top200 Turkish words (to English)](raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
   
 Anki deck that contains:  
-Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of these words in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts. 
+Words in some, let's say, source language, (for my case it is Turkish), it's translations to target language( English), the examples of usage of these words in both languages, sound multimedia for the examples in source language, and frequencies metrics for these words by some corpus of texts. https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/
 You can easily configure the code to make similar decks for whatever pair of languages.
 You can use Anki decks in desktop, mobile, or web application. 
 ![image](https://github.com/DmitriiK/Anki/assets/20965831/f1aad0f3-e126-45a0-afde-99017df17a2f)
