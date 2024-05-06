@@ -44,7 +44,7 @@ Module [pipelines](./modules/pipelines.py) chains decorators from module above a
 
 ## [Resulting Anki decks](https://github.com/DmitriiK/Anki/tree/main/data/output/anki)
 - [Resulting Anki deck file for A1 book (to English)](https://ankiweb.net/shared/info/1490330057)
-- [top200 Turkish words (to English)](https://raw.githubusercontent.com/DmitriiK/Anki/main/data/output/anki/TurkishTop200Verbs-to-Eng.apkg)
+- [top200 Turkish words (to English)](https://ankiweb.net/shared/info/412965899)
   
 Anki decks contain: 
 - words in some, let's say, source language, (for my case it is Turkish),
